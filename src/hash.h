@@ -9,6 +9,7 @@
 #include <attributes.h>
 #include <crypto/common.h>
 #include <crypto/ripemd160.h>
+#include <crypto/scrypt.h>
 #include <crypto/sha256.h>
 #include <prevector.h>
 #include <serialize.h>
@@ -220,6 +221,15 @@ public:
         return *this;
     }
 };
+
+/** Compute the 256-bit powhash of an object's serialization. */
+template<typename T>
+uint256 scrypt_1024_1_1_256(const T& obj)
+{
+    uint256 out;
+    scrypt_1024_1_1_256(obj, reinterpret_cast<char*>(&out));
+    return out;
+}
 
 /** Single-SHA256 a 32-byte input (represented as uint256). */
 [[nodiscard]] uint256 SHA256Uint256(const uint256& input);
