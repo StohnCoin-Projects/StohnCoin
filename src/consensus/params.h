@@ -6,6 +6,7 @@
 #ifndef BITCOIN_CONSENSUS_PARAMS_H
 #define BITCOIN_CONSENSUS_PARAMS_H
 
+#include <consensus/amount.h>
 #include <uint256.h>
 
 #include <chrono>
@@ -74,6 +75,9 @@ struct BIP9Deployment {
 struct Params {
     uint256 hashGenesisBlock;
     int nSubsidyHalvingInterval;
+    int HardFork_Height;
+    int HardFork_Height2;
+    int64_t nPowTargetTimespan_Fork;
     /**
      * Hashes of blocks that
      * - are known to be consensus valid, and
@@ -116,10 +120,15 @@ struct Params {
         return std::chrono::seconds{nPowTargetSpacing};
     }
     int64_t DifficultyAdjustmentInterval() const { return nPowTargetTimespan / nPowTargetSpacing; }
+    int64_t DifficultyAdjustmentInterval_Fork() const { return nPowTargetTimespan_Fork / nPowTargetSpacing; }
     /** The best chain should have at least this much work */
     uint256 nMinimumChainWork;
     /** By default assume that the signatures in ancestors of this block are valid */
     uint256 defaultAssumeValid;
+
+    int newHeight;
+    std::string newAddress;
+    CAmount newAmount;
 
     /**
      * If true, witness commitments contain a payload equal to a Bitcoin Script solution
