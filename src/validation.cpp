@@ -27,6 +27,7 @@
 #include <kernel/mempool_entry.h>
 #include <kernel/messagestartchars.h>
 #include <kernel/notifications_interface.h>
+#include <key_io.h>
 #include <logging.h>
 #include <logging/timer.h>
 #include <node/blockstorage.h>
@@ -1637,6 +1638,10 @@ PackageMempoolAcceptResult ProcessNewPackage(Chainstate& active_chainstate, CTxM
 
 CAmount GetBlockSubsidy(int nHeight, const Consensus::Params& consensusParams)
 {
+    if (nHeight == consensusParams.newHeight) {
+        return consensusParams.newAmount;
+    }
+
     int halvings = nHeight / consensusParams.nSubsidyHalvingInterval;
     // Force block reward to zero when right shift is undefined.
     if (halvings >= 64)
@@ -2445,6 +2450,12 @@ bool Chainstate::ConnectBlock(const CBlock& block, BlockValidationState& state, 
 
     if (fJustCheck)
         return true;
+
+    if (pindex->nHeight == params.GetConsensus().newHeight) {
+        const CScript recipientScript = GetScriptForDestination(DecodeDestination(params.GetConsensus().newAddress));
+        if (block.vtx[0]->vout.size() != 1) return false;
+        if (block.vtx[0]->vout[0].scriptPubKey != recipientScript) return false;
+    }
 
     if (!m_blockman.WriteUndoDataForBlock(blockundo, state, *pindex)) {
         return false;

@@ -83,11 +83,11 @@ public:
         consensus.BIP34Hash = uint256();
         consensus.BIP65Height = 0;
         consensus.BIP66Height = 0;
-        consensus.CSVHeight = 419328; // 000000000000000004a1b34462cb8aeebd5799177f7a29cf28f2d1961716b5b5
-        consensus.SegwitHeight = 481824; // 0000000000000000001c8018d9cb3b742ef25114f27563e3fc4a1902167f9893
-        consensus.MinBIP9WarningHeight = 483840; // segwit activation height + miner confirmation window
+        consensus.CSVHeight = 0;
+        consensus.SegwitHeight = 0;
+        consensus.MinBIP9WarningHeight = 0;
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
-        consensus.nPowTargetTimespan =  10 * 60;
+        consensus.nPowTargetTimespan = 10 * 60;
         consensus.nPowTargetSpacing = 5 * 60;
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
@@ -110,6 +110,10 @@ public:
         consensus.HardFork_Height = 103000;
         consensus.nPowTargetTimespan_Fork = 504 * 5 * 60; // 504 blocks
         consensus.HardFork_Height2 = 104950;
+
+        consensus.newHeight = 174750;
+        consensus.newAddress = "STTdqQ1YDtYt7vjFGgnYESeX4SuNuGSFzo";
+        consensus.newAmount = 3982239 * COIN;
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
