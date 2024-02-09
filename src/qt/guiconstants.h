@@ -48,10 +48,10 @@ static const int TOOLTIP_WRAP_THRESHOLD = 80;
 
 #define QAPP_ORG_NAME "Stohncoin"
 #define QAPP_ORG_DOMAIN "bitcoin.org"
-#define QAPP_APP_NAME_DEFAULT "Stohncoin-Qt"
-#define QAPP_APP_NAME_TESTNET "Stohncoin-Qt-testnet"
-#define QAPP_APP_NAME_SIGNET "Stohncoin-Qt-signet"
-#define QAPP_APP_NAME_REGTEST "Stohncoin-Qt-regtest"
+#define QAPP_APP_NAME_DEFAULT "stohn-Qt"
+#define QAPP_APP_NAME_TESTNET "stohn-Qt-testnet"
+#define QAPP_APP_NAME_SIGNET "stohn-Qt-signet"
+#define QAPP_APP_NAME_REGTEST "stohn-Qt-regtest"
 
 /* One gigabyte (GB) in bytes */
 static constexpr uint64_t GB_BYTES{1000000000};

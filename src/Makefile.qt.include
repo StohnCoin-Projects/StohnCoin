@@ -2,10 +2,10 @@
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-bin_PROGRAMS += qt/stohncoin-qt
+bin_PROGRAMS += qt/stohn-qt
 
 if BUILD_BITCOIN_GUI
-  bin_PROGRAMS += stohncoin-gui
+  bin_PROGRAMS += stohn-gui
 endif
 
 EXTRA_LIBRARIES += qt/libstohncoinqt.a
@@ -390,7 +390,7 @@ CLEANFILES += $(CLEAN_QT)
 stohncoin_qt_clean: FORCE
 	rm -f $(CLEAN_QT) $(qt_libstohncoinqt_a_OBJECTS) $(qt_stohncoin_qt_OBJECTS) qt/bitcoin-qt$(EXEEXT) $(LIBBITCOINQT)
 
-stohncoin_qt : qt/stohncoin-qt$(EXEEXT)
+stohncoin_qt : qt/stohn-qt$(EXEEXT)
 
 APK_LIB_DIR = qt/android/libs/$(ANDROID_ARCH)
 QT_BASE_VERSION = $(lastword $(shell $(MOC) --version))
@@ -402,7 +402,7 @@ stohncoin_qt_apk: FORCE
 	cp $(dir $(lastword $(CC)))../sysroot/usr/lib/$(host_alias)/libc++_shared.so $(APK_LIB_DIR)
 	tar xf $(QT_BASE_PATH) -C qt/android/src/ $(QT_BASE_TLD)src/android/jar/src --strip-components=5
 	tar xf $(QT_BASE_PATH) -C qt/android/src/ $(QT_BASE_TLD)src/android/java/src --strip-components=5
-	cp qt/bitcoin-qt $(APK_LIB_DIR)/libstohncoin-qt_$(ANDROID_ARCH).so
+	cp qt/bitcoin-qt $(APK_LIB_DIR)/libstohn-qt_$(ANDROID_ARCH).so
 	cd qt/android && gradle wrapper --gradle-version=6.6.1
 	cd qt/android && ./gradlew build
 

@@ -1,12 +1,12 @@
-Stohncoin Core integration/staging tree
+Stohn Coin Core integration/staging tree
 =====================================
 
 https://stohncoin.org
 
-What is Stohncoin Core?
+What is Stohn Coin Core?
 ---------------------
 
-Stohncoin Core connects to the Stohncoin peer-to-peer network to download and fully
+Stohn Coin Core connects to the Stohn Coin peer-to-peer network to download and fully
 validate blocks and transactions. It also includes a wallet and graphical user
 interface, which can be optionally built.
 

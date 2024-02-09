@@ -15,13 +15,13 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "Stohncoin"
-            VALUE "FileDescription",    "stohncoin-tx (CLI Stohncoin transaction editor utility)"
+            VALUE "FileDescription",    "stohn-tx (CLI Stohncoin transaction editor utility)"
             VALUE "FileVersion",        PACKAGE_VERSION
-            VALUE "InternalName",       "stohncoin-tx"
+            VALUE "InternalName",       "stohn-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "stohncoin-tx.exe"
-            VALUE "ProductName",        "stohncoin-tx"
+            VALUE "OriginalFilename",   "stohn-tx.exe"
+            VALUE "ProductName",        "stohn-tx"
             VALUE "ProductVersion",     PACKAGE_VERSION
         END
     END
