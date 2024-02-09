@@ -111,7 +111,7 @@ public:
         consensus.nPowTargetTimespan_Fork = 504 * 5 * 60; // 504 blocks
         consensus.HardFork_Height2 = 104950;
 
-        consensus.newHeight = 174750;
+        consensus.newHeight = 176500;
         consensus.newAddress = "STTdqQ1YDtYt7vjFGgnYESeX4SuNuGSFzo";
         consensus.newAmount = 3982239 * COIN;
 
