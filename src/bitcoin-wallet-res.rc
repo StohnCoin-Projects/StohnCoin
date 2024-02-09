@@ -15,13 +15,13 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "Stohncoin"
-            VALUE "FileDescription",    "stohn-wallet (CLI tool for " PACKAGE_NAME " wallets)"
+            VALUE "FileDescription",    "stohncoin-wallet (CLI tool for " PACKAGE_NAME " wallets)"
             VALUE "FileVersion",        PACKAGE_VERSION
-            VALUE "InternalName",       "stohn-wallet"
+            VALUE "InternalName",       "stohncoin-wallet"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "stohn-wallet.exe"
-            VALUE "ProductName",        "stohn-wallet"
+            VALUE "OriginalFilename",   "stohncoin-wallet.exe"
+            VALUE "ProductName",        "stohncoin-wallet"
             VALUE "ProductVersion",     PACKAGE_VERSION
         END
     END

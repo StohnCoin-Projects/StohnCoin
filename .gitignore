@@ -4,16 +4,16 @@
 *.pdb
 src/stohncoin
 src/stohncoind
-src/stohn-cli
-src/stohn-gui
-src/stohn-node
-src/stohn-tx
-src/stohn-util
-src/stohn-chainstate
-src/stohn-wallet
+src/stohncoin-cli
+src/stohncoin-gui
+src/stohncoin-node
+src/stohncoin-tx
+src/stohncoin-util
+src/stohncoin-chainstate
+src/stohncoin-wallet
 src/test/fuzz/fuzz
 src/test/test_stohncoin
-src/qt/test/test_stohn-qt
+src/qt/test/test_stohncoin-qt
 
 # autoreconf
 Makefile.in
@@ -50,11 +50,11 @@ src/qt/forms/ui_*.h
 
 src/qt/test/moc*.cpp
 
-src/qt/stohn-qt.config
-src/qt/stohn-qt.creator
-src/qt/stohn-qt.creator.user
-src/qt/stohn-qt.files
-src/qt/stohn-qt.includes
+src/qt/stohncoin-qt.config
+src/qt/stohncoin-qt.creator
+src/qt/stohncoin-qt.creator.user
+src/qt/stohncoin-qt.files
+src/qt/stohncoin-qt.includes
 
 .deps
 .dirstamp
@@ -92,8 +92,8 @@ src/qt/stohn-qt.includes
 *.qm
 Makefile
 !depends/Makefile
-src/qt/stohn-qt
-stohn-Qt.app
+src/qt/stohncoin-qt
+stohncoin-Qt.app
 
 # Qt Creator
 Makefile.am.user

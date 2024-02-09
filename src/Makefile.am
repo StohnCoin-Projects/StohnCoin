@@ -89,29 +89,29 @@ if BUILD_BITCOIND
 endif
 
 if BUILD_BITCOIN_NODE
-  bin_PROGRAMS += stohn-node
+  bin_PROGRAMS += stohncoin-node
 endif
 
 if BUILD_BITCOIN_CLI
-  bin_PROGRAMS += stohn-cli
+  bin_PROGRAMS += stohncoin-cli
 endif
 
 if BUILD_BITCOIN_TX
-  bin_PROGRAMS += stohn-tx
+  bin_PROGRAMS += stohncoin-tx
 endif
 
 if ENABLE_WALLET
 if BUILD_BITCOIN_WALLET
-  bin_PROGRAMS += stohn-wallet
+  bin_PROGRAMS += stohncoin-wallet
 endif
 endif
 
 if BUILD_BITCOIN_UTIL
-  bin_PROGRAMS += stohn-util
+  bin_PROGRAMS += stohncoin-util
 endif
 
 if BUILD_BITCOIN_CHAINSTATE
-  bin_PROGRAMS += stohn-chainstate
+  bin_PROGRAMS += stohncoin-chainstate
 endif
 
 .PHONY: FORCE check-symbols check-security
