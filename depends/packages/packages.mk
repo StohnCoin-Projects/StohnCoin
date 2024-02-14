@@ -1,6 +1,6 @@
 packages:=
 
-boost_packages = boost openssl
+boost_packages = boost
 
 libevent_packages = libevent
 
