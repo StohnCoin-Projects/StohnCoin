@@ -8,7 +8,7 @@ Release Process
 * Update translations see [translation_process.md](https://github.com/bitcoin/bitcoin/blob/master/doc/translation_process.md#synchronising-translations).
 * Update release candidate version in `configure.ac` (`CLIENT_VERSION_RC`).
 * Update manpages (after rebuilding the binaries), see [gen-manpages.py](https://github.com/bitcoin/bitcoin/blob/master/contrib/devtools/README.md#gen-manpagespy).
-* Update bitcoin.conf and commit, see [gen-bitcoin-conf.sh](https://github.com/bitcoin/bitcoin/blob/master/contrib/devtools/README.md#gen-bitcoin-confsh).
+* Update stohn.conf and commit, see [gen-bitcoin-conf.sh](https://github.com/bitcoin/bitcoin/blob/master/contrib/devtools/README.md#gen-bitcoin-confsh).
 
 ### Before every major and minor release
 
@@ -94,9 +94,9 @@ Install Guix using one of the installation methods detailed in
 Check out the source code in the following directory hierarchy.
 
     cd /path/to/your/toplevel/build
-    git clone https://github.com/bitcoin-core/guix.sigs.git
-    git clone https://github.com/bitcoin-core/bitcoin-detached-sigs.git
-    git clone https://github.com/bitcoin/bitcoin.git
+    git clone https://github.com/StohnCoin-Projects/guix.sigs.stohn.git
+    git clone https://github.com/StohnCoin-Projects/stohn-detached-sigs.git
+    git clone https://github.com/StohnCoin-Projects/StohnCoin.git
 
 ### Write the release notes
 
@@ -110,10 +110,10 @@ Generate list of authors:
 
 ### Setup and perform Guix builds
 
-Checkout the Bitcoin Core version you'd like to build:
+Checkout the Stohn version you'd like to build:
 
 ```sh
-pushd ./bitcoin
+pushd ./StohnCoin
 SIGNER='(your builder key, ie bluematt, sipa, etc)'
 VERSION='(new version without v-prefix, e.g. 25.0)'
 git fetch origin "v${VERSION}"
@@ -121,11 +121,11 @@ git checkout "v${VERSION}"
 popd
 ```
 
-Ensure your guix.sigs are up-to-date if you wish to `guix-verify` your builds
+Ensure your guix.sigs.stohn are up-to-date if you wish to `guix-verify` your builds
 against other `guix-attest` signatures.
 
 ```sh
-git -C ./guix.sigs pull
+git -C ./guix.sigs.stohn pull
 ```
 
 ### Create the macOS SDK tarball (first time, or when SDK version changes)
@@ -144,41 +144,41 @@ Follow the relevant Guix README.md sections:
 
 - [Verifying build output attestations](/contrib/guix/README.md#verifying-build-output-attestations)
 
-### Commit your non codesigned signature to guix.sigs
+### Commit your non codesigned signature to guix.sigs.stohn
 
 ```sh
-pushd ./guix.sigs
+pushd ./guix.sigs.stohn
 git add "${VERSION}/${SIGNER}"/noncodesigned.SHA256SUMS{,.asc}
 git commit -m "Add attestations by ${SIGNER} for ${VERSION} non-codesigned"
 popd
 ```
 
-Then open a Pull Request to the [guix.sigs repository](https://github.com/bitcoin-core/guix.sigs).
+Then open a Pull Request to the [guix.sigs.stohn repository](https://github.com/StohnCoin-Projects/guix.sigs.stohn).
 
 ## Codesigning
 
 ### macOS codesigner only: Create detached macOS signatures (assuming [signapple](https://github.com/achow101/signapple/) is installed and up to date with master branch)
 
-    tar xf bitcoin-osx-unsigned.tar.gz
+    tar xf stohn-osx-unsigned.tar.gz
     ./detached-sig-create.sh /path/to/codesign.p12
     Enter the keychain password and authorize the signature
     signature-osx.tar.gz will be created
 
 ### Windows codesigner only: Create detached Windows signatures
 
-    tar xf bitcoin-win-unsigned.tar.gz
+    tar xf stohn-win-unsigned.tar.gz
     ./detached-sig-create.sh -key /path/to/codesign.key
     Enter the passphrase for the key when prompted
     signature-win.tar.gz will be created
 
 ### Windows and macOS codesigners only: test code signatures
 It is advised to test that the code signature attaches properly prior to tagging by performing the `guix-codesign` step.
-However if this is done, once the release has been tagged in the bitcoin-detached-sigs repo, the `guix-codesign` step must be performed again in order for the guix attestation to be valid when compared against the attestations of non-codesigner builds.
+However if this is done, once the release has been tagged in the stohn-detached-sigs repo, the `guix-codesign` step must be performed again in order for the guix attestation to be valid when compared against the attestations of non-codesigner builds.
 
 ### Windows and macOS codesigners only: Commit the detached codesign payloads
 
 ```sh
-pushd ./bitcoin-detached-sigs
+pushd ./stohn-detached-sigs
 # checkout the appropriate branch for this release series
 rm -rf ./*
 tar xf signature-osx.tar.gz
@@ -193,7 +193,7 @@ popd
 ### Non-codesigners: wait for Windows and macOS detached signatures
 
 - Once the Windows and macOS builds each have 3 matching signatures, they will be signed with their respective release keys.
-- Detached signatures will then be committed to the [bitcoin-detached-sigs](https://github.com/bitcoin-core/bitcoin-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
+- Detached signatures will then be committed to the [stohn-detached-sigs](https://github.com/StohnCoin-Projects/stohn-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
 
 ### Create the codesigned build outputs
 
@@ -203,16 +203,16 @@ popd
 
 - [Verifying build output attestations](/contrib/guix/README.md#verifying-build-output-attestations)
 
-### Commit your codesigned signature to guix.sigs (for the signed macOS/Windows binaries)
+### Commit your codesigned signature to guix.sigs.stohn (for the signed macOS/Windows binaries)
 
 ```sh
-pushd ./guix.sigs
+pushd ./guix.sigs.stohn
 git add "${VERSION}/${SIGNER}"/all.SHA256SUMS{,.asc}
 git commit -m "Add attestations by ${SIGNER} for ${VERSION} codesigned"
 popd
 ```
 
-Then open a Pull Request to the [guix.sigs repository](https://github.com/bitcoin-core/guix.sigs).
+Then open a Pull Request to the [guix.sigs.stohn repository](https://github.com/StohnCoin-Projects/guix.sigs.stohn).
 
 ## After 3 or more people have guix-built and their results match
 
