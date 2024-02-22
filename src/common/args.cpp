@@ -36,7 +36,7 @@
 #include <utility>
 #include <variant>
 
-const char * const BITCOIN_CONF_FILENAME = "stohncoin.conf";
+const char * const BITCOIN_CONF_FILENAME = "stohn.conf";
 const char * const BITCOIN_SETTINGS_FILENAME = "settings.json";
 
 ArgsManager gArgs;

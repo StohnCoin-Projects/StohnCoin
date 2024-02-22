@@ -5,7 +5,7 @@
 # See "man systemd.service" for details.
 
 # Note that almost all daemon options could be specified in
-# /etc/stohncoin/stohncoin.conf, but keep in mind those explicitly
+# /etc/stohncoin/stohn.conf, but keep in mind those explicitly
 # specified as arguments in ExecStart= will override those in the
 # config file.
 
@@ -19,7 +19,7 @@ Wants=network-online.target
 
 [Service]
 ExecStart=/usr/bin/stohncoind -pid=/run/stohncoind/stohncoind.pid \
-                            -conf=/etc/stohncoin/stohncoin.conf \
+                            -conf=/etc/stohncoin/stohn.conf \
                             -datadir=/var/lib/stohncoind \
                             -startupnotify='systemd-notify --ready' \
                             -shutdownnotify='systemd-notify --stopping'
