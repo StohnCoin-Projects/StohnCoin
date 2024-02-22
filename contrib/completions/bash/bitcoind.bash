@@ -1,13 +1,13 @@
-# bash programmable completion for bitcoind(1) and bitcoin-qt(1)
+# bash programmable completion for stohncoind(1) and stohncoin-qt(1)
 # Copyright (c) 2012-2022 The Bitcoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 _bitcoind() {
     local cur prev words=() cword
-    local bitcoind
+    local stohncoind
 
-    # save and use original argument to invoke bitcoind for -help
+    # save and use original argument to invoke stohncoind for -help
     # it might not be in $PATH
     bitcoind="$1"
 
@@ -45,7 +45,7 @@ _bitcoind() {
             ;;
     esac
 } &&
-complete -F _bitcoind bitcoind bitcoin-qt
+complete -F _bitcoind stohncoind stohncoin-qt
 
 # Local variables:
 # mode: shell-script

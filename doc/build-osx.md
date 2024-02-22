@@ -241,23 +241,23 @@ This process could take many hours, or even days on slower than average systems.
 By default, blockchain and wallet data files will be stored in:
 
 ``` bash
-/Users/${USER}/Library/Application Support/StohnCoin/
+/Users/${USER}/Library/Application Support/Stohn/
 ```
 
 Before running, you may create an empty configuration file:
 
 ```shell
-mkdir -p "/Users/${USER}/Library/Application Support/stohncoin"
+mkdir -p "/Users/${USER}/Library/Application Support/Stohn"
 
-touch "/Users/${USER}/Library/Application Support/StohnCoin/stohncoin.conf"
+touch "/Users/${USER}/Library/Application Support/Stohn/stohn.conf"
 
-chmod 600 "/Users/${USER}/Library/Application Support/StohnCoin/stohncoin.conf"
+chmod 600 "/Users/${USER}/Library/Application Support/Stohn/stohn.conf"
 ```
 
 You can monitor the download process by looking at the debug.log file:
 
 ```shell
-tail -f $HOME/Library/Application\ Support/StohnCoin/debug.log
+tail -f $HOME/Library/Application\ Support/Stohn/debug.log
 ```
 
 ## Other commands:

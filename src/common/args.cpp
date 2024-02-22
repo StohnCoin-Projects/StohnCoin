@@ -685,12 +685,12 @@ std::string HelpMessageOpt(const std::string &option, const std::string &message
 
 fs::path GetDefaultDataDir()
 {
-    // Windows: C:\Users\Username\AppData\Roaming\Stohncoin
-    // macOS: ~/Library/Application Support/Stohncoin
-    // Unix-like: ~/.stohncoin
+    // Windows: C:\Users\Username\AppData\Roaming\Stohn
+    // macOS: ~/Library/Application Support/Stohn
+    // Unix-like: ~/.stohn
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Stohncoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Stohn";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -700,10 +700,10 @@ fs::path GetDefaultDataDir()
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // macOS
-    return pathRet / "Library/Application Support/Stohncoin";
+    return pathRet / "Library/Application Support/Stohn";
 #else
     // Unix-like
-    return pathRet / ".stohncoin";
+    return pathRet / ".stohn";
 #endif
 #endif
 }

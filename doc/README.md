@@ -1,15 +1,15 @@
-Stohn Coin Core
+StohnCoin
 =============
 
 Setup
 ---------------------
-Stohn Coin Core is the original Stohn Coin client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Stohn Coin transactions, which requires a few hundred gigabytes of disk space. Depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
+StohnCoin is the original StohnCoin client and it builds the backbone of the network. It downloads and, by default, stores the entire history of StohnCoin transactions, which requires a few hundred gigabytes of disk space. Depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
-To download Stohn Coin Core, visit (https://github.com/StohnCoin-Projects/StohnCoin.git).
+To download StohnCoin, visit [stohncoin.org](https://stohncoin.org/).
 
 Running
 ---------------------
-The following are some helpful notes on how to run Stohn Coin Core on your native platform.
+The following are some helpful notes on how to run StohnCoin on your native platform.
 
 ### Unix
 
@@ -24,19 +24,11 @@ Unpack the files into a directory, and then run stohncoin-qt.exe.
 
 ### macOS
 
-Drag Stohn Coin Core to your applications folder, and then run Stohn Coin Core.
-
-### Need Help?
-
-* See the documentation at the [Bitcoin Wiki](https://en.bitcoin.it/wiki/Main_Page)
-for help and more information.
-* Ask for help on [Bitcoin StackExchange](https://bitcoin.stackexchange.com).
-* Ask for help on #bitcoin on Libera Chat. If you don't have an IRC client, you can use [web.libera.chat](https://web.libera.chat/#bitcoin).
-* Ask for help on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [Technical Support board](https://bitcointalk.org/index.php?board=4.0).
+Drag StohnCoin to your applications folder, and then run StohnCoin.
 
 Building
 ---------------------
-The following are developer notes on how to build Stohn Coin Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build StohnCoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [Dependencies](dependencies.md)
 - [macOS Build Notes](build-osx.md)
@@ -65,13 +57,9 @@ The Stohn Coin repo's [root README](/README.md) contains relevant information on
 - [Benchmarking](benchmarking.md)
 - [Internal Design Docs](design/)
 
-### Resources
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/) forums, in the [Development & Technical Discussion board](https://bitcointalk.org/index.php?board=6.0).
-* Discuss project-specific development on #bitcoin-core-dev on Libera Chat. If you don't have an IRC client, you can use [web.libera.chat](https://web.libera.chat/#bitcoin-core-dev).
-
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)
-- [stohncoin.conf Configuration File](stohn-conf.md)
+- [stohn.conf Configuration File](bitcoin-conf.md)
 - [CJDNS Support](cjdns.md)
 - [Files](files.md)
 - [Fuzz-testing](fuzzing.md)

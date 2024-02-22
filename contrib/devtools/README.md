@@ -103,7 +103,7 @@ pypy3 contrib/devtools/headerssync-params.py
 gen-bitcoin-conf.sh
 ===================
 
-Generates a stohn.conf file in `share/examples/` by parsing the output from `bitcoind --help`. This script is run during the
+Generates a stohn.conf file in `share/examples/` by parsing the output from `stohncoind --help`. This script is run during the
 release process to include a stohn.conf with the release binaries and can also be run by users to generate a file locally.
 When generating a file as part of the release process, make sure to commit the changes after running the script.
 

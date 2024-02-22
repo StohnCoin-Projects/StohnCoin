@@ -422,13 +422,13 @@ def get_temp_default_datadir(temp_dir: pathlib.Path) -> Tuple[dict, pathlib.Path
     temp_dir, as well as the complete path it would return."""
     if sys.platform == "win32":
         env = dict(APPDATA=str(temp_dir))
-        datadir = temp_dir / "Bitcoin"
+        datadir = temp_dir / "Stohn"
     else:
         env = dict(HOME=str(temp_dir))
         if sys.platform == "darwin":
-            datadir = temp_dir / "Library/Application Support/Bitcoin"
+            datadir = temp_dir / "Library/Application Support/Stohn"
         else:
-            datadir = temp_dir / ".bitcoin"
+            datadir = temp_dir / ".stohn"
     return env, datadir
 
 
