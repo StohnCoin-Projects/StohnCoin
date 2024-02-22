@@ -1,0 +1,33 @@
+# /etc/conf.d/stohncoind: config file for /etc/init.d/stohncoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/stohncoin/stohn.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/stohncoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/stohncoind.pid"
+
+# Where to write stohncoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/stohncoind"
+
+# User and group to own stohncoind process
+#BITCOIND_USER="stohncoin"
+#BITCOIND_GROUP="stohncoin"
+
+# Path to stohncoind executable
+#BITCOIND_BIN="/usr/bin/stohncoind"
+
+# Nice value to run stohncoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#BITCOIND_OPTS=""
+
+# The timeout in seconds OpenRC will wait for stohncoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BITCOIND_SIGTERM_TIMEOUT=600
