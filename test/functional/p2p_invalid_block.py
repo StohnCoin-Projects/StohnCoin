@@ -15,8 +15,22 @@ becomes valid.
 import copy
 import time
 
+# HARDFORK Update
+def get_max_future_block_time(height):
+    ACTIVATION_BLOCK_HEIGHT = 190000
+    OLD_MAX_FUTURE_BLOCK_TIME = 2 * 60 * 60  # 2 hours
+    NEW_MAX_FUTURE_BLOCK_TIME = 10 * 60      # 10 minutes
+
+    if height >= ACTIVATION_BLOCK_HEIGHT:
+        return NEW_MAX_FUTURE_BLOCK_TIME
+    else:
+        return OLD_MAX_FUTURE_BLOCK_TIME
+
+# Commented out the static MAX_FUTURE_BLOCK_TIME import since it's replaced by the dynamic function
+# from test_framework.blocktools import (
+#     MAX_FUTURE_BLOCK_TIME,
+
 from test_framework.blocktools import (
-    MAX_FUTURE_BLOCK_TIME,
     create_block,
     create_coinbase,
     create_tx_with_script,
@@ -127,8 +141,11 @@ class InvalidBlockRequestTest(BitcoinTestFramework):
         self.log.info("Test accepting identical block after rejecting it due to a future timestamp.")
         t = int(time.time())
         node.setmocktime(t)
-        # Set block time +1 second past max future validity
-        block = create_block(tip, create_coinbase(height), t + MAX_FUTURE_BLOCK_TIME + 1)
+        # Dynamically calculate MAX_FUTURE_BLOCK_TIME based on the current height
+        max_future_block_time = get_max_future_block_time(height)
+
+        # Set block time +1 second past max future validity, using the dynamically calculated max future block time
+        block = create_block(tip, create_coinbase(height), t + max_future_block_time + 1)
         block.solve()
         # Need force_send because the block will get rejected without a getdata otherwise
         peer.send_blocks_and_test([block], node, force_send=True, success=False, reject_reason='time-too-new')

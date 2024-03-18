@@ -102,7 +102,7 @@ static void EnsureBlockDataFromTime(const CWallet& wallet, int64_t timestamp)
     }
 
     int height{0};
-    const bool found{chain.findFirstBlockWithTimeAndHeight(timestamp - TIMESTAMP_WINDOW, 0, FoundBlock().height(height))};
+    const bool found{chain.findFirstBlockWithTimeAndHeight(timestamp - ChainParams::GetTimestampWindow(), 0, FoundBlock().height(height))};
 
     uint256 tip_hash{WITH_LOCK(wallet.cs_wallet, return wallet.GetLastBlockHash())};
     if (found && !chain.hasBlocks(tip_hash, height)) {
@@ -1436,7 +1436,7 @@ RPCHelpMan importmulti()
                                       "caused by pruning or data corruption (see stohncoind log for details) and could "
                                       "be dealt with by downloading and rescanning the relevant blocks (see -reindex "
                                       "option and rescanblockchain RPC).",
-                                GetImportTimestamp(request, now), scannedTime - TIMESTAMP_WINDOW - 1, TIMESTAMP_WINDOW)));
+                                GetImportTimestamp(request, now), scannedTime - ChainParams::GetTimestampWindow() - 1, ChainParams::GetTimestampWindow())));
                     response.push_back(std::move(result));
                 }
                 ++i;
@@ -1734,7 +1734,7 @@ RPCHelpMan importdescriptors()
                                       "caused by pruning or data corruption (see stohncoind log for details) and could "
                                       "be dealt with by downloading and rescanning the relevant blocks (see -reindex "
                                       "option and rescanblockchain RPC).",
-                                GetImportTimestamp(request, now), scanned_time - TIMESTAMP_WINDOW - 1, TIMESTAMP_WINDOW)));
+                                GetImportTimestamp(request, now), scanned_time - ChainParams::GetTimestampWindow() - 1, ChainParams::GetTimestampWindow())));
                     response.push_back(std::move(result));
                 }
             }

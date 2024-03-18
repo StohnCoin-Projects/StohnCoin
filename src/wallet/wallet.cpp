@@ -1486,7 +1486,7 @@ void CWallet::blockConnected(ChainstateRole role, const interfaces::BlockInfo& b
 
     // No need to scan block if it was created before the wallet birthday.
     // Uses chain max time and twice the grace period to adjust time for block time variability.
-    if (block.chain_time_max < m_birth_time.load() - (TIMESTAMP_WINDOW * 2)) return;
+    if (block.chain_time_max < m_birth_time.load() - (ChainParams::GetTimestampWindow() * 2)) return;
 
     // Scan block
     for (size_t index = 0; index < block.data->vtx.size(); index++) {
@@ -1793,7 +1793,7 @@ int64_t CWallet::RescanFromTime(int64_t startTime, const WalletRescanReserver& r
     // to be scanned.
     int start_height = 0;
     uint256 start_block;
-    bool start = chain().findFirstBlockWithTimeAndHeight(startTime - TIMESTAMP_WINDOW, 0, FoundBlock().hash(start_block).height(start_height));
+    bool start = chain().findFirstBlockWithTimeAndHeight(startTime - ChainParams::GetTimestampWindow(), 0, FoundBlock().hash(start_block).height(start_height));
     WalletLogPrintf("%s: Rescanning last %i blocks\n", __func__, start ? WITH_LOCK(cs_wallet, return GetLastBlockHeight()) - start_height + 1 : 0);
 
     if (start) {
@@ -1802,7 +1802,7 @@ int64_t CWallet::RescanFromTime(int64_t startTime, const WalletRescanReserver& r
         if (result.status == ScanResult::FAILURE) {
             int64_t time_max;
             CHECK_NONFATAL(chain().findBlock(result.last_failed_block, FoundBlock().maxTime(time_max)));
-            return time_max + TIMESTAMP_WINDOW + 1;
+            return time_max + ChainParams::GetTimestampWindow() + 1;
         }
     }
     return startTime;
@@ -2707,7 +2707,7 @@ void CWallet::GetKeyBirthTimes(std::map<CKeyID, int64_t>& mapKeyBirth) const {
     for (const auto& entry : mapKeyFirstBlock) {
         int64_t block_time;
         CHECK_NONFATAL(chain().findBlock(entry.second->confirmed_block_hash, FoundBlock().time(block_time)));
-        mapKeyBirth[entry.first] = block_time - TIMESTAMP_WINDOW; // block times can be 2h off
+        mapKeyBirth[entry.first] = block_time - ChainParams::GetTimestampWindow(); // block times can be 2h off
     }
 }
 
@@ -3190,7 +3190,7 @@ bool CWallet::AttachChain(const std::shared_ptr<CWallet>& walletInstance, interf
         std::optional<int64_t> time_first_key = walletInstance->m_birth_time.load();
         if (time_first_key) {
             FoundBlock found = FoundBlock().height(rescan_height);
-            chain.findFirstBlockWithTimeAndHeight(*time_first_key - TIMESTAMP_WINDOW, rescan_height, found);
+            chain.findFirstBlockWithTimeAndHeight(*time_first_key - ChainParams::GetTimestampWindow(), rescan_height, found);
             if (!found.found) {
                 // We were unable to find a block that had a time more recent than our earliest timestamp
                 // or a height higher than the wallet was synced to, indicating that the wallet is newer than the

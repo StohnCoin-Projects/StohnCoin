@@ -3820,8 +3820,12 @@ static bool ContextualCheckBlockHeader(const CBlockHeader& block, BlockValidatio
         return state.Invalid(BlockValidationResult::BLOCK_INVALID_HEADER, "time-too-old", "block's timestamp is too early");
 
     // Check timestamp
-    if (block.Time() > now + std::chrono::seconds{MAX_FUTURE_BLOCK_TIME}) {
-        return state.Invalid(BlockValidationResult::BLOCK_TIME_FUTURE, "time-too-new", "block timestamp too far in the future");
+    // Dynamically adjust MAX_FUTURE_BLOCK_TIME based on the current block height HardFork
+    int64_t dynamicMaxFutureBlockTime = ChainParams::GetMaxFutureBlockTime(nHeight);
+
+    // Check timestamp using the dynamically determined MAX_FUTURE_BLOCK_TIME
+    if (block.Time() > now + std::chrono::seconds{dynamicMaxFutureBlockTime}) {
+       return state.Invalid(BlockValidationResult::BLOCK_TIME_FUTURE, "time-too-new", "block timestamp too far in the future");
     }
 
     // Reject blocks with outdated version

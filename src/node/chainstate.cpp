@@ -252,13 +252,17 @@ ChainstateLoadResult VerifyLoadedChainstate(ChainstateManager& chainman, const C
     LOCK(cs_main);
 
     for (Chainstate* chainstate : chainman.GetAll()) {
-        if (!is_coinsview_empty(chainstate)) {
-            const CBlockIndex* tip = chainstate->m_chain.Tip();
-            if (tip && tip->nTime > GetTime() + MAX_FUTURE_BLOCK_TIME) {
+      if (!is_coinsview_empty(chainstate)) {
+        const CBlockIndex* tip = chainstate->m_chain.Tip();
+        if (tip) {
+            // Use the dynamic MAX_FUTURE_BLOCK_TIME based on the tip's height
+            int64_t dynamicMaxFutureBlockTime = ChainParams::GetMaxFutureBlockTime(tip->nHeight);
+          if (tip->nTime > GetTime() + dynamicMaxFutureBlockTime) {
                 return {ChainstateLoadStatus::FAILURE, _("The block database contains a block which appears to be from the future. "
                                                          "This may be due to your computer's date and time being set incorrectly. "
                                                          "Only rebuild the block database if you are sure that your computer's date and time are correct")};
-            }
+          }
+        }
 
             VerifyDBResult result = CVerifyDB(chainman.GetNotifications()).VerifyDB(
                 *chainstate, chainman.GetConsensus(), chainstate->CoinsDB(),

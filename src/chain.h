@@ -21,7 +21,34 @@
  * Maximum amount of time that a block timestamp is allowed to exceed the
  * current network-adjusted time before the block will be accepted.
  */
-static constexpr int64_t MAX_FUTURE_BLOCK_TIME = 2 * 60 * 60;
+ // Max Reorginazation update
+ static constexpr int64_t OLD_MAX_FUTURE_BLOCK_TIME = 2 * 60 * 60; // 2 hours
+ static constexpr int64_t NEW_MAX_FUTURE_BLOCK_TIME = 10 * 60; // 10 minutes
+ static constexpr int ACTIVATION_BLOCK_HEIGHT = 190000; // Activation block height
+
+ class ChainParams {
+ public:
+
+     // Function to dynamically get the MAX_FUTURE_BLOCK_TIME based on block height
+     static int64_t GetMaxFutureBlockTime(int currentHeight) {
+         if (currentHeight >= ACTIVATION_BLOCK_HEIGHT) {
+             return NEW_MAX_FUTURE_BLOCK_TIME;
+         } else {
+             return OLD_MAX_FUTURE_BLOCK_TIME;
+         }
+     }
+
+     // Dynamically get the TIMESTAMP_WINDOW based on block height
+     static int64_t GetTimestampWindow() {
+         // Assuming TIMESTAMP_WINDOW should always match or exceed any MAX_FUTURE_BLOCK_TIME
+         return std::max(NEW_MAX_FUTURE_BLOCK_TIME, OLD_MAX_FUTURE_BLOCK_TIME);
+     }
+ };
+
+ /**
+ Is now dynamic
+ static constexpr int64_t MAX_FUTURE_BLOCK_TIME = 2 * 60 * 60;
+ */
 
 /**
  * Timestamp window used as a grace period by code that compares external
@@ -29,7 +56,11 @@ static constexpr int64_t MAX_FUTURE_BLOCK_TIME = 2 * 60 * 60;
  * to block timestamps. This should be set at least as high as
  * MAX_FUTURE_BLOCK_TIME.
  */
-static constexpr int64_t TIMESTAMP_WINDOW = MAX_FUTURE_BLOCK_TIME;
+
+  /**
+  Is now dynamic
+  static constexpr int64_t TIMESTAMP_WINDOW = MAX_FUTURE_BLOCK_TIME;
+  */
 
 /**
  * Maximum gap between node time and block time used

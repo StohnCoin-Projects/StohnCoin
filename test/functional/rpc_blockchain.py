@@ -27,8 +27,23 @@ import os
 import subprocess
 import textwrap
 
+# HARDFORK Update
+def get_max_future_block_time(height):
+    ACTIVATION_BLOCK_HEIGHT = 190000
+    OLD_MAX_FUTURE_BLOCK_TIME = 2 * 60 * 60  # 2 hours
+    NEW_MAX_FUTURE_BLOCK_TIME = 10 * 60      # 10 minutes
+
+    if height >= ACTIVATION_BLOCK_HEIGHT:
+        return NEW_MAX_FUTURE_BLOCK_TIME
+    else:
+        return OLD_MAX_FUTURE_BLOCK_TIME
+
+# Commented out the static MAX_FUTURE_BLOCK_TIME import since it's replaced by the dynamic function
+# from test_framework.blocktools import (
+#     MAX_FUTURE_BLOCK_TIME,
+
+
 from test_framework.blocktools import (
-    MAX_FUTURE_BLOCK_TIME,
     TIME_GENESIS_BLOCK,
     create_block,
     create_coinbase,
@@ -108,17 +123,25 @@ class BlockchainTest(BitcoinTestFramework):
         self.restart_node(0, extra_args=["-prune=123456789"])
 
     def _test_max_future_block_time(self):
+        # Assuming TIME_RANGE_TIP is a specific timestamp you're testing against,
+        # and you have a way to determine the corresponding block height for that timestamp.
+        # If not, you would need to define a reasonable placeholder value for the height.
+        placeholder_height = 200000  # Determine the block height for your test scenario
+
+        # Calculate MAX_FUTURE_BLOCK_TIME dynamically based on the placeholder or actual height
+        dynamic_max_future_block_time = get_max_future_block_time(placeholder_height)
+
         self.stop_node(0)
         self.log.info("A block tip of more than MAX_FUTURE_BLOCK_TIME in the future raises an error")
         self.nodes[0].assert_start_raises_init_error(
-            extra_args=[f"-mocktime={TIME_RANGE_TIP - MAX_FUTURE_BLOCK_TIME - 1}"],
+            extra_args=[f"-mocktime={TIME_RANGE_TIP - dynamic_max_future_block_time - 1}"],
             expected_msg=": The block database contains a block which appears to be from the future."
             " This may be due to your computer's date and time being set incorrectly."
             f" Only rebuild the block database if you are sure that your computer's date and time are correct.{os.linesep}"
             "Please restart with -reindex or -reindex-chainstate to recover.",
         )
         self.log.info("A block tip of MAX_FUTURE_BLOCK_TIME in the future is fine")
-        self.start_node(0, extra_args=[f"-mocktime={TIME_RANGE_TIP - MAX_FUTURE_BLOCK_TIME}"])
+        self.start_node(0, extra_args=[f"-mocktime={TIME_RANGE_TIP - dynamic_max_future_block_time}"])
 
     def _test_getblockchaininfo(self):
         self.log.info("Test getblockchaininfo")
