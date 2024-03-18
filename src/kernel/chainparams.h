@@ -161,6 +161,12 @@ public:
     static std::unique_ptr<const CChainParams> Main();
     static std::unique_ptr<const CChainParams> TestNet();
 
+    /** Max Reorganization Depth Start **/
+    int MaxReorgDepthActivationBlock() const { return nMaxReorgDepthActivationBlock; }
+    int MaxReorganizationDepth() const { return nMaxReorganizationDepth; }
+    int MinReorganizationPeers() const { return nMinReorganizationPeers; }
+    /** Max Reorganization Depth End **/
+
 protected:
     CChainParams() {}
 
@@ -170,6 +176,13 @@ protected:
     uint64_t nPruneAfterHeight;
     uint64_t m_assumed_blockchain_size;
     uint64_t m_assumed_chain_state_size;
+
+    /** Max Reorganization Depth Start **/
+    int nMaxReorgDepthActivationBlock;
+    int nMaxReorganizationDepth;
+    int nMinReorganizationPeers;
+    /** Max Reorganization Depth End **/
+    
     std::vector<std::string> vSeeds;
     std::vector<unsigned char> base58Prefixes[MAX_BASE58_TYPES];
     std::string bech32_hrp;

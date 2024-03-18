@@ -845,6 +845,13 @@ bool AppInitBasicSetup(const ArgsManager& args, std::atomic<int>& exit_status)
 bool AppInitParameterInteraction(const ArgsManager& args)
 {
     const CChainParams& chainparams = Params();
+
+    // ********************************************************* Step 1: Add new command-line arguments
+    /** Max Reorganization Depth Start **/
+    gArgs.AddArg("-maxreorg", strprintf("Set the maximum reorganization depth (default: %u)", 10), ArgsManager::ALLOW_ANY, OptionsCategory::OPTIONS);
+    gArgs.AddArg("-minreorgpeers", strprintf("Set the minimum number of peers for reorg (default: %u)", 3), ArgsManager::ALLOW_ANY, OptionsCategory::OPTIONS);
+   /** Max Reorganization Depth End **/
+
     // ********************************************************* Step 2: parameter interactions
 
     // also see: InitParameterInteraction()

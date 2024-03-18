@@ -78,6 +78,9 @@ struct Params {
     int HardFork_Height;
     int HardFork_Height2;
     int64_t nPowTargetTimespan_Fork;
+    int nMaxReorgDepthActivationBlock;
+    int nMaxReorganizationDepth;
+    int nMinReorganizationPeers;
     /**
      * Hashes of blocks that
      * - are known to be consensus valid, and

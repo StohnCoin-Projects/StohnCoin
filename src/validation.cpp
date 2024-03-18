@@ -61,6 +61,7 @@
 #include <util/translation.h>
 #include <validationinterface.h>
 #include <warnings.h>
+#include <net.h>
 
 #include <algorithm>
 #include <cassert>
@@ -2895,6 +2896,27 @@ bool Chainstate::ConnectTip(BlockValidationState& state, CBlockIndex* pindexNew,
     if (m_mempool) AssertLockHeld(m_mempool->cs);
 
     assert(pindexNew->pprev == m_chain.Tip());
+
+    /** Max Reorganization Depth Start **/
+    const int currentHeight = m_chain.Height();
+    const int proposedHeight = pindexNew->nHeight;
+
+    if (currentHeight >= Params().MaxReorgDepthActivationBlock()) {
+        const int nMaxReorgDepth = Params().MaxReorganizationDepth();
+        const int reorgDepth = currentHeight - proposedHeight + 1; // +1 to include the new block in the depth
+
+        if (reorgDepth > nMaxReorgDepth) {
+            /* MinReorgPeers needs fixed **/
+            /* const int nMinReorgPeers = Params().MinReorganizationPeers();
+            if (connman.GetNodeCount(ConnectionDirection::Both) <= static_cast<size_t>(nMinReorgPeers)) { */
+                  LogPrintf("ConnectTip: Reorganization depth of %d exceeds the limit of %d and has insufficient peer endorsements.\n", reorgDepth, nMaxReorgDepth);
+                  state.Invalid(BlockValidationResult::BLOCK_INVALID_HEADER, "reorg-depth-exceeded", strprintf("Reorg depth %d exceeds max of %d", reorgDepth, nMaxReorgDepth));
+                  return false;
+            /*  } */
+        }
+    }
+    /** Max Reorganization Depth End **/
+
     // Read block from disk.
     const auto time_1{SteadyClock::now()};
     std::shared_ptr<const CBlock> pthisBlock;
