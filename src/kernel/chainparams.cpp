@@ -117,7 +117,7 @@ public:
 
         /** Max Reorganization Depth Start **/
         consensus.nMaxReorgDepthActivationBlock = 190000; // Activate at block 190,000
-        consensus.nMaxReorganizationDepth = 10; // Example value, adjust as necessary
+        consensus.nMaxReorganizationDepth = 20; // Example value, adjust as necessary
         consensus.nMinReorganizationPeers = 3; // Minimum number of peers
         /** Max Reorganization Depth End **/
 
