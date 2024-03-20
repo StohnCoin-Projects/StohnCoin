@@ -58,11 +58,11 @@
         <translation type="unfinished">选择(&amp;H)</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Stohn Coin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished">这些是你的比特币支付地址。在发送之前，一定要核对金额和接收地址。</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Stohn Coin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">你将使用下列比特币地址接受付款。选取收款选项卡中 “产生新收款地址” 按钮来生成新地址。
 签名只能使用“传统”类型的地址。</translation>
@@ -184,7 +184,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">输入钱包的旧密码和新密码。</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Remember that encrypting your wallet cannot fully protect your Stohn Coins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished">注意，加密你的钱包并不能完全保护你的比特币免受感染你电脑的恶意软件的窃取。</translation>
     </message>
     <message>
@@ -462,7 +462,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">迁移一个钱包</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible Stohn Coin command-line options</source>
         <translation type="unfinished">显示%1帮助消息以获得可能包含Bitcoin命令行选项的列表</translation>
     </message>
     <message>
@@ -504,7 +504,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">&amp;顯示</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Stohn Coin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform> %n 与比特币网络接。</numerusform>
@@ -1103,7 +1103,7 @@ For more information on using this console, type %6.
         <translation type="unfinished">要创建这笔交易吗？</translation>
     </message>
     <message>
-        <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Bitcoin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Stohn Coin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can send their transaction or create a PSBT. This string is displayed when both private keys and PSBT controls are enabled.</extracomment>
         <translation type="unfinished">请务必仔细检查您的交易。你可以创建并发送这笔交易；也可以创建一个“部分签名比特币交易(PSBT)”，它可以被保存下来或被复制出去，然后就可以对它进行签名，比如用离线%1钱包，或是用兼容PSBT的硬件钱包。</translation>
     </message>

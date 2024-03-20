@@ -58,13 +58,13 @@
         <translation type="unfinished">P&amp;asirinkti</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Tai yra jūsų Bitcoin adresai išeinantiems mokėjimams. Visada pasitikrinkite sumą ir gavėjo adresą prieš siunčiant lėšas.</translation>
+        <source>These are your Stohn Coin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Tai yra jūsų Stohn Coin adresai išeinantiems mokėjimams. Visada pasitikrinkite sumą ir gavėjo adresą prieš siunčiant lėšas.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Stohn Coin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Tai jūsų Bitcoin mokėjimų gavimo adresai. Naudokite 'Sukurti naują gavimo adresą' mygtuką gavimų skirtuke kad sukurtumėte naujus adresus.
+        <translation type="unfinished">Tai jūsų Stohn Coin mokėjimų gavimo adresai. Naudokite 'Sukurti naują gavimo adresą' mygtuką gavimų skirtuke kad sukurtumėte naujus adresus.
 Pasirašymas galimas tik su 'legacy' tipo adresais.</translation>
     </message>
     <message>
@@ -257,8 +257,8 @@ Pasirašymas galimas tik su 'legacy' tipo adresais.</translation>
         <translation type="unfinished">Suma</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation type="unfinished">Įveskite Bitcoin adresą (pvz., %1)</translation>
+        <source>Enter a Stohn Coin address (e.g. %1)</source>
+        <translation type="unfinished">Įveskite Stohn Coin adresą (pvz., %1)</translation>
     </message>
     <message>
         <source>Inbound</source>
@@ -404,8 +404,8 @@ Pasirašymas galimas tik su 'legacy' tipo adresais.</translation>
         <translation type="unfinished">Tarpinis serveris yra &lt;b&gt;įgalintas&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">Siųsti monetas Bitcoin adresui</translation>
+        <source>Send coins to a Stohn Coin address</source>
+        <translation type="unfinished">Siųsti monetas Stohn Coin adresui</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -432,12 +432,12 @@ Pasirašymas galimas tik su 'legacy' tipo adresais.</translation>
         <translation type="unfinished">Užšifruoti privačius raktus, kurie priklauso jūsų piniginei</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">Pasirašydami žinutes su savo Bitcoin adresais įrodysite jog esate jų savininkas</translation>
+        <source>Sign messages with your Stohn Coin addresses to prove you own them</source>
+        <translation type="unfinished">Pasirašydami žinutes su savo Stohn Coin adresais įrodysite jog esate jų savininkas</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="unfinished">Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Bitcoin adresas</translation>
+        <source>Verify messages to ensure they were signed with specified Stohn Coin addresses</source>
+        <translation type="unfinished">Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Stohn Coin adresas</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -508,12 +508,12 @@ Pasirašymas galimas tik su 'legacy' tipo adresais.</translation>
         <translation type="unfinished">Atnaujinta</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
-        <translation type="unfinished">Užkraukite dalinai pasirašytą Bitcoin transakciją</translation>
+        <source>Load Partially Signed Stohn Coin Transaction</source>
+        <translation type="unfinished">Užkraukite dalinai pasirašytą Stohn Coin transakciją</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction from clipboard</source>
-        <translation type="unfinished">Užkraukite dalinai pasirašytas Bitcoin transakcijas iš iškarpinės...</translation>
+        <source>Load Partially Signed Stohn Coin Transaction from clipboard</source>
+        <translation type="unfinished">Užkraukite dalinai pasirašytas Stohn Coin transakcijas iš iškarpinės...</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -544,8 +544,8 @@ Pasirašymas galimas tik su 'legacy' tipo adresais.</translation>
         <translation type="unfinished">Uždaryti visas pinigines</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation type="unfinished">Rodyti %1 pagalbos žinutę su Bitcoin pasirinkimo komandomis</translation>
+        <source>Show the %1 help message to get a list with possible Stohn Coin command-line options</source>
+        <translation type="unfinished">Rodyti %1 pagalbos žinutę su Stohn Coin pasirinkimo komandomis</translation>
     </message>
     <message>
         <source>default wallet</source>
@@ -577,7 +577,7 @@ Pasirašymas galimas tik su 'legacy' tipo adresais.</translation>
         <translation type="unfinished">%1 klientas</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Stohn Coin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -925,8 +925,8 @@ Pasirašymas galimas tik su 'legacy' tipo adresais.</translation>
         <translation type="unfinished">Keisti siuntimo adresą</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation type="unfinished">Įvestas adresas „%1“ nėra galiojantis Bitcoin adresas.</translation>
+        <source>The entered address "%1" is not a valid Stohn Coin address.</source>
+        <translation type="unfinished">Įvestas adresas „%1“ nėra galiojantis Stohn Coin adresas.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -1012,8 +1012,8 @@ Pasirašymas galimas tik su 'legacy' tipo adresais.</translation>
         </translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation type="unfinished">%1 bus atsisiųsta ir išsaugota Bitcoin blokų grandinės kopiją.</translation>
+        <source>%1 will download and store a copy of the Stohn Coin block chain.</source>
+        <translation type="unfinished">%1 bus atsisiųsta ir išsaugota Stohn Coin blokų grandinės kopiją.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1089,8 +1089,8 @@ Pasirašymas galimas tik su 'legacy' tipo adresais.</translation>
         <translation type="unfinished">Forma</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation type="unfinished">Naujausi sandoriai gali būti dar nematomi, todėl jūsų piniginės likutis gali būti neteisingas. Ši informacija bus teisinga, kai jūsų piniginė bus baigta sinchronizuoti su bitcoin tinklu, kaip nurodyta žemiau.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Stohn Coin network, as detailed below.</source>
+        <translation type="unfinished">Naujausi sandoriai gali būti dar nematomi, todėl jūsų piniginės likutis gali būti neteisingas. Ši informacija bus teisinga, kai jūsų piniginė bus baigta sinchronizuoti su Stohn Coin tinklu, kaip nurodyta žemiau.</translation>
     </message>
     <message>
         <source>Attempting to spend stohn coins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
@@ -1228,8 +1228,8 @@ Pasirašymas galimas tik su 'legacy' tipo adresais.</translation>
         <translation type="unfinished">&amp;Išleiskite nepatvirtintus pakeitimus</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Automatiškai atidaryti Bitcoin kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
+        <source>Automatically open the Stohn Coin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Automatiškai atidaryti Stohn Coin kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1244,7 +1244,7 @@ Pasirašymas galimas tik su 'legacy' tipo adresais.</translation>
         <translation type="unfinished">Leisti gaunamu&amp;s ryšius</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the Stohn Coin network through a SOCKS5 proxy.</source>
         <translation type="unfinished">Prisijunkite prie „Bitcoin“ tinklo per SOCKS5 proxy.</translation>
     </message>
     <message>
@@ -1376,7 +1376,7 @@ Pasirašymas galimas tik su 'legacy' tipo adresais.</translation>
         <translation type="unfinished">Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Stohn Coin network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished">Rodoma informacija gali būti pasenusi. Piniginė automatiškai sinchronizuojasi su „Bitcoin“ tinklu po ryšio užmezgimo, tačiau šis procesas dar nebaigtas.</translation>
     </message>
     <message>
@@ -1486,7 +1486,7 @@ Pasirašymas galimas tik su 'legacy' tipo adresais.</translation>
         <translation type="unfinished">„bitcoin: //“ nėra galiojantis URI. Vietoj to naudokite „bitcoin:“.</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Stohn Coin address or malformed URI parameters.</source>
         <translation type="unfinished">URI negalima perskaityti! Tai gali sukelti negaliojantys „Bitcoin“ adresas arba netinkami URI parametrai.</translation>
     </message>
     <message>
@@ -1844,7 +1844,7 @@ Pasirašymas galimas tik su 'legacy' tipo adresais.</translation>
         <translation type="unfinished">Žinutė:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Stohn Coin network.</source>
         <translation type="unfinished">Neprivalomas pranešimas, pridedamas prie mokėjimo prašymo, kuris bus rodomas atidarius užklausą. Pastaba: pranešimas nebus išsiųstas su mokėjimu per „Bitcoin“ tinklą.</translation>
     </message>
     <message>
@@ -2053,8 +2053,8 @@ Pasirašymas galimas tik su 'legacy' tipo adresais.</translation>
         <translation type="unfinished">Išvalykite visus formos laukus.</translation>
     </message>
     <message>
-        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
-        <translation type="unfinished">Kai sandorių apimtis yra mažesnė nei erdvės blokuose, kasėjai ir perduodantys mazgai gali užtikrinti minimalų mokestį. Mokėti tik šį minimalų mokestį yra galima, tačiau atkreipkite dėmesį, kad dėl to gali atsirasti niekada nepatvirtinamas sandoris, kai bus daugiau paklausos bitcoin operacijoms, nei tinklas gali apdoroti.</translation>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for Stohn Coin transactions than the network can process.</source>
+        <translation type="unfinished">Kai sandorių apimtis yra mažesnė nei erdvės blokuose, kasėjai ir perduodantys mazgai gali užtikrinti minimalų mokestį. Mokėti tik šį minimalų mokestį yra galima, tačiau atkreipkite dėmesį, kad dėl to gali atsirasti niekada nepatvirtinamas sandoris, kai bus daugiau paklausos Stohn Coin operacijoms, nei tinklas gali apdoroti.</translation>
     </message>
     <message>
         <source>A too low fee might result in a never confirming transaction (read the tooltip)</source>
@@ -2194,8 +2194,8 @@ Pasirašymas galimas tik su 'legacy' tipo adresais.</translation>
         </translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation type="unfinished">Įspėjimas: neteisingas Bitcoin adresas</translation>
+        <source>Warning: Invalid Stohn Coin address</source>
+        <translation type="unfinished">Įspėjimas: neteisingas Stohn Coin adresas</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2233,7 +2233,7 @@ Pasirašymas galimas tik su 'legacy' tipo adresais.</translation>
         <translation type="unfinished">Pasirinkite anksčiau naudojamą adresą</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The Stohn Coin address to send the payment to</source>
         <translation type="unfinished">Bitcoin adresas, į kurį siunčiamas mokėjimas</translation>
     </message>
     <message>
@@ -2245,7 +2245,7 @@ Pasirašymas galimas tik su 'legacy' tipo adresais.</translation>
         <translation type="unfinished">Pašalinti šį įrašą</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less Stohn Coins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation type="unfinished">Mokestis bus atimamas iš siunčiamos sumos. Gavėjas gaus mažiau bitcoinų nei įvesite sumos lauke. Jei pasirenkami keli gavėjai, mokestis padalijamas lygiai.</translation>
     </message>
     <message>
@@ -2265,7 +2265,7 @@ Pasirašymas galimas tik su 'legacy' tipo adresais.</translation>
         <translation type="unfinished">Įveskite šio adreso etiketę, kad ją pridėtumėte prie naudojamų adresų sąrašo</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Stohn Coin network.</source>
         <translation type="unfinished">Pranešimas, kuris buvo pridėtas prie bitcoin: URI, kuris bus saugomas kartu su sandoriu jūsų nuoroda. Pastaba: šis pranešimas nebus išsiųstas per „Bitcoin“ tinklą.</translation>
     </message>
 </context>
@@ -2287,7 +2287,7 @@ Pasirašymas galimas tik su 'legacy' tipo adresais.</translation>
         <translation type="unfinished">&amp;Pasirašyti žinutę</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
+        <source>The Stohn Coin address to sign the message with</source>
         <translation type="unfinished">Bitcoin adresas, kuriuo bus pasirašytas pranešimas su</translation>
     </message>
     <message>
@@ -2311,7 +2311,7 @@ Pasirašymas galimas tik su 'legacy' tipo adresais.</translation>
         <translation type="unfinished">Nukopijuokite dabartinį parašą į sistemos iškarpinę</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this Stohn Coin address</source>
         <translation type="unfinished">Registruotis žinute įrodymuii, kad turite šį adresą</translation>
     </message>
     <message>
@@ -2331,12 +2331,12 @@ Pasirašymas galimas tik su 'legacy' tipo adresais.</translation>
         <translation type="unfinished">&amp;Patikrinti žinutę</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
+        <source>The Stohn Coin address the message was signed with</source>
         <translation type="unfinished">Bitcoin adresas, kuriuo buvo pasirašytas pranešimas</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation type="unfinished">Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Bitcoin adresas</translation>
+        <source>Verify the message to ensure it was signed with the specified Stohn Coin address</source>
+        <translation type="unfinished">Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Stohn Coin adresas</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>

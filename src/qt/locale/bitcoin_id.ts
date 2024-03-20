@@ -38,11 +38,11 @@
         <translation type="unfinished">&amp;Choose</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Ini adalah alamat Bitcoin Anda untuk mengirim pembayaran. Selalu periksa jumlah dan alamat penerima sebelum mengirim koin.</translation>
+        <source>These are your Stohn Coin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Ini adalah alamat Stohn Coin Anda untuk mengirim pembayaran. Selalu periksa jumlah dan alamat penerima sebelum mengirim koin.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Stohn Coin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Berikut ini adalah alamat-alamat bitcoinmu untuk menerima pembayaran. Gunakan tombol 'Buat alamat penerima baru' di tab menerima untuk membuat alamat baru.
 Tanda tangan hanya bisa digunakan dengan tipe alamat 'warisan'</translation>
@@ -129,7 +129,7 @@ Tanda tangan hanya bisa digunakan dengan tipe alamat 'warisan'</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Peringatan: Jika Anda mengenkripsi dompet Anda dan lupa kata sandi Anda, Anda akan &lt;b&gt;KEHILANGAN SEMUA BITCOIN ANDA&lt;/b&gt;!</translation>
+        <translation type="unfinished">Peringatan: Jika Anda mengenkripsi dompet Anda dan lupa kata sandi Anda, Anda akan &lt;b&gt;KEHILANGAN SEMUA Stohn Coin ANDA&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -148,8 +148,8 @@ Tanda tangan hanya bisa digunakan dengan tipe alamat 'warisan'</translation>
         <translation type="unfinished">Masukan passphrase lama dan passphrase baru ke dompet.</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Ingat mengenkripsi dompet Anda tidak dapat sepenuhnya melindungi bitcoin Anda dari pencurian oleh malware yang menginfeksi komputer Anda.</translation>
+        <source>Remember that encrypting your wallet cannot fully protect your Stohn Coins from being stolen by malware infecting your computer.</source>
+        <translation type="unfinished">Ingat mengenkripsi dompet Anda tidak dapat sepenuhnya melindungi Stohn Coin Anda dari pencurian oleh malware yang menginfeksi komputer Anda.</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -362,8 +362,8 @@ Tanda tangan hanya bisa digunakan dengan tipe alamat 'warisan'</translation>
         <translation type="unfinished">Tutup semua dompet</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation type="unfinished">Tampilkan %1 pesan bantuan untuk mendapatkan daftar opsi baris perintah Bitcoin yang memungkinkan</translation>
+        <source>Show the %1 help message to get a list with possible Stohn Coin command-line options</source>
+        <translation type="unfinished">Tampilkan %1 pesan bantuan untuk mendapatkan daftar opsi baris perintah Stohn Coin yang memungkinkan</translation>
     </message>
     <message>
         <source>&amp;Mask values</source>
@@ -422,7 +422,7 @@ Tanda tangan hanya bisa digunakan dengan tipe alamat 'warisan'</translation>
         <translation type="unfinished">Tampilkan</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Stohn Coin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform>%n koneksi yang aktif ke jaringan Bitcoin</numerusform>
@@ -651,8 +651,8 @@ Tanda tangan hanya bisa digunakan dengan tipe alamat 'warisan'</translation>
         <translation type="unfinished">Ubah alamat pengirim</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation type="unfinished">Alamat yang dimasukkan "%1" bukanlah alamat Bitcoin yang valid.</translation>
+        <source>The entered address "%1" is not a valid Stohn Coin address.</source>
+        <translation type="unfinished">Alamat yang dimasukkan "%1" bukanlah alamat Stohn Coin yang valid.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -734,7 +734,7 @@ Tanda tangan hanya bisa digunakan dengan tipe alamat 'warisan'</translation>
         </translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
+        <source>%1 will download and store a copy of the Stohn Coin block chain.</source>
         <translation type="unfinished">%1 akan mengunduh dan menyimpan salinan rantai blok Bitcoin.</translation>
     </message>
     <message>
@@ -823,12 +823,12 @@ Tanda tangan hanya bisa digunakan dengan tipe alamat 'warisan'</translation>
         <translation type="unfinished">Formulir</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Stohn Coin network, as detailed below.</source>
         <translation type="unfinished">Transaksi-transaksi terkini mungkin belum terlihat dan oleh karenanya, saldo dompet Anda mungkin tidak tepat. Informasi ini akan akurat ketika dompet Anda tersinkronisasi dengan jaringan Bitcoin, seperti rincian berikut.</translation>
     </message>
     <message>
         <source>Attempting to spend stohn coins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation type="unfinished">Usaha untuk menggunakan bitcoin yang dipengaruhi oleh transaksi yang belum terlihat tidak akan diterima oleh jaringan.</translation>
+        <translation type="unfinished">Usaha untuk menggunakan Stohn Coin yang dipengaruhi oleh transaksi yang belum terlihat tidak akan diterima oleh jaringan.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>

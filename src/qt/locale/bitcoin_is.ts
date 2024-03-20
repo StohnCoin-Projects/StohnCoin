@@ -58,8 +58,8 @@
         <translation type="unfinished">&amp;Veldu</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Þetta eru Bitcoin veskin sem senda greiðslur. Skoðið ævinlega vel upphæðina og veskin sem þiggja greiðslur áður en rafmynt er send.</translation>
+        <source>These are your Stohn Coin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Þetta eru Stohn Coin veskin sem senda greiðslur. Skoðið ævinlega vel upphæðina og veskin sem þiggja greiðslur áður en rafmynt er send.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -142,7 +142,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Viðvörun: Ef þú dulkóðar veskið og týnir lykilsetningunn þá munt þú &lt;b&gt;TAPA ALLRI ÞINNI BITCOIN MYNT&lt;/b&gt;!</translation>
+        <translation type="unfinished">Viðvörun: Ef þú dulkóðar veskið og týnir lykilsetningunn þá munt þú &lt;b&gt;TAPA ALLRI ÞINNI Stohn Coin MYNT&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -301,8 +301,8 @@
         <translation type="unfinished">Slökkt á netumferð.</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">Senda mynt í Bitcoin færslugildi</translation>
+        <source>Send coins to a Stohn Coin address</source>
+        <translation type="unfinished">Senda mynt í Stohn Coin færslugildi</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -325,12 +325,12 @@
         <translation type="unfinished">Dulkóða einkalyklana sem tilheyra veskinu þínu</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">Kvitta undir skilaboð með Bitcoin færslugildunum þínum til að sanna að þú eigir þau</translation>
+        <source>Sign messages with your Stohn Coin addresses to prove you own them</source>
+        <translation type="unfinished">Kvitta undir skilaboð með Stohn Coin færslugildunum þínum til að sanna að þú eigir þau</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="unfinished">Yfirfara skilaboð til að tryggja að kvittað hafi verið fyrir þau með tilteknum Bitcoin færslugildum</translation>
+        <source>Verify messages to ensure they were signed with specified Stohn Coin addresses</source>
+        <translation type="unfinished">Yfirfara skilaboð til að tryggja að kvittað hafi verið fyrir þau með tilteknum Stohn Coin færslugildum</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -400,15 +400,15 @@
         <translation type="unfinished">Uppfært</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation type="unfinished">Sýna %1 hjálparskilaboðin til að fá lista yfir valkosti Bitcoin aðgerðir í skipanalínu</translation>
+        <source>Show the %1 help message to get a list with possible Stohn Coin command-line options</source>
+        <translation type="unfinished">Sýna %1 hjálparskilaboðin til að fá lista yfir valkosti Stohn Coin aðgerðir í skipanalínu</translation>
     </message>
     <message>
         <source>%1 client</source>
         <translation type="unfinished">%1 biðlarar</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Stohn Coin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -571,8 +571,8 @@
         <translation type="unfinished">Breyta sendingarfærslugildi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation type="unfinished">Færslugildið sem slegið var inn "%1" er ekki leyfilegt Bitcoin færslugildi.</translation>
+        <source>The entered address "%1" is not a valid Stohn Coin address.</source>
+        <translation type="unfinished">Færslugildið sem slegið var inn "%1" er ekki leyfilegt Stohn Coin færslugildi.</translation>
     </message>
     </context>
 <context>

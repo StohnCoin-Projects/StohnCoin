@@ -58,13 +58,13 @@
         <translation type="unfinished">&amp;Odaberite</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Ovo su vaše Bitcoin adrese za slanje novca. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
+        <source>These are your Stohn Coin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Ovo su vaše Stohn Coin adrese za slanje novca. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Stohn Coin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Ovo su vaše Bitcoin adrese za primanje sredstava. Koristite 'Kreiraj novu adresu za primanje' u tabu Primite kako biste kreirali nove adrese.
+        <translation type="unfinished">Ovo su vaše Stohn Coin adrese za primanje sredstava. Koristite 'Kreiraj novu adresu za primanje' u tabu Primite kako biste kreirali nove adrese.
 Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
     </message>
     <message>
@@ -176,7 +176,7 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
         <translation type="unfinished">Unesite staru i novu lozinku za novčanik.</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Remember that encrypting your wallet cannot fully protect your Stohn Coins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished">Zapamtite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše bitcoinove od zloćudnog softvera kojim se zarazi vaše računalo.</translation>
     </message>
     <message>
@@ -283,8 +283,8 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
         <translation type="unfinished">Iznos</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation type="unfinished">Unesite Bitcoin adresu (npr. %1)</translation>
+        <source>Enter a Stohn Coin address (e.g. %1)</source>
+        <translation type="unfinished">Unesite Stohn Coin adresu (npr. %1)</translation>
     </message>
     <message>
         <source>Unroutable</source>
@@ -462,8 +462,8 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
         <translation type="unfinished">Proxy je &lt;b&gt;uključen&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">Pošaljite novac na Bitcoin adresu</translation>
+        <source>Send coins to a Stohn Coin address</source>
+        <translation type="unfinished">Pošaljite novac na Stohn Coin adresu</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -506,16 +506,16 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
         <translation type="unfinished">Potpiši &amp;poruku</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">Poruku potpišemo s Bitcoin adresom, kako bi dokazali vlasništvo nad tom adresom</translation>
+        <source>Sign messages with your Stohn Coin addresses to prove you own them</source>
+        <translation type="unfinished">Poruku potpišemo s Stohn Coin adresom, kako bi dokazali vlasništvo nad tom adresom</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
         <translation type="unfinished">&amp;Potvrdi poruku</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="unfinished">Provjerite poruku da je potpisana s navedenom Bitcoin adresom</translation>
+        <source>Verify messages to ensure they were signed with specified Stohn Coin addresses</source>
+        <translation type="unfinished">Provjerite poruku da je potpisana s navedenom Stohn Coin adresom</translation>
     </message>
     <message>
         <source>&amp;Load PSBT from file…</source>
@@ -630,16 +630,16 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
         <translation type="unfinished">Ažurno</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
-        <translation type="unfinished">Učitaj djelomično potpisanu bitcoin transakciju</translation>
+        <source>Load Partially Signed Stohn Coin Transaction</source>
+        <translation type="unfinished">Učitaj djelomično potpisanu Stohn Coin transakciju</translation>
     </message>
     <message>
         <source>Load PSBT from &amp;clipboard…</source>
         <translation type="unfinished">Učitaj PSBT iz &amp;međuspremnika...</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction from clipboard</source>
-        <translation type="unfinished">Učitaj djelomično potpisanu bitcoin transakciju iz međuspremnika</translation>
+        <source>Load Partially Signed Stohn Coin Transaction from clipboard</source>
+        <translation type="unfinished">Učitaj djelomično potpisanu Stohn Coin transakciju iz međuspremnika</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -678,7 +678,7 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
         <translation type="unfinished">Zatvori sve novčanike</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible Stohn Coin command-line options</source>
         <translation type="unfinished">Prikažite pomoć programa %1 kako biste ispisali moguće opcije preko terminala</translation>
     </message>
     <message>
@@ -732,12 +732,12 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
         <translation type="unfinished">&amp;Pokaži</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Stohn Coin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform>%n active connection(s) to Bitcoin network.</numerusform>
-            <numerusform>%n active connection(s) to Bitcoin network.</numerusform>
-            <numerusform>%n aktivnih veza s Bitcoin mrežom.</numerusform>
+            <numerusform>%n active connection(s) to Stohn Coin network.</numerusform>
+            <numerusform>%n active connection(s) to Stohn Coin network.</numerusform>
+            <numerusform>%n aktivnih veza s Stohn Coin mrežom.</numerusform>
         </translation>
     </message>
     <message>
@@ -1160,8 +1160,8 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
         <translation type="unfinished">Uredi adresu za slanje</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation type="unfinished">Upisana adresa "%1" nije valjana Bitcoin adresa.</translation>
+        <source>The entered address "%1" is not a valid Stohn Coin address.</source>
+        <translation type="unfinished">Upisana adresa "%1" nije valjana Stohn Coin adresa.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -1247,7 +1247,7 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
         </translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
+        <source>%1 will download and store a copy of the Stohn Coin block chain.</source>
         <translation type="unfinished">%1 preuzet će i pohraniti kopiju Bitcoinovog lanca blokova.</translation>
     </message>
     <message>
@@ -1332,7 +1332,7 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
         <translation type="unfinished">Oblik</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Stohn Coin network, as detailed below.</source>
         <translation type="unfinished">Nedavne transakcije možda još nisu vidljive pa vam stanje novčanika može biti netočno. Ove informacije bit će točne nakon što vaš novčanik dovrši sinkronizaciju s Bitcoinovom mrežom, kako je opisano dolje.</translation>
     </message>
     <message>
@@ -1379,7 +1379,7 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
 <context>
     <name>OpenURIDialog</name>
     <message>
-        <source>Open bitcoin URI</source>
+        <source>Open Stohn Coin URI</source>
         <translation type="unfinished">Otvori bitcoin: URI</translation>
     </message>
     <message>
@@ -1531,16 +1531,16 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
         <translation type="unfinished">&amp;Put za vanjsku skriptu potpisnika</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Automatski otvori port Bitcoin klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
+        <source>Automatically open the Stohn Coin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Automatski otvori port Stohn Coin klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation type="unfinished">Mapiraj port koristeći &amp;UPnP</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
-        <translation type="unfinished">Automatski otvori port Bitcoin klijenta na ruteru. Ovo radi samo ako ruter podržava UPnP i ako je omogućen. Vanjski port može biti nasumičan.</translation>
+        <source>Automatically open the Stohn Coin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
+        <translation type="unfinished">Automatski otvori port Stohn Coin klijenta na ruteru. Ovo radi samo ako ruter podržava UPnP i ako je omogućen. Vanjski port može biti nasumičan.</translation>
     </message>
     <message>
         <source>Map port using NA&amp;T-PMP</source>
@@ -1555,8 +1555,8 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
         <translation type="unfinished">Dozvolite dolazeće veze</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation type="unfinished">Spojite se na Bitcoin mrežu kroz SOCKS5 proxy.</translation>
+        <source>Connect to the Stohn Coin network through a SOCKS5 proxy.</source>
+        <translation type="unfinished">Spojite se na Stohn Coin mrežu kroz SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1643,8 +1643,8 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
         <translation type="unfinished">Ovisi želite li prikazati mogućnosti kontroliranja inputa ili ne.</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
-        <translation type="unfinished">Spojite se na Bitcoin mrežu kroz zaseban SOCKS5 proxy za povezivanje na Tor onion usluge.</translation>
+        <source>Connect to the Stohn Coin network through a separate SOCKS5 proxy for Tor onion services.</source>
+        <translation type="unfinished">Spojite se na Stohn Coin mrežu kroz zaseban SOCKS5 proxy za povezivanje na Tor onion usluge.</translation>
     </message>
     <message>
         <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor onion services:</source>
@@ -1740,8 +1740,8 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
         <translation type="unfinished">Oblik</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Prikazani podatci mogu biti zastarjeli. Vaš novčanik se automatski sinkronizira s Bitcoin mrežom kada je veza uspostavljena, ali taj proces još nije završen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Stohn Coin network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">Prikazani podatci mogu biti zastarjeli. Vaš novčanik se automatski sinkronizira s Stohn Coin mrežom kada je veza uspostavljena, ali taj proces još nije završen.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1971,8 +1971,8 @@ S obzirom na široko rasprostranjene sigurnosne nedostatke u BIP70, preporučlji
 Ako imate ovu grešku, od trgovca zatražite URI koji je kompatibilan sa BIP21.</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation type="unfinished">Ne može se parsirati URI! Uzrok tomu može biti nevažeća Bitcoin adresa ili neispravni parametri kod URI-a.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Stohn Coin address or malformed URI parameters.</source>
+        <translation type="unfinished">Ne može se parsirati URI! Uzrok tomu može biti nevažeća Stohn Coin adresa ili neispravni parametri kod URI-a.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -2488,8 +2488,8 @@ Za više informacija o korištenju ove konzile, utipkajte %6.
         <translation type="unfinished">&amp;Poruka:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation type="unfinished">Opcionalna poruka koja se može dodati kao privitak zahtjevu za plaćanje. Bit će prikazana kad je zahtjev otvoren. Napomena: Ova poruka neće biti poslana zajedno s uplatom preko Bitcoin mreže.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Stohn Coin network.</source>
+        <translation type="unfinished">Opcionalna poruka koja se može dodati kao privitak zahtjevu za plaćanje. Bit će prikazana kad je zahtjev otvoren. Napomena: Ova poruka neće biti poslana zajedno s uplatom preko Stohn Coin mreže.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2770,7 +2770,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
 Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po kB" za transakciju veličine 500 bajtova (polovica od 1 kB) rezultirala bi ultimativno naknadom od samo 50 satošija.</translation>
     </message>
     <message>
-        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for Stohn Coin transactions than the network can process.</source>
         <translation type="unfinished">Kada je kapacitet transakcija manja od prostora u blokovima, rudari i čvorovi prenositelji mogu zatražiti minimalnu naknadu. Prihvatljivo je platiti samo ovu minimalnu naknadu, ali budite svjesni da ovime može nastati transakcija koja se nikad ne potvrđuje čim je potražnja za korištenjem Bitcoina veća nego što mreža može obraditi.</translation>
     </message>
     <message>
@@ -2856,8 +2856,8 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
         <translation type="unfinished">Cr&amp;eate nije potpisan</translation>
     </message>
     <message>
-        <source>Creates a Partially Signed Bitcoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
-        <translation type="unfinished">Stvara djelomično potpisanu Bitcoin transakciju (Partially Signed Bitcoin Transaction - PSBT) za upotrebu sa npr. novčanikom %1 koji nije povezan s mrežom ili sa PSBT kompatibilnim hardverskim novčanikom.</translation>
+        <source>Creates a Partially Signed Stohn Coin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <translation type="unfinished">Stvara djelomično potpisanu Stohn Coin transakciju (Partially Signed Stohn Coin Transaction - PSBT) za upotrebu sa npr. novčanikom %1 koji nije povezan s mrežom ili sa PSBT kompatibilnim hardverskim novčanikom.</translation>
     </message>
     <message>
         <source> from wallet '%1'</source>
@@ -2916,9 +2916,9 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
         <translation type="unfinished">Možete kasnije povećati naknadu (javlja Replace-By-Fee, BIP-125).</translation>
     </message>
     <message>
-        <source>Please, review your transaction proposal. This will produce a Partially Signed Bitcoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source>Please, review your transaction proposal. This will produce a Partially Signed Stohn Coin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can only create a PSBT. This string is displayed when private keys are disabled and an external signer is not available.</extracomment>
-        <translation type="unfinished">Molimo pregledajte svoj prijedlog transakcije. Ovo će stvoriti djelomično potpisanu Bitcoin transakciju (PBST) koju možete spremiti ili kopirati i zatim potpisati sa npr. novčanikom %1 koji nije povezan s mrežom ili sa PSBT kompatibilnim hardverskim novčanikom.</translation>
+        <translation type="unfinished">Molimo pregledajte svoj prijedlog transakcije. Ovo će stvoriti djelomično potpisanu Stohn Coin transakciju (PBST) koju možete spremiti ili kopirati i zatim potpisati sa npr. novčanikom %1 koji nije povezan s mrežom ili sa PSBT kompatibilnim hardverskim novčanikom.</translation>
     </message>
     <message>
         <source>Do you want to create this transaction?</source>
@@ -2926,9 +2926,9 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
         <translation type="unfinished">Želite li kreirati ovu transakciju?</translation>
     </message>
     <message>
-        <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Bitcoin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Stohn Coin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can send their transaction or create a PSBT. This string is displayed when both private keys and PSBT controls are enabled.</extracomment>
-        <translation type="unfinished">Molimo pregledajte svoju transakciju. Možete kreirarti i poslati ovu transakciju ili kreirati djelomično potpisanu Bitcoin transakciju (PBST) koju možete spremiti ili kopirati i zatim potpisati sa npr. novčanikom %1 koji nije povezan s mrežom ili sa PSBT kompatibilnim hardverskim novčanikom.</translation>
+        <translation type="unfinished">Molimo pregledajte svoju transakciju. Možete kreirarti i poslati ovu transakciju ili kreirati djelomično potpisanu Stohn Coin transakciju (PBST) koju možete spremiti ili kopirati i zatim potpisati sa npr. novčanikom %1 koji nije povezan s mrežom ili sa PSBT kompatibilnim hardverskim novčanikom.</translation>
     </message>
     <message>
         <source>Please, review your transaction.</source>
@@ -2992,8 +2992,8 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
         </translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation type="unfinished">Upozorenje: Nevažeća Bitcoin adresa</translation>
+        <source>Warning: Invalid Stohn Coin address</source>
+        <translation type="unfinished">Upozorenje: Nevažeća Stohn Coin adresa</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -3031,7 +3031,7 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
         <translation type="unfinished">Odaberite prethodno korištenu adresu</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The Stohn Coin address to send the payment to</source>
         <translation type="unfinished">Bitcoin adresa na koju ćete poslati uplatu</translation>
     </message>
     <message>
@@ -3047,7 +3047,7 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
         <translation type="unfinished">Iznos za slanje u odabranoj valuti </translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less Stohn Coins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation type="unfinished">Naknada će biti oduzeta od poslanog iznosa. Primatelj će primiti manji iznos od onoga koji unesete u polje iznosa. Ako je odabrano više primatelja, onda će naknada biti podjednako raspodijeljena.</translation>
     </message>
     <message>
@@ -3067,8 +3067,8 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
         <translation type="unfinished">Unesite oznaku za ovu adresu kako bi ju dodali u vaš adresar</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation type="unfinished">Poruka koja je dodana uplati: URI koji će biti spremljen s transakcijom za referencu. Napomena: Ova poruka neće biti poslana preko Bitcoin mreže.</translation>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Stohn Coin network.</source>
+        <translation type="unfinished">Poruka koja je dodana uplati: URI koji će biti spremljen s transakcijom za referencu. Napomena: Ova poruka neće biti poslana preko Stohn Coin mreže.</translation>
     </message>
 </context>
 <context>
@@ -3093,11 +3093,11 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
         <translation type="unfinished">&amp;Potpišite poruku</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive Stohn Coins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation type="unfinished">Možete potpisati poruke/dogovore svojim adresama kako biste dokazali da možete pristupiti bitcoinima poslanim na te adrese. Budite oprezni da ne potpisujte ništa nejasno ili nasumično, jer napadi phishingom vas mogu prevariti da prepišite svoj identitet njima. Potpisujte samo detaljno objašnjene izjave s kojima se slažete.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
+        <source>The Stohn Coin address to sign the message with</source>
         <translation type="unfinished">Bitcoin adresa pomoću koje ćete potpisati poruku</translation>
     </message>
     <message>
@@ -3121,8 +3121,8 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
         <translation type="unfinished">Kopirajte trenutni potpis u međuspremnik</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation type="unfinished">Potpišite poruku kako biste dokazali da posjedujete ovu Bitcoin adresu</translation>
+        <source>Sign the message to prove you own this Stohn Coin address</source>
+        <translation type="unfinished">Potpišite poruku kako biste dokazali da posjedujete ovu Stohn Coin adresu</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3145,7 +3145,7 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
         <translation type="unfinished">Unesite primateljevu adresu, poruku (provjerite da kopirate prekide crta, razmake, tabove, itd. točno) i potpis ispod da provjerite poruku. Pazite da ne pridodate veće značenje potpisu nego što je sadržano u samoj poruci kako biste izbjegli napad posrednika (MITM attack). Primijetite da ovo samo dokazuje da stranka koja potpisuje prima na adresu. Ne može dokažati da je neka stranka poslala transakciju!</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
+        <source>The Stohn Coin address the message was signed with</source>
         <translation type="unfinished">Bitcoin adresa kojom je poruka potpisana</translation>
     </message>
     <message>
@@ -3157,8 +3157,8 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
         <translation type="unfinished">Potpis predan kad je poruka bila potpisana</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation type="unfinished">Provjerite poruku da budete sigurni da je potpisana zadanom Bitcoin adresom</translation>
+        <source>Verify the message to ensure it was signed with the specified Stohn Coin address</source>
+        <translation type="unfinished">Provjerite poruku da budete sigurni da je potpisana zadanom Stohn Coin adresom</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>

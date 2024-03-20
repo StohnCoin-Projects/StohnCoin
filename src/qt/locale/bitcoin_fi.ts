@@ -58,11 +58,11 @@
         <translation type="unfinished">V&amp;alitse</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Stohn Coin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished">Nämä ovat Bitcoin-osoitteesi maksujen lähettämistä varten. Tarkista aina määrä ja vastaanotto-osoite ennen kolikoiden lähettämistä.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Stohn Coin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Nämä ovat Bitcoin-osoitteesi maksujen vastaanottoa varten. Käytä painiketta "Luo uusi vastaanotto-osoite" vastaanottovälilehdessä luodaksesi uusia osoitteita.
 Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translation>
@@ -176,7 +176,7 @@ Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translatio
         <translation type="unfinished">Syötä vanha ja uusi salasanalause lompakolle.</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Remember that encrypting your wallet cannot fully protect your Stohn Coins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished">Muista, että salaamalla lompakkosi et täysin pysty suojaamaan bitcoineja varkaudelta, jotka aiheutuvat koneellasi olevista haittaohjelmista.</translation>
     </message>
     <message>
@@ -299,7 +299,7 @@ Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translatio
         <translation type="unfinished">Määrä</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a Stohn Coin address (e.g. %1)</source>
         <translation type="unfinished">Syötä Bitcoin-osoite (esim. %1)</translation>
     </message>
     <message>
@@ -449,7 +449,7 @@ Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translatio
         <translation type="unfinished">Välipalvelin on &lt;b&gt;käytössä&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a Stohn Coin address</source>
         <translation type="unfinished">Lähetä kolikoita Bitcoin-osoitteeseen</translation>
     </message>
     <message>
@@ -493,16 +493,16 @@ Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translatio
         <translation type="unfinished">Allekirjoita &amp;viesti...</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">Allekirjoita viestisi omalla Bitcoin -osoitteellasi todistaaksesi, että omistat ne</translation>
+        <source>Sign messages with your Stohn Coin addresses to prove you own them</source>
+        <translation type="unfinished">Allekirjoita viestisi omalla Stohn Coin -osoitteellasi todistaaksesi, että omistat ne</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
         <translation type="unfinished">&amp;Varmenna viesti...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="unfinished">Varmista, että viestisi on allekirjoitettu määritetyllä Bitcoin -osoitteella</translation>
+        <source>Verify messages to ensure they were signed with specified Stohn Coin addresses</source>
+        <translation type="unfinished">Varmista, että viestisi on allekirjoitettu määritetyllä Stohn Coin -osoitteella</translation>
     </message>
     <message>
         <source>&amp;Load PSBT from file…</source>
@@ -616,11 +616,11 @@ Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translatio
         <translation type="unfinished">Rahansiirtohistoria on ajan tasalla</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
+        <source>Load Partially Signed Stohn Coin Transaction</source>
         <translation type="unfinished">Lataa osittain allekirjoitettu bitcoin-siirtotapahtuma</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction from clipboard</source>
+        <source>Load Partially Signed Stohn Coin Transaction from clipboard</source>
         <translation type="unfinished">Lataa osittain allekirjoitettu bitcoin-siirtotapahtuma leikepöydältä</translation>
     </message>
     <message>
@@ -670,7 +670,7 @@ Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translatio
         <translation type="unfinished">Sulje kaikki lompakot</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible Stohn Coin command-line options</source>
         <translation type="unfinished">Näytä %1 ohjeet saadaksesi listan mahdollisista Bitcoinin komentorivivalinnoista</translation>
     </message>
     <message>
@@ -730,7 +730,7 @@ Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translatio
         <translation type="unfinished">&amp;Piilota</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Stohn Coin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform>%n aktiivinen yhteys Bitcoin-verkkoon.</numerusform>
@@ -1167,7 +1167,7 @@ Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translatio
         <translation type="unfinished">Muokkaa lähettävää osoitetta</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid Stohn Coin address.</source>
         <translation type="unfinished">Antamasi osoite "%1" ei ole kelvollinen Bitcoin-osoite.</translation>
     </message>
     <message>
@@ -1250,7 +1250,7 @@ Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translatio
         </translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
+        <source>%1 will download and store a copy of the Stohn Coin block chain.</source>
         <translation type="unfinished">%1 lataa ja tallentaa kopion Bitcoinin lohkoketjusta.</translation>
     </message>
     <message>
@@ -1339,7 +1339,7 @@ Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translatio
         <translation type="unfinished">Lomake</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Stohn Coin network, as detailed below.</source>
         <translation type="unfinished">Viimeiset tapahtumat eivät välttämättä vielä näy, joten lompakkosi saldo voi olla virheellinen. Tieto korjautuu, kunhan lompakkosi synkronointi bitcoin-verkon kanssa on päättynyt. Tiedot näkyvät alla.</translation>
     </message>
     <message>
@@ -1394,8 +1394,8 @@ Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translatio
 <context>
     <name>OpenURIDialog</name>
     <message>
-        <source>Open bitcoin URI</source>
-        <translation type="unfinished">Avaa bitcoin URI</translation>
+        <source>Open Stohn Coin URI</source>
+        <translation type="unfinished">Avaa Stohn Coin URI</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -1530,7 +1530,7 @@ Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translatio
         <translation type="unfinished">Ulkopuolinen allekirjoittaja (esim. laitelompakko)</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Stohn Coin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished">Avaa Bitcoin-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
     </message>
     <message>
@@ -1538,8 +1538,8 @@ Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translatio
         <translation type="unfinished">Portin uudelleenohjaus &amp;UPnP:llä</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
-        <translation type="unfinished">Avaa reitittimen Bitcoin client-portti automaattisesti. Tämä toimii vain, jos reitittimesi tukee NAT-PMP:tä ja se on käytössä. Ulkoinen portti voi olla satunnainen.</translation>
+        <source>Automatically open the Stohn Coin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
+        <translation type="unfinished">Avaa reitittimen Stohn Coin client-portti automaattisesti. Tämä toimii vain, jos reitittimesi tukee NAT-PMP:tä ja se on käytössä. Ulkoinen portti voi olla satunnainen.</translation>
     </message>
     <message>
         <source>Map port using NA&amp;T-PMP</source>
@@ -1554,7 +1554,7 @@ Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translatio
         <translation type="unfinished">Hyväksy sisääntulevia yhteyksiä</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the Stohn Coin network through a SOCKS5 proxy.</source>
         <translation type="unfinished">Yhdistä Bitcoin-verkkoon SOCKS5-välityspalvelimen kautta.</translation>
     </message>
     <message>
@@ -1626,7 +1626,7 @@ Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translatio
         <translation type="unfinished">Näytetäänkö kolikkokontrollin ominaisuuksia vai ei</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
+        <source>Connect to the Stohn Coin network through a separate SOCKS5 proxy for Tor onion services.</source>
         <translation type="unfinished">Yhdistä Bitcoin-verkkoon erillisen SOCKS5-välityspalvelimen kautta Torin onion-palveluja varten.</translation>
     </message>
     <message>
@@ -1719,7 +1719,7 @@ Allekirjoitus on mahdollista vain 'legacy'-tyyppisillä osoitteilla.</translatio
         <translation type="unfinished">Lomake</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Stohn Coin network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished">Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu Bitcoin-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
     </message>
     <message>
@@ -1950,7 +1950,7 @@ BIP70:n laajalle levinneiden tietoturva-aukkojen vuoksi on erittäin suositeltav
 Jos saat tämän virheen, pyydä kauppiasta antamaan BIP21-yhteensopiva URI.</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Stohn Coin address or malformed URI parameters.</source>
         <translation type="unfinished">URIa ei voitu jäsentää! Tämä voi johtua virheellisestä Bitcoin-osoitteesta tai väärin muotoilluista URI parametreista.</translation>
     </message>
     <message>
@@ -2398,7 +2398,7 @@ Jos saat tämän virheen, pyydä kauppiasta antamaan BIP21-yhteensopiva URI.</tr
         <translation type="unfinished">&amp;Viesti:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Stohn Coin network.</source>
         <translation type="unfinished">Valinnainen viesti liitetään maksupyyntöön ja näytetään avattaessa. Viestiä ei lähetetä Bitcoin-verkkoon.</translation>
     </message>
     <message>
@@ -2671,7 +2671,7 @@ Jos saat tämän virheen, pyydä kauppiasta antamaan BIP21-yhteensopiva URI.</tr
         <translation type="unfinished"> Piilota siirtomaksuasetukset</translation>
     </message>
     <message>
-        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for Stohn Coin transactions than the network can process.</source>
         <translation type="unfinished">Mikäli lohkoissa ei ole tilaa kaikille siirtotapahtumille, voi louhijat sekä välittävät solmut pakottaa vähimmäispalkkion. Tämän vähimmäispalkkion maksaminen on täysin OK, mutta huomaa, että se saattaa johtaa siihen, ettei siirto vahvistu koskaan, jos bitcoin-siirtoja on enemmän kuin mitä verkko pystyy käsittelemään.</translation>
     </message>
     <message>
@@ -2753,7 +2753,7 @@ Jos saat tämän virheen, pyydä kauppiasta antamaan BIP21-yhteensopiva URI.</tr
         <translation type="unfinished">L&amp;uo allekirjoittamaton</translation>
     </message>
     <message>
-        <source>Creates a Partially Signed Bitcoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source>Creates a Partially Signed Stohn Coin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <translation type="unfinished">Luo osittain allekirjoitetun bitcoin-siirtotapahtuman (PSBT) käytettäväksi mm. offline %1 lompakko tai PSBT-yhteensopiva hardware-lompakko.</translation>
     </message>
     <message>
@@ -2804,7 +2804,7 @@ Jos saat tämän virheen, pyydä kauppiasta antamaan BIP21-yhteensopiva URI.</tr
         <translation type="unfinished">Voit korottaa palkkiota myöhemmin (osoittaa Replace-By-Fee:tä, BIP-125).</translation>
     </message>
     <message>
-        <source>Please, review your transaction proposal. This will produce a Partially Signed Bitcoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source>Please, review your transaction proposal. This will produce a Partially Signed Stohn Coin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can only create a PSBT. This string is displayed when private keys are disabled and an external signer is not available.</extracomment>
         <translation type="unfinished">Ole hyvä ja tarkista siirtoehdotuksesi. Tämä luo osittain allekirjoitetun Bitcoin-siirron (PBST), jonka voit tallentaa tai kopioida ja sitten allekirjoittaa esim. verkosta irrannaisella %1-lompakolla tai PBST-yhteensopivalla laitteistolompakolla.</translation>
     </message>
@@ -2874,7 +2874,7 @@ Jos saat tämän virheen, pyydä kauppiasta antamaan BIP21-yhteensopiva URI.</tr
         </translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid Stohn Coin address</source>
         <translation type="unfinished">Varoitus: Virheellinen Bitcoin-osoite</translation>
     </message>
     <message>
@@ -2913,7 +2913,7 @@ Jos saat tämän virheen, pyydä kauppiasta antamaan BIP21-yhteensopiva URI.</tr
         <translation type="unfinished">Valitse aikaisemmin käytetty osoite</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The Stohn Coin address to send the payment to</source>
         <translation type="unfinished">Bitcoin-osoite johon maksu lähetetään</translation>
     </message>
     <message>
@@ -2929,7 +2929,7 @@ Jos saat tämän virheen, pyydä kauppiasta antamaan BIP21-yhteensopiva URI.</tr
         <translation type="unfinished">Lähetettävä summa valitussa yksikössä</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less Stohn Coins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation type="unfinished">Kulu vähennetään lähetettävästä määrästä. Saaja vastaanottaa vähemmän bitcoineja kuin merkitset Määrä-kenttään. Jos saajia on monia, kulu jaetaan tasan.</translation>
     </message>
     <message>
@@ -2949,7 +2949,7 @@ Jos saat tämän virheen, pyydä kauppiasta antamaan BIP21-yhteensopiva URI.</tr
         <translation type="unfinished">Aseta nimi tälle osoitteelle lisätäksesi sen käytettyjen osoitteiden listalle.</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Stohn Coin network.</source>
         <translation type="unfinished">Viesti joka liitettiin bitcoin: URI:iin tallennetaan rahansiirtoon viitteeksi. Tätä viestiä ei lähetetä Bitcoin-verkkoon.</translation>
     </message>
 </context>
@@ -2975,11 +2975,11 @@ Jos saat tämän virheen, pyydä kauppiasta antamaan BIP21-yhteensopiva URI.</tr
         <translation type="unfinished">&amp;Allekirjoita viesti</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive Stohn Coins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation type="unfinished">Voit allekirjoittaa viestit / sopimukset omalla osoitteellasi todistaaksesi että voit vastaanottaa siihen lähetetyt bitcoinit. Varo allekirjoittamasta mitään epämääräistä, sillä phishing-hyökkääjät voivat huijata sinua luovuttamaan henkilöllisyytesi allekirjoituksella. Allekirjoita ainoastaan täysin yksityiskohtainen selvitys siitä, mihin olet sitoutumassa.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
+        <source>The Stohn Coin address to sign the message with</source>
         <translation type="unfinished">Bitcoin-osoite jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
@@ -3003,7 +3003,7 @@ Jos saat tämän virheen, pyydä kauppiasta antamaan BIP21-yhteensopiva URI.</tr
         <translation type="unfinished">Kopioi tämänhetkinen allekirjoitus leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this Stohn Coin address</source>
         <translation type="unfinished">Allekirjoita viesti todistaaksesi, että omistat tämän Bitcoin-osoitteen</translation>
     </message>
     <message>
@@ -3027,7 +3027,7 @@ Jos saat tämän virheen, pyydä kauppiasta antamaan BIP21-yhteensopiva URI.</tr
         <translation type="unfinished">Syötä vastaanottajan osoite, viesti ja allekirjoitus (varmista että kopioit rivinvaihdot, välilyönnit, sarkaimet yms. täsmälleen) alle vahvistaaksesi viestin. Varo lukemasta allekirjoitukseen enempää kuin mitä viestissä itsessään on välttääksesi man-in-the-middle -hyökkäyksiltä. Huomaa, että tämä todentaa ainoastaan allekirjoittavan vastaanottajan osoitteen, tämä ei voi todentaa minkään tapahtuman lähettäjää!</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
+        <source>The Stohn Coin address the message was signed with</source>
         <translation type="unfinished">Bitcoin-osoite jolla viesti on allekirjoitettu</translation>
     </message>
     <message>
@@ -3039,7 +3039,7 @@ Jos saat tämän virheen, pyydä kauppiasta antamaan BIP21-yhteensopiva URI.</tr
         <translation type="unfinished">Viestin allekirjoittamisen yhteydessä annettu allekirjoitus</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Stohn Coin address</source>
         <translation type="unfinished">Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä Bitcoin-osoitteella</translation>
     </message>
     <message>

@@ -58,13 +58,13 @@
         <translation type="unfinished">K&amp;iezen</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Dit zijn uw Bitcoin adressen om betalingen mee te verzenden. Controleer altijd het bedrag en het ontvangstadres voordat u uw bitcoins verzendt.</translation>
+        <source>These are your Stohn Coin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Dit zijn uw Stohn Coin adressen om betalingen mee te verzenden. Controleer altijd het bedrag en het ontvangstadres voordat u uw Stohn Coins verzendt.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Stohn Coin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Dit zijn uw Bitcoin adressen voor het ontvangen van betalingen. Gebruik de 'Nieuw ontvangstadres maken' knop in de ontvangst tab om nieuwe adressen te maken.
+        <translation type="unfinished">Dit zijn uw Stohn Coin adressen voor het ontvangen van betalingen. Gebruik de 'Nieuw ontvangstadres maken' knop in de ontvangst tab om nieuwe adressen te maken.
 Ondertekenen is alleen mogelijk met adressen van het type 'legacy'.</translation>
     </message>
     <message>
@@ -153,7 +153,7 @@ Ondertekenen is alleen mogelijk met adressen van het type 'legacy'.</translation
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW BITCOINS VERLIEZEN&lt;/b&gt;!</translation>
+        <translation type="unfinished">Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW Stohn Coins VERLIEZEN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -172,8 +172,8 @@ Ondertekenen is alleen mogelijk met adressen van het type 'legacy'.</translation
         <translation type="unfinished">Voer de oude wachtwoordzin en de nieuwe wachtwoordzin in voor de portemonnee.</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Onthoud dat het versleutelen van uw portemonnee uw bitcoins niet volledig kan beschermen tegen diefstal, bijvoorbeeld door malware die uw computer infecteert.</translation>
+        <source>Remember that encrypting your wallet cannot fully protect your Stohn Coins from being stolen by malware infecting your computer.</source>
+        <translation type="unfinished">Onthoud dat het versleutelen van uw portemonnee uw Stohn Coins niet volledig kan beschermen tegen diefstal, bijvoorbeeld door malware die uw computer infecteert.</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -295,8 +295,8 @@ Ondertekenen is alleen mogelijk met adressen van het type 'legacy'.</translation
         <translation type="unfinished">Bedrag</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation type="unfinished">Voer een Bitcoin adres in (bijv. %1)</translation>
+        <source>Enter a Stohn Coin address (e.g. %1)</source>
+        <translation type="unfinished">Voer een Stohn Coin adres in (bijv. %1)</translation>
     </message>
     <message>
         <source>Unroutable</source>
@@ -468,8 +468,8 @@ Ondertekenen is alleen mogelijk met adressen van het type 'legacy'.</translation
         <translation type="unfinished">Proxy is &lt;b&gt;ingeschakeld&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">Verstuur munten naar een Bitcoin adres</translation>
+        <source>Send coins to a Stohn Coin address</source>
+        <translation type="unfinished">Verstuur munten naar een Stohn Coin adres</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -512,16 +512,16 @@ Ondertekenen is alleen mogelijk met adressen van het type 'legacy'.</translation
         <translation type="unfinished">Onderteken &amp;bericht</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">Onderteken berichten met uw Bitcoin adressen om te bewijzen dat u deze adressen bezit</translation>
+        <source>Sign messages with your Stohn Coin addresses to prove you own them</source>
+        <translation type="unfinished">Onderteken berichten met uw Stohn Coin adressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
         <translation type="unfinished">&amp;Verifiëer Bericht...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="unfinished">Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde Bitcoin adressen</translation>
+        <source>Verify messages to ensure they were signed with specified Stohn Coin addresses</source>
+        <translation type="unfinished">Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde Stohn Coin adressen</translation>
     </message>
     <message>
         <source>&amp;Load PSBT from file…</source>
@@ -635,7 +635,7 @@ Ondertekenen is alleen mogelijk met adressen van het type 'legacy'.</translation
         <translation type="unfinished">Bijgewerkt</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
+        <source>Load Partially Signed Stohn Coin Transaction</source>
         <translation type="unfinished">Laad gedeeltelijk ondertekende Bitcoin-transactie</translation>
     </message>
     <message>
@@ -643,7 +643,7 @@ Ondertekenen is alleen mogelijk met adressen van het type 'legacy'.</translation
         <translation type="unfinished">Laad PSBT vanaf klembord...</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction from clipboard</source>
+        <source>Load Partially Signed Stohn Coin Transaction from clipboard</source>
         <translation type="unfinished">Laad gedeeltelijk ondertekende Bitcoin-transactie vanaf het klembord</translation>
     </message>
     <message>
@@ -693,8 +693,8 @@ Ondertekenen is alleen mogelijk met adressen van het type 'legacy'.</translation
         <translation type="unfinished">Sluit alle portemonnees</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation type="unfinished">Toon het %1 hulpbericht om een lijst te krijgen met mogelijke Bitcoin commandoregelopties</translation>
+        <source>Show the %1 help message to get a list with possible Stohn Coin command-line options</source>
+        <translation type="unfinished">Toon het %1 hulpbericht om een lijst te krijgen met mogelijke Stohn Coin commandoregelopties</translation>
     </message>
     <message>
         <source>&amp;Mask values</source>
@@ -749,11 +749,11 @@ Ondertekenen is alleen mogelijk met adressen van het type 'legacy'.</translation
         <translation type="unfinished">&amp;Toon</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Stohn Coin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform>%n actieve verbinding(en) met het Bitcoin netwerk.</numerusform>
-            <numerusform>%n actieve verbinding(en) met het Bitcoin netwerk.</numerusform>
+            <numerusform>%n actieve verbinding(en) met het Stohn Coin netwerk.</numerusform>
+            <numerusform>%n actieve verbinding(en) met het Stohn Coin netwerk.</numerusform>
         </translation>
     </message>
     <message>
@@ -1182,8 +1182,8 @@ Ondertekenen is alleen mogelijk met adressen van het type 'legacy'.</translation
         <translation type="unfinished">Bewerk verzendadres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation type="unfinished">Het opgegeven adres "%1" is een ongeldig Bitcoin adres.</translation>
+        <source>The entered address "%1" is not a valid Stohn Coin address.</source>
+        <translation type="unfinished">Het opgegeven adres "%1" is een ongeldig Stohn Coin adres.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -1269,8 +1269,8 @@ Ondertekenen is alleen mogelijk met adressen van het type 'legacy'.</translation
         </translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation type="unfinished">%1 zal een kopie van de blokketen van Bitcoin downloaden en opslaan.</translation>
+        <source>%1 will download and store a copy of the Stohn Coin block chain.</source>
+        <translation type="unfinished">%1 zal een kopie van de blokketen van Stohn Coin downloaden en opslaan.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1362,12 +1362,12 @@ Ondertekenen is alleen mogelijk met adressen van het type 'legacy'.</translation
         <translation type="unfinished">Vorm</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Stohn Coin network, as detailed below.</source>
         <translation type="unfinished">Recente transacties zijn mogelijk nog niet zichtbaar. De balans van de wallet is daarom mogelijk niet correct. Deze informatie is correct zodra de synchronisatie van de wallet met het Bitcoinnetwerk gereed is, zoals onderaan toegelicht.</translation>
     </message>
     <message>
         <source>Attempting to spend stohn coins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation type="unfinished">Poging om bitcoins te besteden die door "nog niet weergegeven" transacties worden beïnvloed, worden niet door het netwerk geaccepteerd.</translation>
+        <translation type="unfinished">Poging om Stohn Coins te besteden die door "nog niet weergegeven" transacties worden beïnvloed, worden niet door het netwerk geaccepteerd.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1417,7 +1417,7 @@ Ondertekenen is alleen mogelijk met adressen van het type 'legacy'.</translation
 <context>
     <name>OpenURIDialog</name>
     <message>
-        <source>Open bitcoin URI</source>
+        <source>Open Stohn Coin URI</source>
         <translation type="unfinished">Open bitcoin-URI</translation>
     </message>
     <message>
@@ -1572,16 +1572,16 @@ Ongebruikte mempool geheugen is gedeeld voor deze cache.</translation>
         <translation type="unfinished">&amp;Extern ondertekenscript directory</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Open de Bitcoin poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
+        <source>Automatically open the Stohn Coin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Open de Stohn Coin poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation type="unfinished">Portmapping via &amp;UPnP</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
-        <translation type="unfinished">Automatisch openen van de Bitcoin client poort op de router. Dit werkt alleen als de router NAT-PMP ondersteunt en het is ingeschakeld. De externe poort kan willekeurig zijn.</translation>
+        <source>Automatically open the Stohn Coin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
+        <translation type="unfinished">Automatisch openen van de Stohn Coin client poort op de router. Dit werkt alleen als de router NAT-PMP ondersteunt en het is ingeschakeld. De externe poort kan willekeurig zijn.</translation>
     </message>
     <message>
         <source>Map port using NA&amp;T-PMP</source>
@@ -1596,7 +1596,7 @@ Ongebruikte mempool geheugen is gedeeld voor deze cache.</translation>
         <translation type="unfinished">Sta inkomende verbindingen toe</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the Stohn Coin network through a SOCKS5 proxy.</source>
         <translation type="unfinished">Verbind met het Bitcoinnetwerk via een SOCKS5 proxy.</translation>
     </message>
     <message>
@@ -1672,8 +1672,8 @@ Ongebruikte mempool geheugen is gedeeld voor deze cache.</translation>
         <translation type="unfinished">Munt controle functies weergeven of niet.</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
-        <translation type="unfinished">Maak verbinding met het Bitcoin netwerk via een aparte SOCKS5-proxy voor Tor Onion-services.</translation>
+        <source>Connect to the Stohn Coin network through a separate SOCKS5 proxy for Tor onion services.</source>
+        <translation type="unfinished">Maak verbinding met het Stohn Coin netwerk via een aparte SOCKS5-proxy voor Tor Onion-services.</translation>
     </message>
     <message>
         <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor onion services:</source>
@@ -1781,7 +1781,7 @@ Ongebruikte mempool geheugen is gedeeld voor deze cache.</translation>
         <translation type="unfinished">Vorm</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Stohn Coin network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished">De weergegeven informatie kan verouderd zijn. Uw wallet synchroniseert automatisch met het Bitcoinnetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
     </message>
     <message>
@@ -1997,7 +1997,7 @@ Ongebruikte mempool geheugen is gedeeld voor deze cache.</translation>
     </message>
     <message>
         <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation type="unfinished">Kan bitcoin niet starten: click-to-pay handler</translation>
+        <translation type="unfinished">Kan Stohn Coin niet starten: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -2016,8 +2016,8 @@ Gezien de wijdverspreide beveiligingsproblemen in BIP70 is het sterk aanbevolen 
 Als je deze fout ziet zou je de aanbieder moeten verzoeken om een BIP21-compatibele URI te verstrekken.</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation type="unfinished">URI kan niet verwerkt worden! Dit kan het gevolg zijn van een ongeldig Bitcoin adres of misvormde URI parameters.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Stohn Coin address or malformed URI parameters.</source>
+        <translation type="unfinished">URI kan niet verwerkt worden! Dit kan het gevolg zijn van een ongeldig Stohn Coin adres of misvormde URI parameters.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -2510,8 +2510,8 @@ Voor meer informatie over het gebruik van deze console, type %6.
         <translation type="unfinished">&amp;Bericht</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation type="unfinished">Een optioneel bericht om bij te voegen aan het betalingsverzoek, welke zal getoond worden wanneer het verzoek is geopend. Opmerking: Het bericht zal niet worden verzonden met de betaling over het Bitcoin netwerk.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Stohn Coin network.</source>
+        <translation type="unfinished">Een optioneel bericht om bij te voegen aan het betalingsverzoek, welke zal getoond worden wanneer het verzoek is geopend. Opmerking: Het bericht zal niet worden verzonden met de betaling over het Stohn Coin netwerk.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2787,7 +2787,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
 Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "100 satoshis per kvB" voor een transactie ten grootte van 500 virtuele bytes (de helft van 1 kvB) uiteindelijk een vergoeding van maar 50 satoshis betekenen.</translation>
     </message>
     <message>
-        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for Stohn Coin transactions than the network can process.</source>
         <translation type="unfinished">De minimale toeslag betalen is prima mits het transactievolume kleiner is dan de ruimte in de blokken. Let wel op dat dit tot gevolg kan hebben dat een transactie nooit wordt bevestigd als er meer vraag is naar bitcointransacties dan het netwerk kan verwerken.</translation>
     </message>
     <message>
@@ -2873,8 +2873,8 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
         <translation type="unfinished">Cr&amp;eëer Ongetekend</translation>
     </message>
     <message>
-        <source>Creates a Partially Signed Bitcoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
-        <translation type="unfinished">Creëert een Gedeeltelijk Getekende Bitcoin Transactie (PSBT) om te gebruiken met b.v. een offline %1 wallet, of een PSBT-compatibele hardware wallet.</translation>
+        <source>Creates a Partially Signed Stohn Coin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <translation type="unfinished">Creëert een Gedeeltelijk Getekende Stohn Coin Transactie (PSBT) om te gebruiken met b.v. een offline %1 wallet, of een PSBT-compatibele hardware wallet.</translation>
     </message>
     <message>
         <source> from wallet '%1'</source>
@@ -2933,9 +2933,9 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
         <translation type="unfinished">Je kunt de vergoeding later verhogen (signaleert Replace-By-Fee, BIP-125).</translation>
     </message>
     <message>
-        <source>Please, review your transaction proposal. This will produce a Partially Signed Bitcoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source>Please, review your transaction proposal. This will produce a Partially Signed Stohn Coin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can only create a PSBT. This string is displayed when private keys are disabled and an external signer is not available.</extracomment>
-        <translation type="unfinished">Controleer aub je transactievoorstel. Dit zal een Gedeeltelijk Getekende Bitcoin Transactie (PSBT) produceren die je kan opslaan of kopiëren en vervolgens ondertekenen met bijv. een offline %1 wallet, of een PSBT-combatibele hardware wallet.</translation>
+        <translation type="unfinished">Controleer aub je transactievoorstel. Dit zal een Gedeeltelijk Getekende Stohn Coin Transactie (PSBT) produceren die je kan opslaan of kopiëren en vervolgens ondertekenen met bijv. een offline %1 wallet, of een PSBT-combatibele hardware wallet.</translation>
     </message>
     <message>
         <source>Do you want to create this transaction?</source>
@@ -2943,9 +2943,9 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
         <translation type="unfinished">Wilt u deze transactie aanmaken?</translation>
     </message>
     <message>
-        <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Bitcoin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Stohn Coin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can send their transaction or create a PSBT. This string is displayed when both private keys and PSBT controls are enabled.</extracomment>
-        <translation type="unfinished">Controleer aub je transactie. Je kan deze transactie creëren en verzenden, of een Gedeeltelijk Getekende Bitcoin Transactie (PSBT) maken, die je kan opslaan of kopiëren en daarna ondertekenen, bijv. met een offline %1 wallet, of een PSBT-combatibele hardware wallet.</translation>
+        <translation type="unfinished">Controleer aub je transactie. Je kan deze transactie creëren en verzenden, of een Gedeeltelijk Getekende Stohn Coin Transactie (PSBT) maken, die je kan opslaan of kopiëren en daarna ondertekenen, bijv. met een offline %1 wallet, of een PSBT-combatibele hardware wallet.</translation>
     </message>
     <message>
         <source>Please, review your transaction.</source>
@@ -3022,8 +3022,8 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
         </translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation type="unfinished">Waarschuwing: Ongeldig Bitcoin adres</translation>
+        <source>Warning: Invalid Stohn Coin address</source>
+        <translation type="unfinished">Waarschuwing: Ongeldig Stohn Coin adres</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -3057,7 +3057,7 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
         <translation type="unfinished">Kies een eerder gebruikt adres</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The Stohn Coin address to send the payment to</source>
         <translation type="unfinished">Het Bitcoinadres om betaling aan te versturen</translation>
     </message>
     <message>
@@ -3073,8 +3073,8 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
         <translation type="unfinished">Het te sturen bedrag in de geselecteerde eenheid</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation type="unfinished">De transactiekosten zal worden afgetrokken van het bedrag dat verstuurd wordt. De ontvangers zullen minder bitcoins ontvangen dan ingevoerd is in het hoeveelheidsveld. Als er meerdere ontvangers geselecteerd zijn, dan worden de transactiekosten gelijk verdeeld.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less Stohn Coins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation type="unfinished">De transactiekosten zal worden afgetrokken van het bedrag dat verstuurd wordt. De ontvangers zullen minder Stohn Coins ontvangen dan ingevoerd is in het hoeveelheidsveld. Als er meerdere ontvangers geselecteerd zijn, dan worden de transactiekosten gelijk verdeeld.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -3093,8 +3093,8 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
         <translation type="unfinished">Vul een label voor dit adres in om het aan de lijst met gebruikte adressen toe te voegen</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation type="unfinished">Een bericht dat werd toegevoegd aan de bitcoin: URI welke wordt opgeslagen met de transactie ter referentie. Opmerking: Dit bericht zal niet worden verzonden over het Bitcoin netwerk.</translation>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Stohn Coin network.</source>
+        <translation type="unfinished">Een bericht dat werd toegevoegd aan de bitcoin: URI welke wordt opgeslagen met de transactie ter referentie. Opmerking: Dit bericht zal niet worden verzonden over het Stohn Coin netwerk.</translation>
     </message>
 </context>
 <context>
@@ -3119,12 +3119,12 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
         <translation type="unfinished">&amp;Onderteken bericht</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation type="unfinished">U kunt berichten/overeenkomsten ondertekenen met uw adres om te bewijzen dat u Bitcoins kunt versturen. Wees voorzichtig met het ondertekenen van iets vaags of willekeurigs, omdat phishingaanvallen u kunnen proberen te misleiden tot het ondertekenen van overeenkomsten om uw identiteit aan hen toe te vertrouwen. Onderteken alleen volledig gedetailleerde verklaringen voordat u akkoord gaat.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive Stohn Coins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation type="unfinished">U kunt berichten/overeenkomsten ondertekenen met uw adres om te bewijzen dat u Stohn Coins kunt versturen. Wees voorzichtig met het ondertekenen van iets vaags of willekeurigs, omdat phishingaanvallen u kunnen proberen te misleiden tot het ondertekenen van overeenkomsten om uw identiteit aan hen toe te vertrouwen. Onderteken alleen volledig gedetailleerde verklaringen voordat u akkoord gaat.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation type="unfinished">Het Bitcoin adres om bericht mee te ondertekenen</translation>
+        <source>The Stohn Coin address to sign the message with</source>
+        <translation type="unfinished">Het Stohn Coin adres om bericht mee te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3147,8 +3147,8 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
         <translation type="unfinished">Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation type="unfinished">Onderteken een bericht om te bewijzen dat u een bepaald Bitcoin adres bezit</translation>
+        <source>Sign the message to prove you own this Stohn Coin address</source>
+        <translation type="unfinished">Onderteken een bericht om te bewijzen dat u een bepaald Stohn Coin adres bezit</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3171,8 +3171,8 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
         <translation type="unfinished">Voer het adres van de ontvanger in, bericht (zorg ervoor dat de regeleinden, spaties, tabs etc. precies kloppen) en onderteken onderaan om het bericht te verifiëren. Wees voorzicht om niet meer in de ondertekening te lezen dan in het getekende bericht zelf, om te voorkomen dat je wordt aangevallen met een man-in-the-middle attack. Houd er mee rekening dat dit alleen de ondertekende partij bewijst met het ontvangen adres, er kan niet bewezen worden dat er een transactie heeft plaatsgevonden!</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation type="unfinished">Het Bitcoin adres waarmee het bericht ondertekend is</translation>
+        <source>The Stohn Coin address the message was signed with</source>
+        <translation type="unfinished">Het Stohn Coin adres waarmee het bericht ondertekend is</translation>
     </message>
     <message>
         <source>The signed message to verify</source>
@@ -3183,8 +3183,8 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
         <translation type="unfinished">De handtekening waarmee het bericht ondertekend werd</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation type="unfinished">Controleer een bericht om te verifiëren dat het gespecificeerde Bitcoin adres het bericht heeft ondertekend.</translation>
+        <source>Verify the message to ensure it was signed with the specified Stohn Coin address</source>
+        <translation type="unfinished">Controleer een bericht om te verifiëren dat het gespecificeerde Stohn Coin adres het bericht heeft ondertekend.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3821,7 +3821,7 @@ Ga naar Bestand &gt; Wallet openen om een wallet te laden.
     </message>
     <message>
         <source>%s request to listen on port %u. This port is considered "bad" and thus it is unlikely that any peer will connect to it. See doc/p2p-bad-ports.md for details and a full list.</source>
-        <translation type="unfinished">%s verzoekt om te luisteren op poort %u. Deze poort wordt als "slecht" beschouwd en het is daarom onwaarschijnlijk dat Bitcoin Core peers er verbinding mee maken. Zie doc/p2p-bad-ports.md voor details en een volledige lijst.</translation>
+        <translation type="unfinished">%s verzoekt om te luisteren op poort %u. Deze poort wordt als "slecht" beschouwd en het is daarom onwaarschijnlijk dat Stohn Coin Core peers er verbinding mee maken. Zie doc/p2p-bad-ports.md voor details en een volledige lijst.</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet from version %i to version %i. Wallet version unchanged.</source>

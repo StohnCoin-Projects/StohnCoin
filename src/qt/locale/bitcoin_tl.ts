@@ -58,11 +58,11 @@
         <translation type="unfinished">&amp;Pumili</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Stohn Coin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished">Ito ang mga ♦address♦ ng ♦Bitcoin♦ mo para pagpapadala ng mga bayad. Palaging suriin mo ang halaga at address kung saan tatanggap bago magpadala ka ng mga ♦coin.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Stohn Coin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Ito ang mga address ng ♦Bitcoin♦ para sa pagtanggap ng mga baya. Gamitin ang 'Create new receiving address' na button sa receive tab para gumawa ng bagong mga address. Ang pag-sign ay posible lamang sa uri ng mga address na 'legacy'.</translation>
     </message>
@@ -175,7 +175,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Ilagay ang lumang ♦passphrase♦ at ang bagong ♦passphrase♦ para sa pitaka.</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Remember that encrypting your wallet cannot fully protect your Stohn Coins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished">Tandaan na ang pag-encrypt sa iyong pitaka ay hindi ganap na mapoprotektahan ang mga ♦bitcoin♦ sa pagnanakaw ng ♦malware♦ na makakahawa sa iyong kompyuter.</translation>
     </message>
     <message>
@@ -380,7 +380,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Na-disable ang aktibidad ng ♦network♦</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a Stohn Coin address</source>
         <translation type="unfinished">Magpadala ng mga ♦coin♦ sa ♦address♦ ng Bitcoin</translation>
     </message>
     <message>
@@ -424,7 +424,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Pirmahan &amp;magmensahe...</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your Stohn Coin addresses to prove you own them</source>
         <translation type="unfinished">Tanda na mga mensahe sa mga ♦address♦ ng iyong ♦Bitcoin♦ para patunayan na pagmamay-ari mo sila</translation>
     </message>
     <message>
@@ -432,7 +432,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">&amp;Patunayan ang mensahe...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Stohn Coin addresses</source>
         <translation type="unfinished">Patunayan ang mga mensahe para matiyak na sila ay napirmahan ng may tinukoy na mga ♦Bitcoin address♦</translation>
     </message>
     <message>
@@ -547,11 +547,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">napapapanahon</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
+        <source>Load Partially Signed Stohn Coin Transaction</source>
         <translation type="unfinished">Ang ♦Load♦ ay Bahagyang Napirmahan na Transaksyon sa ♦Bitcoin♦</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction from clipboard</source>
+        <source>Load Partially Signed Stohn Coin Transaction from clipboard</source>
         <translation type="unfinished">Ang ♦Load♦ ay Bahagyang Napirmahan na Transaksyon sa ♦Bitcoin♦ mula sa ♦clipboard♦</translation>
     </message>
     <message>
@@ -591,7 +591,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Isarado ang lahat na mga pitaka</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible Stohn Coin command-line options</source>
         <translation type="unfinished">Ipakita ang %1 tumulong sa mensahe na kumuha ng listahan ng posibleng ♦Bitcoin command-line♦ na mga pagpipilian</translation>
     </message>
     <message>
@@ -636,7 +636,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">&amp;Itago</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Stohn Coin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform>%n aktibo na mga ♦connection(s)♦ sa ♦Bitcoin network♦.</numerusform>
@@ -1047,7 +1047,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">I-edit ang pagpapadalhan na ♦address♦</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid Stohn Coin address.</source>
         <translation type="unfinished">Ang naipasok na ♦address♦ "%1" ay hindi wasto na ♦Bitcoin address♦.</translation>
     </message>
     <message>

@@ -58,11 +58,11 @@
         <translation type="unfinished">ምረጥ</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Stohn Coin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished">ክፍያዎችን ለመላክ እነዚህ  የእርስዎ ቢትኮይን አድራሻዎች ናቸው። ሳንቲሞችን/ኮይኖች ከመላክዎ በፊት ሁል ጊዜ መጠኑን እና የተቀባዩን አድራሻ ያረጋግጡ።</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Stohn Coin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">እነኚህ የቢትኮይን አድራሻዎች የክፍያ መቀበያ አድራሻዎችዎ ናችው። "ተቀበል" በሚለው መደብ ውስጥ ያለውን "አዲስ የመቀበያ አድራሻ ይፍጠሩ" የሚለውን አዝራር ይጠቀሙ።
 መፈረም የሚቻለው "ሌጋሲ" በሚል ምድብ ስር በተመደቡ አድራሻዎች ብቻ ነው።</translation>
@@ -407,11 +407,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">እሳድግ</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Stohn Coin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform>%n active connection(s) to Bitcoin network.</numerusform>
-            <numerusform>%n active connection(s) to Bitcoin network.</numerusform>
+            <numerusform>%n active connection(s) to Stohn Coin network.</numerusform>
+            <numerusform>%n active connection(s) to Stohn Coin network.</numerusform>
         </translation>
     </message>
     <message>

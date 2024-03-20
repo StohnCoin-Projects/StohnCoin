@@ -60,8 +60,8 @@ Alihkan fail data ke dalam tab semasa</translation>
         <translation type="unfinished">&amp;Pilih</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Ini adalah alamat Bitcoin anda untuk pembayaran. Periksa jumlah dan alamat penerima sebelum membuat penghantaran koin sentiasa.</translation>
+        <source>These are your Stohn Coin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Ini adalah alamat Stohn Coin anda untuk pembayaran. Periksa jumlah dan alamat penerima sebelum membuat penghantaran koin sentiasa.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -136,7 +136,7 @@ Alihkan fail data ke dalam tab semasa</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Amaran: Jika anda enkripkan dompet anda dan hilangkan frasa laluan, anda akan &lt;b&gt;ANDA AKAN HILANGKAN SEMUA BITCOIN ANDA&lt;/b&gt;!</translation>
+        <translation type="unfinished">Amaran: Jika anda enkripkan dompet anda dan hilangkan frasa laluan, anda akan &lt;b&gt;ANDA AKAN HILANGKAN SEMUA Stohn Coin ANDA&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -281,7 +281,7 @@ Alihkan fail data ke dalam tab semasa</translation>
         <translation type="unfinished">Aktiviti rangkaian dilumpuhkan</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a Stohn Coin address</source>
         <translation type="unfinished">Menghantar koin kepada alamat Bitcoin</translation>
     </message>
     <message>
@@ -305,12 +305,12 @@ Alihkan fail data ke dalam tab semasa</translation>
         <translation type="unfinished">sulitkan kata laluan milik peribadi anda</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">sahkan mesej bersama alamat bitcoin anda untuk menunjukkan alamat ini anda punya</translation>
+        <source>Sign messages with your Stohn Coin addresses to prove you own them</source>
+        <translation type="unfinished">sahkan mesej bersama alamat Stohn Coin anda untuk menunjukkan alamat ini anda punya</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="unfinished">Sahkan mesej untuk memastikan mereka telah ditandatangani dengan alamat Bitcoin yang ditentukan</translation>
+        <source>Verify messages to ensure they were signed with specified Stohn Coin addresses</source>
+        <translation type="unfinished">Sahkan mesej untuk memastikan mereka telah ditandatangani dengan alamat Stohn Coin yang ditentukan</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -375,7 +375,7 @@ Alihkan fail data ke dalam tab semasa</translation>
 </translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Stohn Coin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />

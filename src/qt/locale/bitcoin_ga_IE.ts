@@ -58,13 +58,13 @@
         <translation type="unfinished">&amp;Roghnaigh</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Seo iad do sheoltaí Bitcoin chun íocaíochtaí a sheoladh. Seiceáil i gcónaí an méid agus an seoladh glactha sula seoltar boinn.</translation>
+        <source>These are your Stohn Coin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Seo iad do sheoltaí Stohn Coin chun íocaíochtaí a sheoladh. Seiceáil i gcónaí an méid agus an seoladh glactha sula seoltar boinn.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Stohn Coin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Seo iad do sheoltaí Bitcoin chun glacadh le híocaíochtaí. Úsáid an cnaipe ‘Cruthaigh seoladh glactha nua’ sa cluaisín glactha chun seoltaí nua a chruthú.
+        <translation type="unfinished">Seo iad do sheoltaí Stohn Coin chun glacadh le híocaíochtaí. Úsáid an cnaipe ‘Cruthaigh seoladh glactha nua’ sa cluaisín glactha chun seoltaí nua a chruthú.
 Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     </message>
     <message>
@@ -171,8 +171,8 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
         <translation type="unfinished">Cuir isteach an sean pasfhrása agus an pasfhrása nua don sparán.</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Cuimhnigh nach dtugann chriptiú do sparán cosaint go hiomlán do do bitcoins ó bheith goidte ag bogearraí mailíseacha atá ag ionfhabhtú do ríomhaire.</translation>
+        <source>Remember that encrypting your wallet cannot fully protect your Stohn Coins from being stolen by malware infecting your computer.</source>
+        <translation type="unfinished">Cuimhnigh nach dtugann chriptiú do sparán cosaint go hiomlán do do Stohn Coins ó bheith goidte ag bogearraí mailíseacha atá ag ionfhabhtú do ríomhaire.</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -252,8 +252,8 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
         <translation type="unfinished">Suim</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation type="unfinished">Iontráil seoladh Bitcoin (m.sh.%1)</translation>
+        <source>Enter a Stohn Coin address (e.g. %1)</source>
+        <translation type="unfinished">Iontráil seoladh Stohn Coin (m.sh.%1)</translation>
     </message>
     <message>
         <source>Inbound</source>
@@ -394,7 +394,7 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
         <translation type="unfinished">Seachfhreastalaí &lt;b&gt;cumasaithe&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a Stohn Coin address</source>
         <translation type="unfinished">Seol boinn chuig seoladh Bitcoin</translation>
     </message>
     <message>
@@ -418,11 +418,11 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
         <translation type="unfinished">Criptigh na heochracha príobháideacha a bhaineann le do sparán</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">Sínigh teachtaireachtaí le do sheoltaí Bitcoin chun a chruthú gur leat iad</translation>
+        <source>Sign messages with your Stohn Coin addresses to prove you own them</source>
+        <translation type="unfinished">Sínigh teachtaireachtaí le do sheoltaí Stohn Coin chun a chruthú gur leat iad</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Stohn Coin addresses</source>
         <translation type="unfinished">Teachtaireachtaí a fhíorú lena chinntiú go raibh siad sínithe le seoltaí sainithe Bitcoin</translation>
     </message>
     <message>
@@ -494,12 +494,12 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
         <translation type="unfinished">Suas chun dáta</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
-        <translation type="unfinished">Lódáil Idirbheart Bitcoin Sínithe go Páirteach</translation>
+        <source>Load Partially Signed Stohn Coin Transaction</source>
+        <translation type="unfinished">Lódáil Idirbheart Stohn Coin Sínithe go Páirteach</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction from clipboard</source>
-        <translation type="unfinished">Lódáil Idirbheart Bitcoin Sínithe go Páirteach ón gearrthaisce</translation>
+        <source>Load Partially Signed Stohn Coin Transaction from clipboard</source>
+        <translation type="unfinished">Lódáil Idirbheart Stohn Coin Sínithe go Páirteach ón gearrthaisce</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -538,8 +538,8 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
         <translation type="unfinished">Dún gach sparán</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation type="unfinished">Taispeáin an %1 teachtaireacht chabhrach chun liosta a fháil de roghanna Bitcoin líne na n-orduithe féideartha</translation>
+        <source>Show the %1 help message to get a list with possible Stohn Coin command-line options</source>
+        <translation type="unfinished">Taispeáin an %1 teachtaireacht chabhrach chun liosta a fháil de roghanna Stohn Coin líne na n-orduithe féideartha</translation>
     </message>
     <message>
         <source>&amp;Mask values</source>
@@ -579,7 +579,7 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
         <translation type="unfinished">%1 cliaint</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Stohn Coin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -1011,7 +1011,7 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
         </translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
+        <source>%1 will download and store a copy of the Stohn Coin block chain.</source>
         <translation type="unfinished">Íoslódáileafar %1 and stórálfaidh cóip de bhlocshlabhra Bitcoin.</translation>
     </message>
     <message>
@@ -1088,12 +1088,12 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
         <translation type="unfinished">Foirm</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Stohn Coin network, as detailed below.</source>
         <translation type="unfinished">B’fhéidir nach mbeidh idirbhearta dheireanacha le feiceáil fós, agus dá bhrí sin d’fhéadfadh go mbeadh iarmhéid do sparán mícheart. Beidh an faisnéis seo ceart nuair a bheidh do sparán críochnaithe ag sioncrónú leis an líonra bitcoin, mar atá luaite thíos.</translation>
     </message>
     <message>
         <source>Attempting to spend stohn coins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation type="unfinished">Ní ghlacfaidh an líonra le hiarrachtí bitcoins a chaitheamh a mbaineann le hidirbhearta nach bhfuil ar taispeáint go fóill.</translation>
+        <translation type="unfinished">Ní ghlacfaidh an líonra le hiarrachtí Stohn Coins a chaitheamh a mbaineann le hidirbhearta nach bhfuil ar taispeáint go fóill.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1127,7 +1127,7 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
 <context>
     <name>OpenURIDialog</name>
     <message>
-        <source>Open bitcoin URI</source>
+        <source>Open Stohn Coin URI</source>
         <translation type="unfinished">Oscail URI bitcoin</translation>
     </message>
     <message>
@@ -1227,8 +1227,8 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
         <translation type="unfinished">Caith &amp;sóinseáil neamhdheimhnithe</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Oscail port cliant Bitcoin go huathoibríoch ar an ródaire. Ní oibríonn sé seo ach nuair a thacaíonn do ródaire le UPnP agus nuair a chumasaítear é.</translation>
+        <source>Automatically open the Stohn Coin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Oscail port cliant Stohn Coin go huathoibríoch ar an ródaire. Ní oibríonn sé seo ach nuair a thacaíonn do ródaire le UPnP agus nuair a chumasaítear é.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1243,8 +1243,8 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
         <translation type="unfinished">Ceadai&amp;gh naisc isteach</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation type="unfinished">Ceangail leis an líonra Bitcoin trí sheachfhreastalaí SOCKS5.</translation>
+        <source>Connect to the Stohn Coin network through a SOCKS5 proxy.</source>
+        <translation type="unfinished">Ceangail leis an líonra Stohn Coin trí sheachfhreastalaí SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1303,8 +1303,8 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
         <translation type="unfinished">Gnéithe rialúchán bonn a thaispeáint nó nach.</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
-        <translation type="unfinished">Ceangail le líonra Bitcoin trí seachfhreastalaí SOCKS5 ar leith do sheirbhísí Tor oinniún.</translation>
+        <source>Connect to the Stohn Coin network through a separate SOCKS5 proxy for Tor onion services.</source>
+        <translation type="unfinished">Ceangail le líonra Stohn Coin trí seachfhreastalaí SOCKS5 ar leith do sheirbhísí Tor oinniún.</translation>
     </message>
     <message>
         <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor onion services:</source>
@@ -1379,8 +1379,8 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
         <translation type="unfinished">Foirm</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Féadfaidh an fhaisnéis a thaispeántar a bheith as dáta. Déanann do sparán sioncrónú go huathoibríoch leis an líonra Bitcoin tar éis nasc a bhunú, ach níl an próiseas seo críochnaithe fós.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Stohn Coin network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">Féadfaidh an fhaisnéis a thaispeántar a bheith as dáta. Déanann do sparán sioncrónú go huathoibríoch leis an líonra Stohn Coin tar éis nasc a bhunú, ach níl an próiseas seo críochnaithe fós.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1574,7 +1574,7 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     </message>
     <message>
         <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation type="unfinished">Ní féidir bitcoin a thosú: láimhseálaí cliceáil-chun-íoc</translation>
+        <translation type="unfinished">Ní féidir Stohn Coin a thosú: láimhseálaí cliceáil-chun-íoc</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1585,8 +1585,8 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
         <translation type="unfinished">Ní URI bailí é 'bitcoin://'. Úsáid 'bitcoin:' ina ionad.</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation type="unfinished">Ní féidir URI a pharsáil! Is féidir le seoladh neamhbhailí Bitcoin nó paraiméadair URI drochfhoirmithe a bheith mar an chúis.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Stohn Coin address or malformed URI parameters.</source>
+        <translation type="unfinished">Ní féidir URI a pharsáil! Is féidir le seoladh neamhbhailí Stohn Coin nó paraiméadair URI drochfhoirmithe a bheith mar an chúis.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1962,7 +1962,7 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
         <translation type="unfinished">&amp;Teachtaireacht</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Stohn Coin network.</source>
         <translation type="unfinished">Teachtaireacht roghnach le ceangal leis an iarratas íocaíocht, a thaispeánfar nuair a osclaítear an iarraidh. Nóta: Ní sheolfar an teachtaireacht leis an íocaíocht thar líonra Bitcoin.</translation>
     </message>
     <message>
@@ -2195,8 +2195,8 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
         <translation type="unfinished">Folaigh socruithe táillí idirbhirt</translation>
     </message>
     <message>
-        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
-        <translation type="unfinished">Nuair a bhíonn méid idirbhirt níos lú ná spás sna bloic, féadfaidh mianadóirí chomh maith le nóid athsheachadadh táille íosta a fhorfheidhmiú. Tá sé sách maith an táille íosta seo a íoc, ach bíodh a fhios agat go bhféadfadh idirbheart nach ndeimhnítear riamh a bheith mar thoradh air seo a nuair a bhíonn níos mó éilimh ar idirbhearta bitcoin ná mar is féidir leis an líonra a phróiseáil.</translation>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for Stohn Coin transactions than the network can process.</source>
+        <translation type="unfinished">Nuair a bhíonn méid idirbhirt níos lú ná spás sna bloic, féadfaidh mianadóirí chomh maith le nóid athsheachadadh táille íosta a fhorfheidhmiú. Tá sé sách maith an táille íosta seo a íoc, ach bíodh a fhios agat go bhféadfadh idirbheart nach ndeimhnítear riamh a bheith mar thoradh air seo a nuair a bhíonn níos mó éilimh ar idirbhearta Stohn Coin ná mar is féidir leis an líonra a phróiseáil.</translation>
     </message>
     <message>
         <source>A too low fee might result in a never confirming transaction (read the tooltip)</source>
@@ -2263,8 +2263,8 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
         <translation type="unfinished">Cruthaigh Gan Sín</translation>
     </message>
     <message>
-        <source>Creates a Partially Signed Bitcoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
-        <translation type="unfinished">Cruthaíonn Idirbheart Bitcoin Sínithe go Páirteach (IBSP) le húsáid le e.g. sparán as líne %1, nó sparán crua-earraí atá comhoiriúnach le IBSP.</translation>
+        <source>Creates a Partially Signed Stohn Coin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <translation type="unfinished">Cruthaíonn Idirbheart Stohn Coin Sínithe go Páirteach (IBSP) le húsáid le e.g. sparán as líne %1, nó sparán crua-earraí atá comhoiriúnach le IBSP.</translation>
     </message>
     <message>
         <source> from wallet '%1'</source>
@@ -2296,9 +2296,9 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
         <translation type="unfinished">Féadfaidh tú an táille a mhéadú níos déanaí (comhartha chuig Athchuir-Le-Táille, BIP-125).</translation>
     </message>
     <message>
-        <source>Please, review your transaction proposal. This will produce a Partially Signed Bitcoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source>Please, review your transaction proposal. This will produce a Partially Signed Stohn Coin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can only create a PSBT. This string is displayed when private keys are disabled and an external signer is not available.</extracomment>
-        <translation type="unfinished">Le do thoil, déan athbhreithniú ar do thogra idirbhirt. Tabharfaidh sé seo Idirbheart Bitcoin Sínithe go Páirteach (IBSP) ar féidir leat a shábháil nó a chóipeáil agus a shíniú ansin le m.sh. sparán as líne %1, nó sparán crua-earraí atá comhoiriúnach le IBSP.</translation>
+        <translation type="unfinished">Le do thoil, déan athbhreithniú ar do thogra idirbhirt. Tabharfaidh sé seo Idirbheart Stohn Coin Sínithe go Páirteach (IBSP) ar féidir leat a shábháil nó a chóipeáil agus a shíniú ansin le m.sh. sparán as líne %1, nó sparán crua-earraí atá comhoiriúnach le IBSP.</translation>
     </message>
     <message>
         <source>Please, review your transaction.</source>
@@ -2362,7 +2362,7 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
         </translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid Stohn Coin address</source>
         <translation type="unfinished">Rabhadh: Seoladh neamhbhailí Bitcoin</translation>
     </message>
     <message>
@@ -2401,8 +2401,8 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
         <translation type="unfinished">Roghnaigh seoladh a úsáideadh roimhe seo</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation type="unfinished">Seoladh Bitcoin chun an íocaíocht a sheoladh chuig</translation>
+        <source>The Stohn Coin address to send the payment to</source>
+        <translation type="unfinished">Seoladh Stohn Coin chun an íocaíocht a sheoladh chuig</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -2417,8 +2417,8 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
         <translation type="unfinished">An méid atá le seoladh san aonad roghnaithe</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation type="unfinished">Bainfear an táille ón méid a sheolfar. Gheobhaidh an faighteoir níos lú bitcoins ná mar a iontrálann tú sa réimse méid. Má roghnaítear faighteoirí iolracha, roinntear an táille go cothrom.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less Stohn Coins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation type="unfinished">Bainfear an táille ón méid a sheolfar. Gheobhaidh an faighteoir níos lú Stohn Coins ná mar a iontrálann tú sa réimse méid. Má roghnaítear faighteoirí iolracha, roinntear an táille go cothrom.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2437,7 +2437,7 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
         <translation type="unfinished">Iontráil lipéad don seoladh seo chun é a chur le liosta na seoltaí úsáidte</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Stohn Coin network.</source>
         <translation type="unfinished">Teachtaireacht a bhí ceangailte leis an bitcoin: URI a stórálfar leis an idirbheart le haghaidh do thagairt. Nóta: Ní sheolfar an teachtaireacht seo thar líonra Bitcoin.</translation>
     </message>
 </context>
@@ -2463,12 +2463,12 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
         <translation type="unfinished">&amp;Sínigh Teachtaireacht</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation type="unfinished">Féadfaidh tú teachtaireachtaí / comhaontuithe a shíniú le do sheoltaí chun a chruthú gur féidir leat bitcoins a sheoltear chucu a fháil. Bí cúramach gan aon rud doiléir nó randamach a shíniú, mar d’fhéadfadh ionsaithe fioscaireachta iarracht ar d’aitheantas a shíniú chucu. Ná sínigh ach ráitis lán-mhionsonraithe a aontaíonn tú leo.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive Stohn Coins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation type="unfinished">Féadfaidh tú teachtaireachtaí / comhaontuithe a shíniú le do sheoltaí chun a chruthú gur féidir leat Stohn Coins a sheoltear chucu a fháil. Bí cúramach gan aon rud doiléir nó randamach a shíniú, mar d’fhéadfadh ionsaithe fioscaireachta iarracht ar d’aitheantas a shíniú chucu. Ná sínigh ach ráitis lán-mhionsonraithe a aontaíonn tú leo.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation type="unfinished">An seoladh Bitcoin chun an teachtaireacht a shíniú le</translation>
+        <source>The Stohn Coin address to sign the message with</source>
+        <translation type="unfinished">An seoladh Stohn Coin chun an teachtaireacht a shíniú le</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2491,8 +2491,8 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
         <translation type="unfinished">Cóipeáil an síniú reatha chuig gearrthaisce an chórais</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation type="unfinished">Sínigh an teachtaireacht chun a chruthú gur leat an seoladh Bitcoin seo</translation>
+        <source>Sign the message to prove you own this Stohn Coin address</source>
+        <translation type="unfinished">Sínigh an teachtaireacht chun a chruthú gur leat an seoladh Stohn Coin seo</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2515,8 +2515,8 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
         <translation type="unfinished">Cuir isteach seoladh an ghlacadóra, teachtaireacht  (déan cinnte go gcóipeálann tú bristeacha líne, spásanna, táib, srl. go díreach) agus sínigh thíos chun an teachtaireacht a fhíorú. Bí cúramach gan níos mó a léamh isteach sa síniú ná mar atá sa teachtaireacht sínithe féin, ionas nach dtarlóidh ionsaí socadáin duit. Tabhair faoi deara nach gcruthóidh sé seo ach go bhfaigheann an páirtí sínithe leis an seoladh, ní féidir leis seolta aon idirbhirt a chruthú!</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation type="unfinished">An seoladh Bitcoin a síníodh an teachtaireacht leis</translation>
+        <source>The Stohn Coin address the message was signed with</source>
+        <translation type="unfinished">An seoladh Stohn Coin a síníodh an teachtaireacht leis</translation>
     </message>
     <message>
         <source>The signed message to verify</source>
@@ -2527,8 +2527,8 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
         <translation type="unfinished">An síniú a tugadh nuair a síníodh an teachtaireacht</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation type="unfinished">Fíoraigh an teachtaireacht lena chinntiú go raibh sí sínithe leis an seoladh Bitcoin sainithe </translation>
+        <source>Verify the message to ensure it was signed with the specified Stohn Coin address</source>
+        <translation type="unfinished">Fíoraigh an teachtaireacht lena chinntiú go raibh sí sínithe leis an seoladh Stohn Coin sainithe </translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>

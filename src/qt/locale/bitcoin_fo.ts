@@ -72,8 +72,8 @@
         <translation type="unfinished">Upphædd</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation type="unfinished">Inntøppa eina Bitcoin adressu (t.d. %1)</translation>
+        <source>Enter a Stohn Coin address (e.g. %1)</source>
+        <translation type="unfinished">Inntøppa eina Stohn Coin adressu (t.d. %1)</translation>
     </message>
     <message>
         <source>Ctrl+W</source>
@@ -180,7 +180,7 @@
         <translation type="unfinished">&amp;Undirskriva  boðini</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your Stohn Coin addresses to prove you own them</source>
         <translation type="unfinished">Undirskriva boðini við tíni Bitcoin-adressu til tess at prógva at tey eru tíni</translation>
     </message>
     <message>
@@ -231,11 +231,11 @@
         <translation type="unfinished">%1 viðskiftari</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Stohn Coin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform>%n virkið samband til Bitcoin netið.</numerusform>
-            <numerusform>%n virkin sambond til Bitcoin netið.</numerusform>
+            <numerusform>%n virkið samband til Stohn Coin netið.</numerusform>
+            <numerusform>%n virkin sambond til Stohn Coin netið.</numerusform>
         </translation>
     </message>
     <message>
@@ -485,11 +485,11 @@
         <translation type="unfinished">&amp;Endurstilla stillingar</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Stohn Coin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished">Sjálvvirkandi upplating av Bicoin viðskiftara porturinum á beinaranum. Hetta virkar bert um UPnP er virkja í beinaranum, á netinum tú brúkar.</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
+        <source>Automatically open the Stohn Coin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
         <translation type="unfinished">Sjálvvirkandi upplating av Bicoin viðskiftara porturinum á beinaranum. Hetta virkar bert um NAT-PMP er virkja í beinaranum, á netinum tú brúkar. Ytra porturnummari kann vera tilvildarligt.</translation>
     </message>
     <message>
@@ -946,8 +946,8 @@
         </translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation type="unfinished">Ávaring: Ógildig Bitcoin adressa</translation>
+        <source>Warning: Invalid Stohn Coin address</source>
+        <translation type="unfinished">Ávaring: Ógildig Stohn Coin adressa</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -996,11 +996,11 @@
         <translation type="unfinished">&amp;Undirrita Boð</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation type="unfinished">Tú kann skriva undir boð/sáttmálar við tínum adressum, fyri at prógva at tú kanst móttaka bitcoin sendar til tær. Ver ansin so tú ikki skrivar undir nakað ógreitt ella tilvildarligt, tí fysking-álop kunnu royna at snýta teg til at latað tín samleika til tey. Undirrita einans nágreiniligar útsagnir ið tú tekur undir við.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive Stohn Coins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation type="unfinished">Tú kann skriva undir boð/sáttmálar við tínum adressum, fyri at prógva at tú kanst móttaka Stohn Coin sendar til tær. Ver ansin so tú ikki skrivar undir nakað ógreitt ella tilvildarligt, tí fysking-álop kunnu royna at snýta teg til at latað tín samleika til tey. Undirrita einans nágreiniligar útsagnir ið tú tekur undir við.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
+        <source>The Stohn Coin address to sign the message with</source>
         <translation type="unfinished">Bitcoin adressan at undirskriva boðini við</translation>
     </message>
     <message>
@@ -1024,7 +1024,7 @@
         <translation type="unfinished">Undirskrift</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this Stohn Coin address</source>
         <translation type="unfinished">Undirskriva boðini fyri at prógva at Bitcoin-adressan er tín</translation>
     </message>
     <message>
@@ -1036,7 +1036,7 @@
         <translation type="unfinished">Tómstilla &amp;alt</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
+        <source>The Stohn Coin address the message was signed with</source>
         <translation type="unfinished">Bitcoin-adressan ið undirskrivaði boðini</translation>
     </message>
     <message>

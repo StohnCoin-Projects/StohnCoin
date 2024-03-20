@@ -58,13 +58,13 @@
         <translation type="unfinished">Escoger</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Estas son tus direcciones Bitcoin para realizar pagos. Verifica siempre el monto y la dirección de recepción antes de enviar monedas. </translation>
+        <source>These are your Stohn Coin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Estas son tus direcciones Stohn Coin para realizar pagos. Verifica siempre el monto y la dirección de recepción antes de enviar monedas. </translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Stohn Coin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Estas son tus direcciones de Bitcoin para recibir pagos. Utilice el botón 'Crear nueva dirección de recepción' en la pestaña Recibir para crear nuevas direcciones. La firma solo es posible con direcciones del tipo 'legacy'</translation>
+        <translation type="unfinished">Estas son tus direcciones de Stohn Coin para recibir pagos. Utilice el botón 'Crear nueva dirección de recepción' en la pestaña Recibir para crear nuevas direcciones. La firma solo es posible con direcciones del tipo 'legacy'</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -181,8 +181,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Ingrese la frase de contraseña antigua y la nueva frase de contraseña para la billetera</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Recuerda que cifrar tu billetera no puede proteger completamente tus bitcoins de ser robados por malware que infecte tu computadora.</translation>
+        <source>Remember that encrypting your wallet cannot fully protect your Stohn Coins from being stolen by malware infecting your computer.</source>
+        <translation type="unfinished">Recuerda que cifrar tu billetera no puede proteger completamente tus Stohn Coins de ser robados por malware que infecte tu computadora.</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -296,8 +296,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Monto</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation type="unfinished">Ingresa una dirección de Bitcoin (Ejemplo: %1)</translation>
+        <source>Enter a Stohn Coin address (e.g. %1)</source>
+        <translation type="unfinished">Ingresa una dirección de Stohn Coin (Ejemplo: %1)</translation>
     </message>
     <message>
         <source>Unroutable</source>
@@ -426,7 +426,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Minimizar</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a Stohn Coin address</source>
         <translation type="unfinished">Enviar monedas a una dirección Bitcoin</translation>
     </message>
     <message>
@@ -458,12 +458,12 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">&amp;Cambiar frase de contraseña...</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">Firma mensajes con tus direcciones Bitcoin para probar que eres dueño de ellas</translation>
+        <source>Sign messages with your Stohn Coin addresses to prove you own them</source>
+        <translation type="unfinished">Firma mensajes con tus direcciones Stohn Coin para probar que eres dueño de ellas</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="unfinished">Verificar mensajes para asegurar que estaban firmados con direcciones Bitcoin especificas</translation>
+        <source>Verify messages to ensure they were signed with specified Stohn Coin addresses</source>
+        <translation type="unfinished">Verificar mensajes para asegurar que estaban firmados con direcciones Stohn Coin especificas</translation>
     </message>
     <message>
         <source>&amp;Load PSBT from file…</source>
@@ -573,16 +573,16 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Al día</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
-        <translation type="unfinished">Cargar transacción de Bitcoin parcialmente firmada</translation>
+        <source>Load Partially Signed Stohn Coin Transaction</source>
+        <translation type="unfinished">Cargar transacción de Stohn Coin parcialmente firmada</translation>
     </message>
     <message>
         <source>Load PSBT from &amp;clipboard…</source>
         <translation type="unfinished">Cargar PSBT desde el &amp;portapapeles...</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction from clipboard</source>
-        <translation type="unfinished">Cargar una transacción de Bitcoin parcialmente firmada desde el portapapeles</translation>
+        <source>Load Partially Signed Stohn Coin Transaction from clipboard</source>
+        <translation type="unfinished">Cargar una transacción de Stohn Coin parcialmente firmada desde el portapapeles</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -683,11 +683,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">M&amp;ostrar</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Stohn Coin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform>%n conexiones activas con la red Bitcoin</numerusform>
-            <numerusform>%n conexiones activas con la red Bitcoin </numerusform>
+            <numerusform>%n conexiones activas con la red Stohn Coin </numerusform>
         </translation>
     </message>
     <message>
@@ -1172,8 +1172,8 @@ El proceso de migración creará una copia de seguridad de la billetera antes de
         <translation type="unfinished">Editar dirección de envío</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation type="unfinished">La dirección introducida "%1" no es una dirección Bitcoin válida.</translation>
+        <source>The entered address "%1" is not a valid Stohn Coin address.</source>
+        <translation type="unfinished">La dirección introducida "%1" no es una dirección Stohn Coin válida.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -1247,7 +1247,7 @@ El proceso de migración creará una copia de seguridad de la billetera antes de
         </translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
+        <source>%1 will download and store a copy of the Stohn Coin block chain.</source>
         <translation type="unfinished">%1 descargará y almacenará una copia de la cadena de bloques de Bitcoin.</translation>
     </message>
     <message>
@@ -1313,7 +1313,7 @@ El proceso de migración creará una copia de seguridad de la billetera antes de
         <translation type="unfinished">Desde</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Stohn Coin network, as detailed below.</source>
         <translation type="unfinished">Es posible que las transacciones recientes aún no estén visibles y por lo tanto, el saldo de su monedero podría ser incorrecto. Esta información será correcta una vez que su monedero haya terminado de sincronizarse con la red bitcoin, como se detalla a continuación.</translation>
     </message>
     <message>
@@ -1348,7 +1348,7 @@ El proceso de migración creará una copia de seguridad de la billetera antes de
 <context>
     <name>OpenURIDialog</name>
     <message>
-        <source>Open bitcoin URI</source>
+        <source>Open Stohn Coin URI</source>
         <translation type="unfinished">Abrir URI de bitcoin</translation>
     </message>
     <message>
@@ -1488,16 +1488,16 @@ El proceso de migración creará una copia de seguridad de la billetera antes de
         <translation type="unfinished">&amp;Ruta al script del firmante externo</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Abrir automáticamente el puerto del cliente Bitcoin en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
+        <source>Automatically open the Stohn Coin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Abrir automáticamente el puerto del cliente Stohn Coin en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation type="unfinished">Mapear el puerto usando &amp;UPnP</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
-        <translation type="unfinished">Abrir automáticamente el puerto del cliente de Bitcoin en el router. Esto solo funciona cuando el router es compatible con NAT-PMP y está activo. El puerto externo podría ser aleatorio</translation>
+        <source>Automatically open the Stohn Coin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
+        <translation type="unfinished">Abrir automáticamente el puerto del cliente de Stohn Coin en el router. Esto solo funciona cuando el router es compatible con NAT-PMP y está activo. El puerto externo podría ser aleatorio</translation>
     </message>
     <message>
         <source>Map port using NA&amp;T-PMP</source>
@@ -1508,8 +1508,8 @@ El proceso de migración creará una copia de seguridad de la billetera antes de
         <translation type="unfinished">Permitir conexiones entrantes</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation type="unfinished">Conectar a la red de Bitcoin a través de un proxy SOCKS5.</translation>
+        <source>Connect to the Stohn Coin network through a SOCKS5 proxy.</source>
+        <translation type="unfinished">Conectar a la red de Stohn Coin a través de un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1584,8 +1584,8 @@ El proceso de migración creará una copia de seguridad de la billetera antes de
         <translation type="unfinished">Mostrar o no características de control de moneda</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
-        <translation type="unfinished">Conectarse a la red Bitcoin a través de un proxy SOCKS5 independiente para los servicios onion de Tor.</translation>
+        <source>Connect to the Stohn Coin network through a separate SOCKS5 proxy for Tor onion services.</source>
+        <translation type="unfinished">Conectarse a la red Stohn Coin a través de un proxy SOCKS5 independiente para los servicios onion de Tor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor onion services:</source>
@@ -1689,8 +1689,8 @@ El proceso de migración creará una copia de seguridad de la billetera antes de
         <translation type="unfinished">Desde</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Bitcoin después de que se haya establecido una conexión, pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Stohn Coin network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Stohn Coin después de que se haya establecido una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -2426,7 +2426,7 @@ Escribe %5 para ver un resumen de los comandos disponibles. Para más informaci�
         <translation type="unfinished">Mensaje:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Stohn Coin network.</source>
         <translation type="unfinished">Mensaje opcional adjunto a la solicitud de pago, que será mostrado cuando la solicitud sea abierta. Nota: Este mensaje no será enviado con el pago a través de la red Bitcoin.</translation>
     </message>
     <message>
@@ -2699,8 +2699,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
 Nota: Dado que la comisión se calcula por byte, una tasa de "100 satoshis por kvB" para una transacción de 500 bytes virtuales (la mitad de 1 kvB) produciría, en última instancia, una comisión de solo 50 satoshis.</translation>
     </message>
     <message>
-        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
-        <translation type="unfinished">Cuando hay menos volumen de transacciones que espacio en los bloques, los mineros y los nodos de retransmisión pueden aplicar una comisión mínima. Está bien pagar solo esta comisión mínima, pero ten en cuenta que esto puede ocasionar que una transacción nunca se confirme una vez que haya más demanda de transacciones de Bitcoin de la que puede procesar la red.</translation>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for Stohn Coin transactions than the network can process.</source>
+        <translation type="unfinished">Cuando hay menos volumen de transacciones que espacio en los bloques, los mineros y los nodos de retransmisión pueden aplicar una comisión mínima. Está bien pagar solo esta comisión mínima, pero ten en cuenta que esto puede ocasionar que una transacción nunca se confirme una vez que haya más demanda de transacciones de Stohn Coin de la que puede procesar la red.</translation>
     </message>
     <message>
         <source>A too low fee might result in a never confirming transaction (read the tooltip)</source>
@@ -2769,8 +2769,8 @@ Nota: Dado que la comisión se calcula por byte, una tasa de "100 satoshis por k
         <translation type="unfinished">Configura una ruta externa al script en Opciones -&gt; Monedero</translation>
     </message>
     <message>
-        <source>Creates a Partially Signed Bitcoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
-        <translation type="unfinished">Crea una transacción de Bitcoin parcialmente firmada (PSBT) para usarla, por ejemplo, con una billetera %1 sin conexión o una billetera de hardware compatible con PSBT.</translation>
+        <source>Creates a Partially Signed Stohn Coin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <translation type="unfinished">Crea una transacción de Stohn Coin parcialmente firmada (PSBT) para usarla, por ejemplo, con una billetera %1 sin conexión o una billetera de hardware compatible con PSBT.</translation>
     </message>
     <message>
         <source> from wallet '%1'</source>
@@ -2830,9 +2830,9 @@ Nota: Dado que la comisión se calcula por byte, una tasa de "100 satoshis por k
         <translation type="unfinished">¿Quieres crear esta transacción?</translation>
     </message>
     <message>
-        <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Bitcoin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Stohn Coin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can send their transaction or create a PSBT. This string is displayed when both private keys and PSBT controls are enabled.</extracomment>
-        <translation type="unfinished">Revisa por favor la transacción. Puedes crear y enviar esta transacción de Bitcoin parcialmente firmada (PSBT), que además puedes guardar o copiar y, luego, firmar; por ejemplo, una billetera %1 sin conexión o una billetera de hardware compatible con PSBT.</translation>
+        <translation type="unfinished">Revisa por favor la transacción. Puedes crear y enviar esta transacción de Stohn Coin parcialmente firmada (PSBT), que además puedes guardar o copiar y, luego, firmar; por ejemplo, una billetera %1 sin conexión o una billetera de hardware compatible con PSBT.</translation>
     </message>
     <message>
         <source>Please, review your transaction.</source>
@@ -2909,12 +2909,12 @@ Nota: Dado que la comisión se calcula por byte, una tasa de "100 satoshis por k
         </translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation type="unfinished">Alerta: Dirección de Bitcoin inválida</translation>
+        <source>Warning: Invalid Stohn Coin address</source>
+        <translation type="unfinished">Alerta: Dirección de Stohn Coin inválida</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
-        <translation type="unfinished">Alerta: Dirección de Bitcoin inválida</translation>
+        <translation type="unfinished">Alerta: Dirección de Stohn Coin inválida</translation>
     </message>
     <message>
         <source>Confirm custom change address</source>
@@ -2948,8 +2948,8 @@ Nota: Dado que la comisión se calcula por byte, una tasa de "100 satoshis por k
         <translation type="unfinished">Escoger dirección previamente usada</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation type="unfinished">Dirección Bitcoin a la que se enviará el pago</translation>
+        <source>The Stohn Coin address to send the payment to</source>
+        <translation type="unfinished">Dirección Stohn Coin a la que se enviará el pago</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -2976,7 +2976,7 @@ Nota: Dado que la comisión se calcula por byte, una tasa de "100 satoshis por k
         <translation type="unfinished">Introduce una etiqueta para esta dirección para añadirla a la lista de direcciones utilizadas</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Stohn Coin network.</source>
         <translation type="unfinished">Mensaje que se agrgará al URI de Bitcoin, el cuál será almacenado con la transacción para su referencia. Nota: Este mensaje no será enviado a través de la red de Bitcoin.</translation>
     </message>
 </context>
@@ -3002,12 +3002,12 @@ Nota: Dado que la comisión se calcula por byte, una tasa de "100 satoshis por k
         <translation type="unfinished">&amp;Firmar mensaje</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive Stohn Coins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation type="unfinished">Puedes firmar los mensajes con tus direcciones para demostrar que las posees. Ten cuidado de no firmar cualquier cosa vaga, ya que los ataques de phishing pueden tratar de engañarte firmando tu identidad a través de ellos. Firma solo declaraciones totalmente detalladas con las que estés de acuerdo.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation type="unfinished">La dirección Bitcoin con la que se firmó el mensaje</translation>
+        <source>The Stohn Coin address to sign the message with</source>
+        <translation type="unfinished">La dirección Stohn Coin con la que se firmó el mensaje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3030,7 +3030,7 @@ Nota: Dado que la comisión se calcula por byte, una tasa de "100 satoshis por k
         <translation type="unfinished">Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this Stohn Coin address</source>
         <translation type="unfinished">Firmar el mensaje para demostrar que se posee esta dirección Bitcoin</translation>
     </message>
     <message>
@@ -3050,8 +3050,8 @@ Nota: Dado que la comisión se calcula por byte, una tasa de "100 satoshis por k
         <translation type="unfinished">&amp;Verificar mensaje</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation type="unfinished">La dirección Bitcoin con la que se firmó el mensaje</translation>
+        <source>The Stohn Coin address the message was signed with</source>
+        <translation type="unfinished">La dirección Stohn Coin con la que se firmó el mensaje</translation>
     </message>
     <message>
         <source>The signed message to verify</source>
@@ -3062,8 +3062,8 @@ Nota: Dado que la comisión se calcula por byte, una tasa de "100 satoshis por k
         <translation type="unfinished">La firma proporcionada cuando el mensaje fue firmado</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation type="unfinished">Verificar el mensaje para comprobar que fue firmado con la dirección Bitcoin indicada</translation>
+        <source>Verify the message to ensure it was signed with the specified Stohn Coin address</source>
+        <translation type="unfinished">Verificar el mensaje para comprobar que fue firmado con la dirección Stohn Coin indicada</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3671,7 +3671,7 @@ Ir a Archivo &gt; Abrir billetera para cargar una.
     </message>
     <message>
         <source>%s corrupt. Try using the wallet tool bitcoin-wallet to salvage or restoring a backup.</source>
-        <translation type="unfinished">%s corrupto. Intenta utilizar la herramienta de la billetera de bitcoin para rescatar o restaurar una copia de seguridad.</translation>
+        <translation type="unfinished">%s corrupto. Intenta utilizar la herramienta de la billetera de Stohn Coin para rescatar o restaurar una copia de seguridad.</translation>
     </message>
     <message>
         <source>%s failed to validate the -assumeutxo snapshot state. This indicates a hardware problem, or a bug in the software, or a bad software modification that allowed an invalid snapshot to be loaded. As a result of this, the node will shut down and stop using any state that was built on the snapshot, resetting the chain height from %d to %d. On the next restart, the node will resume syncing from %d without using any snapshot data. Please report this incident to %s, including how you obtained the snapshot. The invalid snapshot chainstate will be left on disk in case it is helpful in diagnosing the issue that caused this error.</source>
@@ -3715,7 +3715,7 @@ Ir a Archivo &gt; Abrir billetera para cargar una.
     </message>
     <message>
         <source>Error: Dumpfile version is not supported. This version of bitcoin-wallet only supports version 1 dumpfiles. Got dumpfile with version %s</source>
-        <translation type="unfinished">Error: la versión del archivo volcado no es compatible. Esta versión de la billetera de bitcoin solo admite archivos de volcado de la versión 1. Se obtuvo un archivo de volcado con la versión %s</translation>
+        <translation type="unfinished">Error: la versión del archivo volcado no es compatible. Esta versión de la billetera de Stohn Coin solo admite archivos de volcado de la versión 1. Se obtuvo un archivo de volcado con la versión %s</translation>
     </message>
     <message>
         <source>Error: Legacy wallets only support the "legacy", "p2sh-segwit", and "bech32" address types</source>

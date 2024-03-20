@@ -47,24 +47,24 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation type="unfinished">Vælg adresse at sende bitcoins til</translation>
+        <translation type="unfinished">Vælg adresse at sende Stohn Coins til</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation type="unfinished">Vælg adresse at modtage bitcoins med</translation>
+        <translation type="unfinished">Vælg adresse at modtage Stohn Coins med</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
         <translation type="unfinished">&amp;Vælg</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Stohn Coin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished">Disse er dine Bitcoin-adresser til afsendelse af betalinger. Tjek altid beløb og modtagelsesadresse, inden du sender bitcoins.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Stohn Coin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Disse er dine Bitcoin adresser til at modtage betalinger. Benyt 'Opret ny modtager adresse' knappen i modtag fanen for at oprette nye adresser.</translation>
+        <translation type="unfinished">Disse er dine Stohn Coin adresser til at modtage betalinger. Benyt 'Opret ny modtager adresse' knappen i modtag fanen for at oprette nye adresser.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -175,8 +175,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Indtast den gamle adgangskode og en ny adgangskode til tegnebogen.</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Husk, at kryptere din tegnebog vil ikke fuldt ud beskytte dine bitcoins mod at blive stjålet af malware på din computer.</translation>
+        <source>Remember that encrypting your wallet cannot fully protect your Stohn Coins from being stolen by malware infecting your computer.</source>
+        <translation type="unfinished">Husk, at kryptere din tegnebog vil ikke fuldt ud beskytte dine Stohn Coins mod at blive stjålet af malware på din computer.</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -286,7 +286,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Beløb</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a Stohn Coin address (e.g. %1)</source>
         <translation type="unfinished">Indtast en Bitcoin-adresse (fx %1)</translation>
     </message>
     <message>
@@ -451,8 +451,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Proxy er &lt;b&gt;aktiveret&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">Send bitcoins til en Bitcoin-adresse</translation>
+        <source>Send coins to a Stohn Coin address</source>
+        <translation type="unfinished">Send Stohn Coins til en Bitcoin-adresse</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -491,7 +491,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Signér &amp;besked</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your Stohn Coin addresses to prove you own them</source>
         <translation type="unfinished">Signér beskeder med dine Bitcoin-adresser for at bevise, at de tilhører dig</translation>
     </message>
     <message>
@@ -499,7 +499,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">&amp;Verificér besked...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Stohn Coin addresses</source>
         <translation type="unfinished">Verificér beskeder for at sikre, at de er signeret med de angivne Bitcoin-adresser</translation>
     </message>
     <message>
@@ -610,7 +610,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Opdateret</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
+        <source>Load Partially Signed Stohn Coin Transaction</source>
         <translation type="unfinished">Indlæs Partvist Signeret Bitcoin-Transaktion</translation>
     </message>
     <message>
@@ -618,7 +618,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Indlæs PSBT fra &amp;clipboard</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction from clipboard</source>
+        <source>Load Partially Signed Stohn Coin Transaction from clipboard</source>
         <translation type="unfinished">Indlæs Partvist Signeret Bitcoin-Transaktion fra udklipsholder</translation>
     </message>
     <message>
@@ -668,8 +668,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Luk alle tegnebøgerne </translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation type="unfinished">Vis %1 hjælpebesked for at få en liste over mulige tilvalg for Bitcoin kommandolinje</translation>
+        <source>Show the %1 help message to get a list with possible Stohn Coin command-line options</source>
+        <translation type="unfinished">Vis %1 hjælpebesked for at få en liste over mulige tilvalg for Stohn Coin kommandolinje</translation>
     </message>
     <message>
         <source>&amp;Mask values</source>
@@ -718,7 +718,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">&amp;Vis</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Stohn Coin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform>%n aktiv(e) forbindelse(r) til Bitcoin-netværket.</numerusform>
@@ -1139,7 +1139,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Redigér afsendelsesadresse</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid Stohn Coin address.</source>
         <translation type="unfinished">Den indtastede adresse “%1” er ikke en gyldig Bitcoin-adresse.</translation>
     </message>
     <message>
@@ -1222,7 +1222,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         </translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
+        <source>%1 will download and store a copy of the Stohn Coin block chain.</source>
         <translation type="unfinished">%1 vil downloade og gemme en kopi af Bitcoin-blokkæden.</translation>
     </message>
     <message>
@@ -1307,7 +1307,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Formular</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Stohn Coin network, as detailed below.</source>
         <translation type="unfinished">Nylige transaktioner er måske ikke synlige endnu, og derfor kan din tegnebogs saldo være ukorrekt. Denne information vil være korrekt, når din tegnebog er færdig med at synkronisere med bitcoin-netværket, som detaljerne herunder viser.</translation>
     </message>
     <message>
@@ -1358,7 +1358,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
 <context>
     <name>OpenURIDialog</name>
     <message>
-        <source>Open bitcoin URI</source>
+        <source>Open Stohn Coin URI</source>
         <translation type="unfinished">Åbn bitcoin-URI</translation>
     </message>
     <message>
@@ -1510,7 +1510,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">&amp;Ekstern underskrivers scriptsti</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Stohn Coin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished">Åbn automatisk Bitcoin-klientens port på routeren. Dette virker kun, når din router understøtter UPnP, og UPnP er aktiveret.</translation>
     </message>
     <message>
@@ -1518,7 +1518,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Konfigurér port vha. &amp;UPnP</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
+        <source>Automatically open the Stohn Coin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
         <translation type="unfinished">Åbn automatisk Bitcoin-klientporten på routeren. Dette virker kun, når din router understøtter NAT-PMP, og den er aktiveret. Den eksterne port kan være tilfældig.</translation>
     </message>
     <message>
@@ -1534,7 +1534,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Tillad &amp;indkommende forbindelser</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the Stohn Coin network through a SOCKS5 proxy.</source>
         <translation type="unfinished">Forbind til Bitcoin-netværket gennem en SOCKS5-proxy.</translation>
     </message>
     <message>
@@ -1610,7 +1610,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Hvorvidt egenskaber for coin-styring skal vises eller ej.</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
+        <source>Connect to the Stohn Coin network through a separate SOCKS5 proxy for Tor onion services.</source>
         <translation type="unfinished">Opret forbindelse til Bitcoin-netværk igennem en separat SOCKS5 proxy til Tor-onion-tjenester.</translation>
     </message>
     <message>
@@ -1707,7 +1707,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Formular</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Stohn Coin network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished">Den viste information kan være forældet. Din tegnebog synkroniserer automatisk med Bitcoin-netværket, når en forbindelse etableres, men denne proces er ikke gennemført endnu.</translation>
     </message>
     <message>
@@ -1934,7 +1934,7 @@ På grund af udbredte sikkerhedsfejl i BIP70 anbefales det på det kraftigste, a
 Hvis du modtager denne fejl, skal du anmode forhandleren om en BIP21-kompatibel URI.</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Stohn Coin address or malformed URI parameters.</source>
         <translation type="unfinished">URI kan ikke tolkes! Dette kan skyldes en ugyldig Bitcoin-adresse eller forkert udformede URL-parametre.</translation>
     </message>
     <message>
@@ -2443,7 +2443,7 @@ For mere information om brug af denne konsol, skriv %6.
         <translation type="unfinished">&amp;Besked:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Stohn Coin network.</source>
         <translation type="unfinished">En valgfri besked, der føjes til betalingsanmodningen, og som vil vises, når anmodningen åbnes. Bemærk: Beskeden vil ikke sendes sammen med betalingen over Bitcoin-netværket.</translation>
     </message>
     <message>
@@ -2724,7 +2724,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
 Bemærk: Da gebyret beregnes på per-byte-basis, ville en gebyrsats på "100 satoshis pr. kvB" for en transaktionsstørrelse på 500 virtuelle bytes (halvdelen af 1 kvB) i sidste ende kun give et gebyr på 50 satoshis.</translation>
     </message>
     <message>
-        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for Stohn Coin transactions than the network can process.</source>
         <translation type="unfinished">På tidspunkter, hvor der er færre transaktioner, end der er plads til i nye blokke, kan minere og videresendende knuder gennemtvinge et minimumsgebyr. Du kan vælge kun at betale dette minimumsgebyr, men vær opmærksom på, at det kan resultere i en transaktion, der aldrig bliver bekræftet, hvis mængden af nye bitcoin-transaktioner stiger til mere, end hvad netværket kan behandle ad gangen.</translation>
     </message>
     <message>
@@ -2866,9 +2866,9 @@ Bemærk: Da gebyret beregnes på per-byte-basis, ville en gebyrsats på "100 sat
         <translation type="unfinished">Du kan øge gebyret senere (signalerer erstat-med-gebyr, BIP-125).</translation>
     </message>
     <message>
-        <source>Please, review your transaction proposal. This will produce a Partially Signed Bitcoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source>Please, review your transaction proposal. This will produce a Partially Signed Stohn Coin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can only create a PSBT. This string is displayed when private keys are disabled and an external signer is not available.</extracomment>
-        <translation type="unfinished">Gennemse venligst dit transaktionsforslag. Dette vil producere en Partvist Signeret Bitcoin Transaktion (PSBT), som du kan gemme eller kopiere, og så signere med f.eks. en offline %1 pung, eller en PSBT-kompatibel maskinelpung.</translation>
+        <translation type="unfinished">Gennemse venligst dit transaktionsforslag. Dette vil producere en Partvist Signeret Stohn Coin Transaktion (PSBT), som du kan gemme eller kopiere, og så signere med f.eks. en offline %1 pung, eller en PSBT-kompatibel maskinelpung.</translation>
     </message>
     <message>
         <source>Do you want to create this transaction?</source>
@@ -2876,7 +2876,7 @@ Bemærk: Da gebyret beregnes på per-byte-basis, ville en gebyrsats på "100 sat
         <translation type="unfinished">Vil du oprette denne transaktion?</translation>
     </message>
     <message>
-        <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Bitcoin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Stohn Coin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can send their transaction or create a PSBT. This string is displayed when both private keys and PSBT controls are enabled.</extracomment>
         <translation type="unfinished">Gennemgå venligst din transaktion. Du kan oprette og sende denne transaktion eller oprette en delvist underskrevet Bitcoin-transaktion (PSBT), som du kan gemme eller kopiere og derefter underskrive med, f.eks. en offline %1 tegnebog eller en PSBT-kompatibel hardwaretegnebog.</translation>
     </message>
@@ -2941,7 +2941,7 @@ Bemærk: Da gebyret beregnes på per-byte-basis, ville en gebyrsats på "100 sat
         </translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid Stohn Coin address</source>
         <translation type="unfinished">Advarsel: Ugyldig Bitcoin-adresse</translation>
     </message>
     <message>
@@ -2980,7 +2980,7 @@ Bemærk: Da gebyret beregnes på per-byte-basis, ville en gebyrsats på "100 sat
         <translation type="unfinished">Vælg tidligere brugt adresse</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The Stohn Coin address to send the payment to</source>
         <translation type="unfinished">Bitcoin-adresse, som betalingen skal sendes til</translation>
     </message>
     <message>
@@ -2996,7 +2996,7 @@ Bemærk: Da gebyret beregnes på per-byte-basis, ville en gebyrsats på "100 sat
         <translation type="unfinished">Beløbet der skal afsendes i den valgte enhed</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less Stohn Coins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation type="unfinished">Gebyret vil blive trukket fra det sendte beløb. Modtageren vil modtage færre bitcoin, end du indtaster i beløbfeltet. Hvis flere modtagere vælges, vil gebyret deles ligeligt.</translation>
     </message>
     <message>
@@ -3016,7 +3016,7 @@ Bemærk: Da gebyret beregnes på per-byte-basis, ville en gebyrsats på "100 sat
         <translation type="unfinished">Indtast et mærkat for denne adresse for at føje den til listen over brugte adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Stohn Coin network.</source>
         <translation type="unfinished">En besked, som blev føjet til “bitcoin:”-URI'en, som vil gemmes med transaktionen til din reference. Bemærk: Denne besked vil ikke blive sendt over Bitcoin-netværket.</translation>
     </message>
 </context>
@@ -3042,11 +3042,11 @@ Bemærk: Da gebyret beregnes på per-byte-basis, ville en gebyrsats på "100 sat
         <translation type="unfinished">&amp;Singér besked</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive Stohn Coins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation type="unfinished">Du kan signere beskeder/aftaler med dine adresser for at bevise, at du kan modtage bitcoin, der bliver sendt til adresserne. Vær forsigtig med ikke at signere noget vagt eller tilfældigt, da eventuelle phishing-angreb kan snyde dig til at overlade din identitet til dem. Signér kun fuldt ud detaljerede udsagn, som du er enig i.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
+        <source>The Stohn Coin address to sign the message with</source>
         <translation type="unfinished">Bitcoin-adresse, som beskeden skal signeres med</translation>
     </message>
     <message>
@@ -3070,7 +3070,7 @@ Bemærk: Da gebyret beregnes på per-byte-basis, ville en gebyrsats på "100 sat
         <translation type="unfinished">Kopiér den nuværende signatur til systemets udklipsholder</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this Stohn Coin address</source>
         <translation type="unfinished">Signér denne besked for at bevise, at Bitcoin-adressen tilhører dig</translation>
     </message>
     <message>
@@ -3094,7 +3094,7 @@ Bemærk: Da gebyret beregnes på per-byte-basis, ville en gebyrsats på "100 sat
         <translation type="unfinished">Indtast modtagerens adresse, besked (vær sikker på at kopiere linjeskift, mellemrum, tabuleringer, etc. præcist) og signatur herunder for at verificere beskeden. Vær forsigtig med ikke at læse noget ud fra signaturen, som ikke står i selve beskeden, for at undgå at blive snydt af et eventuelt man-in-the-middle-angreb. Bemærk, at dette kun beviser, at den signerende person kan modtage med adressen; det kan ikke bevise hvem der har sendt en given transaktion!</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
+        <source>The Stohn Coin address the message was signed with</source>
         <translation type="unfinished">Bitcoin-adressen, som beskeden blev signeret med</translation>
     </message>
     <message>
@@ -3106,7 +3106,7 @@ Bemærk: Da gebyret beregnes på per-byte-basis, ville en gebyrsats på "100 sat
         <translation type="unfinished">Signaturen som blev givet da meddelelsen blev signeret</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Stohn Coin address</source>
         <translation type="unfinished">Verificér beskeden for at sikre, at den er signeret med den angivne Bitcoin-adresse</translation>
     </message>
     <message>
@@ -3312,7 +3312,7 @@ Bemærk: Da gebyret beregnes på per-byte-basis, ville en gebyrsats på "100 sat
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation type="unfinished">Minede bitcoins skal modne %1 blokke, før de kan bruges. Da du genererede denne blok, blev den transmitteret til netværket for at blive føjet til blokkæden. Hvis det ikke lykkes at få den i kæden, vil dens tilstand ændres til “ikke accepteret”, og den vil ikke kunne bruges. Dette kan ske nu og da, hvis en anden knude udvinder en blok inden for nogle få sekunder fra din.</translation>
+        <translation type="unfinished">Minede Stohn Coins skal modne %1 blokke, før de kan bruges. Da du genererede denne blok, blev den transmitteret til netværket for at blive føjet til blokkæden. Hvis det ikke lykkes at få den i kæden, vil dens tilstand ændres til “ikke accepteret”, og den vil ikke kunne bruges. Dette kan ske nu og da, hvis en anden knude udvinder en blok inden for nogle få sekunder fra din.</translation>
     </message>
     <message>
         <source>Debug information</source>

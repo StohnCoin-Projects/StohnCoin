@@ -50,13 +50,13 @@
         <translation type="unfinished">Vy&amp;brať</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Toto sú Vaše Bitcoin adresy pre posielanie platieb. Vždy skontrolujte sumu a prijímaciu adresu pred poslaním mincí.</translation>
+        <source>These are your Stohn Coin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Toto sú Vaše Stohn Coin adresy pre posielanie platieb. Vždy skontrolujte sumu a prijímaciu adresu pred poslaním mincí.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Stohn Coin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Toto sú vaše Bitcoin adresy pre prijímanie platieb. Pre vytvorenie nových adries kliknite na "Vytvoriť novú prijímaciu adresu" na karte "Prijať". Podpisovanie je možné iba s adresami typu "legacy".</translation>
+        <translation type="unfinished">Toto sú vaše Stohn Coin adresy pre prijímanie platieb. Pre vytvorenie nových adries kliknite na "Vytvoriť novú prijímaciu adresu" na karte "Prijať". Podpisovanie je možné iba s adresami typu "legacy".</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -167,7 +167,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Zadajte starú a novú frázu pre túto peňaženku.</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Remember that encrypting your wallet cannot fully protect your Stohn Coins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished">Pamätajte, že zašifrovanie peňaženky neochráni úplne vaše bitcoiny pred ukradnutím škodlivými programami vo vašom počítači.</translation>
     </message>
     <message>
@@ -290,8 +290,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Suma</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation type="unfinished">Zadajte bitcoin adresu (napr. %1)</translation>
+        <source>Enter a Stohn Coin address (e.g. %1)</source>
+        <translation type="unfinished">Zadajte Stohn Coin adresu (napr. %1)</translation>
     </message>
     <message>
         <source>Unroutable</source>
@@ -456,8 +456,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Proxy sú &lt;b&gt;zapnuté&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">Poslať bitcoins na adresu</translation>
+        <source>Send coins to a Stohn Coin address</source>
+        <translation type="unfinished">Poslať Stohn Coins na adresu</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -500,16 +500,16 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Podpísať &amp;správu…</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">Podpísať správu s vašou Bitcoin adresou, aby ste preukázali, že ju vlastníte</translation>
+        <source>Sign messages with your Stohn Coin addresses to prove you own them</source>
+        <translation type="unfinished">Podpísať správu s vašou Stohn Coin adresou, aby ste preukázali, že ju vlastníte</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
         <translation type="unfinished">O&amp;veriť správu…</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="unfinished">Overiť, či boli správy podpísané uvedenou Bitcoin adresou</translation>
+        <source>Verify messages to ensure they were signed with specified Stohn Coin addresses</source>
+        <translation type="unfinished">Overiť, či boli správy podpísané uvedenou Stohn Coin adresou</translation>
     </message>
     <message>
         <source>&amp;Load PSBT from file…</source>
@@ -624,16 +624,16 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Aktualizovaný</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
-        <translation type="unfinished">Načítať sčasti podpísanú Bitcoin transakciu</translation>
+        <source>Load Partially Signed Stohn Coin Transaction</source>
+        <translation type="unfinished">Načítať sčasti podpísanú Stohn Coin transakciu</translation>
     </message>
     <message>
         <source>Load PSBT from &amp;clipboard…</source>
         <translation type="unfinished">Načítať PSBT zo s&amp;chránky…</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction from clipboard</source>
-        <translation type="unfinished">Načítať čiastočne podpísanú Bitcoin transakciu, ktorú ste skopírovali</translation>
+        <source>Load Partially Signed Stohn Coin Transaction from clipboard</source>
+        <translation type="unfinished">Načítať čiastočne podpísanú Stohn Coin transakciu, ktorú ste skopírovali</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -682,7 +682,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Zatvoriť všetky peňaženky</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible Stohn Coin command-line options</source>
         <translation type="unfinished">Ukáž %1 zoznam možných nastavení Bitcoinu pomocou príkazového riadku</translation>
     </message>
     <message>
@@ -746,7 +746,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Z&amp;obraziť</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Stohn Coin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform>%n aktívne pripojenie do siete Bitcoin</numerusform>
@@ -1205,7 +1205,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Upraviť odosielaciu adresu</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid Stohn Coin address.</source>
         <translation type="unfinished">Vložená adresa "%1" nieje platnou adresou Bitcoin.</translation>
     </message>
     <message>
@@ -1292,7 +1292,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         </translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
+        <source>%1 will download and store a copy of the Stohn Coin block chain.</source>
         <translation type="unfinished">%1 bude sťahovať kopiu reťazca blokov.</translation>
     </message>
     <message>
@@ -1377,7 +1377,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Formulár</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Stohn Coin network, as detailed below.</source>
         <translation type="unfinished">Nedávne transakcie nemusia byť ešte viditeľné preto môže byť zostatok vo vašej peňaženke nesprávny. Táto informácia bude správna keď sa dokončí synchronizovanie peňaženky so sieťou bitcoin, ako je rozpísané nižšie.</translation>
     </message>
     <message>
@@ -1432,8 +1432,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
 <context>
     <name>OpenURIDialog</name>
     <message>
-        <source>Open bitcoin URI</source>
-        <translation type="unfinished">Otvoriť bitcoin URI</translation>
+        <source>Open Stohn Coin URI</source>
+        <translation type="unfinished">Otvoriť Stohn Coin URI</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -1580,16 +1580,16 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Cesta k &amp;externému skriptu podpisovateľa</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Automaticky otvoriť port pre Bitcoin na routeri. Toto funguje len ak router podporuje UPnP a je táto podpora aktivovaná.</translation>
+        <source>Automatically open the Stohn Coin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Automaticky otvoriť port pre Stohn Coin na routeri. Toto funguje len ak router podporuje UPnP a je táto podpora aktivovaná.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation type="unfinished">Mapovať port pomocou &amp;UPnP</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
-        <translation type="unfinished">Automaticky otvoriť port pre Bitcoin na routeri. Toto funguje len ak router podporuje NAT-PMP a je táto podpora aktivovaná. Externý port môže byť náhodný.</translation>
+        <source>Automatically open the Stohn Coin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
+        <translation type="unfinished">Automaticky otvoriť port pre Stohn Coin na routeri. Toto funguje len ak router podporuje NAT-PMP a je táto podpora aktivovaná. Externý port môže byť náhodný.</translation>
     </message>
     <message>
         <source>Map port using NA&amp;T-PMP</source>
@@ -1604,8 +1604,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Povoliť prichá&amp;dzajúce spojenia</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation type="unfinished">Pripojiť do siete Bitcoin cez proxy server SOCKS5.</translation>
+        <source>Connect to the Stohn Coin network through a SOCKS5 proxy.</source>
+        <translation type="unfinished">Pripojiť do siete Stohn Coin cez proxy server SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1661,7 +1661,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation type="unfinished">Zvoľte ako deliť bitcoin pri zobrazovaní pri platbách a užívateľskom rozhraní.</translation>
+        <translation type="unfinished">Zvoľte ako deliť Stohn Coin pri zobrazovaní pri platbách a užívateľskom rozhraní.</translation>
     </message>
     <message>
         <source>Third-party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1676,8 +1676,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Či zobrazovať možnosti kontroly mincí alebo nie.</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
-        <translation type="unfinished">Pripojiť k Bitcoin sieti skrz samostatnú SOCKS5 proxy pre službu Tor.</translation>
+        <source>Connect to the Stohn Coin network through a separate SOCKS5 proxy for Tor onion services.</source>
+        <translation type="unfinished">Pripojiť k Stohn Coin sieti skrz samostatnú SOCKS5 proxy pre službu Tor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor onion services:</source>
@@ -1769,8 +1769,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Formulár</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Zobrazené informácie môžu byť neaktuálne. Vaša peňaženka sa automaticky synchronizuje so sieťou Bitcoin po nadviazaní spojenia, ale tento proces ešte nie je ukončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Stohn Coin network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">Zobrazené informácie môžu byť neaktuálne. Vaša peňaženka sa automaticky synchronizuje so sieťou Stohn Coin po nadviazaní spojenia, ale tento proces ešte nie je ukončený.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -2000,8 +2000,8 @@ Kvôli bezpečnostným chybám v BIP70 sa odporúča ignorovať pokyny obchodní
 Ak ste dostali túto chybu mali by ste požiadať obchodníka o URI kompatibilné s BIP21.</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation type="unfinished">URI sa nedá analyzovať! To môže byť spôsobené neplatnou Bitcoin adresou alebo zle nastavenými vlastnosťami URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Stohn Coin address or malformed URI parameters.</source>
+        <translation type="unfinished">URI sa nedá analyzovať! To môže byť spôsobené neplatnou Stohn Coin adresou alebo zle nastavenými vlastnosťami URI.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -2558,7 +2558,7 @@ Pre viac informácií o používaní tejto konzoly napíšte %6.
         <translation type="unfinished">&amp;Správa:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Stohn Coin network.</source>
         <translation type="unfinished">Pridať voliteľnú správu k výzve na zaplatenie, ktorá sa zobrazí keď bude výzva otvorená. Poznámka: Správa nebude poslaná s platbou cez sieť Bitcoin.</translation>
     </message>
     <message>
@@ -2843,7 +2843,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
 Poznámka: Keďže poplatok je počítaný za bajt, poplatok pri sadzbe "100 satoshi za kB" pri veľkosti transakcie 500 bajtov (polovica z 1 kB) by stál len 50 satoshi.</translation>
     </message>
     <message>
-        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for Stohn Coin transactions than the network can process.</source>
         <translation type="unfinished">Ak je v blokoch menej objemu transakcií ako priestoru, ťažiari ako aj vysielacie uzly, môžu uplatniť minimálny poplatok. Platiť iba minimálny poplatok je v poriadku, ale uvedomte si, že to môže mať za následok transakciu, ktorá sa nikdy nepotvrdí, akonáhle je väčší dopyt po bitcoinových transakciách, než dokáže sieť spracovať.</translation>
     </message>
     <message>
@@ -2929,8 +2929,8 @@ Poznámka: Keďže poplatok je počítaný za bajt, poplatok pri sadzbe "100 sat
         <translation type="unfinished">Vy&amp;tvoriť bez podpisu</translation>
     </message>
     <message>
-        <source>Creates a Partially Signed Bitcoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
-        <translation type="unfinished">Vytvorí čiastočne podpísanú Bitcoin transakciu (Partially Signed Bitcoin Transaction - PSBT) na použitie napríklad s offline %1 peňaženkou alebo v hardvérovej peňaženke kompatibilnej s PSBT.</translation>
+        <source>Creates a Partially Signed Stohn Coin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <translation type="unfinished">Vytvorí čiastočne podpísanú Stohn Coin transakciu (Partially Signed Stohn Coin Transaction - PSBT) na použitie napríklad s offline %1 peňaženkou alebo v hardvérovej peňaženke kompatibilnej s PSBT.</translation>
     </message>
     <message>
         <source> from wallet '%1'</source>
@@ -2989,7 +2989,7 @@ Poznámka: Keďže poplatok je počítaný za bajt, poplatok pri sadzbe "100 sat
         <translation type="unfinished">Poplatok môžete navýšiť neskôr (vysiela sa "Replace-By-Fee" - nahradenie poplatkom, BIP-125).</translation>
     </message>
     <message>
-        <source>Please, review your transaction proposal. This will produce a Partially Signed Bitcoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source>Please, review your transaction proposal. This will produce a Partially Signed Stohn Coin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can only create a PSBT. This string is displayed when private keys are disabled and an external signer is not available.</extracomment>
         <translation type="unfinished">Prečítajte si prosím svoj návrh transakcie. Výsledkom bude čiastočne podpísaná bitcoinová transakcia (PSBT), ktorú môžete uložiť alebo skopírovať a potom podpísať napr. cez offline peňaženku %1 alebo hardvérovú peňaženku kompatibilnú s PSBT.</translation>
     </message>
@@ -2999,7 +2999,7 @@ Poznámka: Keďže poplatok je počítaný za bajt, poplatok pri sadzbe "100 sat
         <translation type="unfinished">Chcete vytvoriť túto transakciu?</translation>
     </message>
     <message>
-        <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Bitcoin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Stohn Coin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can send their transaction or create a PSBT. This string is displayed when both private keys and PSBT controls are enabled.</extracomment>
         <translation type="unfinished">Skontrolujte prosím svoj návrh transakcie. Môžete vytvoriť a odoslať túto transakciu alebo vytvoriť čiastočne podpísanú bitcoinovú transakciu (PSBT), ktorú môžete uložiť alebo skopírovať a potom podpísať napr. cez offline peňaženku %1 alebo hardvérovú peňaženku kompatibilnú s PSBT.</translation>
     </message>
@@ -3065,8 +3065,8 @@ Poznámka: Keďže poplatok je počítaný za bajt, poplatok pri sadzbe "100 sat
         </translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation type="unfinished">Varovanie: Neplatná Bitcoin adresa</translation>
+        <source>Warning: Invalid Stohn Coin address</source>
+        <translation type="unfinished">Varovanie: Neplatná Stohn Coin adresa</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -3104,7 +3104,7 @@ Poznámka: Keďže poplatok je počítaný za bajt, poplatok pri sadzbe "100 sat
         <translation type="unfinished">Vybrať predtým použitú adresu</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The Stohn Coin address to send the payment to</source>
         <translation type="unfinished">Zvoľte adresu kam poslať platbu</translation>
     </message>
     <message>
@@ -3120,7 +3120,7 @@ Poznámka: Keďže poplatok je počítaný za bajt, poplatok pri sadzbe "100 sat
         <translation type="unfinished">Suma na odoslanie vo vybranej mene</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less Stohn Coins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation type="unfinished">Poplatok sa odpočíta od čiastky, ktorú odosielate. Príjemca dostane menej bitcoinov ako zadáte. Ak je vybraných viacero príjemcov, poplatok je rozdelený rovným dielom.</translation>
     </message>
     <message>
@@ -3140,7 +3140,7 @@ Poznámka: Keďže poplatok je počítaný za bajt, poplatok pri sadzbe "100 sat
         <translation type="unfinished">Vložte popis pre túto adresu aby sa uložila do zoznamu použitých adries</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Stohn Coin network.</source>
         <translation type="unfinished">Správa ktorá bola pripojená k bitcoin: URI a ktorá bude uložená s transakcou pre Vaše potreby. Poznámka: Táto správa nebude poslaná cez sieť Bitcoin.</translation>
     </message>
 </context>
@@ -3166,11 +3166,11 @@ Poznámka: Keďže poplatok je počítaný za bajt, poplatok pri sadzbe "100 sat
         <translation type="unfinished">&amp;Podpísať Správu</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive Stohn Coins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation type="unfinished">Môžete podpísať správy svojou adresou a dokázať, že viete prijímať mince zaslané na túto adresu. Buďte však opatrní a podpíšte len podrobné prehlásenia, s ktorými plne súhlasíte, nakoľko útoky typu "phishing" Vás môžu lákať k podpísaniu nejasných alebo príliš všeobecných tvrdení čím prevezmú vašu identitu.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
+        <source>The Stohn Coin address to sign the message with</source>
         <translation type="unfinished">Bitcoin adresa pre podpísanie správy s</translation>
     </message>
     <message>
@@ -3194,7 +3194,7 @@ Poznámka: Keďže poplatok je počítaný za bajt, poplatok pri sadzbe "100 sat
         <translation type="unfinished">Kopírovať tento podpis do systémovej schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this Stohn Coin address</source>
         <translation type="unfinished">Podpíšte správu aby ste dokázali že vlastníte túto adresu</translation>
     </message>
     <message>
@@ -3218,7 +3218,7 @@ Poznámka: Keďže poplatok je počítaný za bajt, poplatok pri sadzbe "100 sat
         <translation type="unfinished">Vložte adresu príjemcu, správu (uistite sa, že presne kopírujete ukončenia riadkov, medzery, odrážky, atď.) a podpis pre potvrdenie správy. Buďte opatrní a nedomýšľajte si viac než je uvedené v samotnej podpísanej správe a môžete sa tak vyhnúť podvodu MITM útokom. Toto len potvrdzuje, že podpisujúca strana môže prijímať na tejto adrese, nepotvrdzuje to vlastníctvo žiadnej transakcie!</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
+        <source>The Stohn Coin address the message was signed with</source>
         <translation type="unfinished">Adresa Bitcoin, ktorou bola podpísaná správa</translation>
     </message>
     <message>
@@ -3230,8 +3230,8 @@ Poznámka: Keďže poplatok je počítaný za bajt, poplatok pri sadzbe "100 sat
         <translation type="unfinished">Poskytnutý podpis pri podpísaní správy</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation type="unfinished">Overím správy sa uistiť že bola podpísaná označenou Bitcoin adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Stohn Coin address</source>
+        <translation type="unfinished">Overím správy sa uistiť že bola podpísaná označenou Stohn Coin adresou</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3914,7 +3914,7 @@ Choďte do Súbor &gt; Otvoriť Peňaženku, pre načítanie peňaženky.
     </message>
     <message>
         <source>Error: Dumpfile version is not supported. This version of bitcoin-wallet only supports version 1 dumpfiles. Got dumpfile with version %s</source>
-        <translation type="unfinished">Chyba: Verzia súboru dumpu nie je podporovaná. Táto verzia peňaženky bitcoin podporuje iba súbory dumpu verzie 1. Obdržal som súbor s verziou %s</translation>
+        <translation type="unfinished">Chyba: Verzia súboru dumpu nie je podporovaná. Táto verzia peňaženky Stohn Coin podporuje iba súbory dumpu verzie 1. Obdržal som súbor s verziou %s</translation>
     </message>
     <message>
         <source>Error: Legacy wallets only support the "legacy", "p2sh-segwit", and "bech32" address types</source>

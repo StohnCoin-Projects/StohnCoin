@@ -54,13 +54,13 @@
         <translation type="unfinished">tanlamoq</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Quyidagilar to'lovlarni yuborish uchun Bitcoin manzillaringizdir. Har doim yuborishdan oldin yuborilayotgan tangalar sonini va qabul qiluvchi manzilni tekshirib ko'ring.</translation>
+        <source>These are your Stohn Coin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Quyidagilar to'lovlarni yuborish uchun Stohn Coin manzillaringizdir. Har doim yuborishdan oldin yuborilayotgan tangalar sonini va qabul qiluvchi manzilni tekshirib ko'ring.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Stohn Coin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Bular to'lovlarni qabul qilishingiz uchun sizning Bitcoin manzillaringizdir. Yangi qabul qiluvchi manzil yaratish uchun qabul qilish varag'idagi ''Yangi qabul qilish manzilini yaratish'' ustiga bosing. Faqat 'legacy' turdagi manzillar bilan xisobga kirish mumkin.</translation>
+        <translation type="unfinished">Bular to'lovlarni qabul qilishingiz uchun sizning Stohn Coin manzillaringizdir. Yangi qabul qiluvchi manzil yaratish uchun qabul qilish varag'idagi ''Yangi qabul qilish manzilini yaratish'' ustiga bosing. Faqat 'legacy' turdagi manzillar bilan xisobga kirish mumkin.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -152,7 +152,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Диққат: Агар сиз ҳамёнингизни кодласангиз ва махфий сўзингизни унутсангиз, сиз &lt;b&gt;БАРЧА BITCOIN ПУЛЛАРИНГИЗНИ ЙЎҚОТАСИЗ&lt;/b&gt;!</translation>
+        <translation type="unfinished">Диққат: Агар сиз ҳамёнингизни кодласангиз ва махфий сўзингизни унутсангиз, сиз &lt;b&gt;БАРЧА Stohn Coin ПУЛЛАРИНГИЗНИ ЙЎҚОТАСИЗ&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -171,7 +171,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Hamyonning oldingi va yangi maxfiy so'zlarini kiriting</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Remember that encrypting your wallet cannot fully protect your Stohn Coins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished">Shuni yodda tutingki, hamyonni shifrlash kompyuterdagi virus yoki zararli dasturlar sizning bitcoinlaringizni o'g'irlashidan to'liq himoyalay olmaydi.</translation>
     </message>
     <message>
@@ -274,7 +274,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Miqdor</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a Stohn Coin address (e.g. %1)</source>
         <translation type="unfinished">Bitcoin манзилини киритинг (масалан.  %1)</translation>
     </message>
     <message>
@@ -434,7 +434,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Proksi &lt;b&gt;yoqildi&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a Stohn Coin address</source>
         <translation type="unfinished">Bitkoin manziliga coinlarni yuborish</translation>
     </message>
     <message>
@@ -478,7 +478,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Xabarni &amp;signlash...</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your Stohn Coin addresses to prove you own them</source>
         <translation type="unfinished">Bitkoin manzillarga ega ekaningizni tasdiqlash uchun xabarni signlang</translation>
     </message>
     <message>
@@ -486,7 +486,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">&amp;Xabarni tasdiqlash...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Stohn Coin addresses</source>
         <translation type="unfinished">Xabar belgilangan Bitkoin manzillari bilan imzolanganligiga ishonch hosil qilish uchun ularni tasdiqlang</translation>
     </message>
     <message>
@@ -547,7 +547,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation type="unfinished">Тўловлар (QR кодлари ва bitcoin ёрдамида яратишлар: URI’лар) сўраш</translation>
+        <translation type="unfinished">Тўловлар (QR кодлари ва Stohn Coin ёрдамида яратишлар: URI’лар) сўраш</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -601,7 +601,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Янгиланган</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
+        <source>Load Partially Signed Stohn Coin Transaction</source>
         <translation type="unfinished">Qisman signlangan Bitkoin tranzaksiyasini yuklash</translation>
     </message>
     <message>
@@ -609,7 +609,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">&amp;Nusxalanganlar dan PSBT ni yuklash</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction from clipboard</source>
+        <source>Load Partially Signed Stohn Coin Transaction from clipboard</source>
         <translation type="unfinished">Nusxalanganlar qisman signlangan Bitkoin tranzaksiyalarini yuklash</translation>
     </message>
     <message>
@@ -649,7 +649,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Barcha hamyonlarni yopish</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible Stohn Coin command-line options</source>
         <translation type="unfinished">Yozilishi mumkin bo'lgan command-line sozlamalar ro'yxatini olish uchun %1 yordam xabarini ko'rsatish</translation>
     </message>
     <message>
@@ -694,7 +694,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Ko'&amp;rsatish</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Stohn Coin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform>Bitkoin tarmog'iga %n aktiv ulanishlar.</numerusform>
@@ -1121,8 +1121,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Жунатилувчи манзилни тахрирлаш</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation type="unfinished">Киритилган "%1" манзили тўғри Bitcoin манзили эмас.</translation>
+        <source>The entered address "%1" is not a valid Stohn Coin address.</source>
+        <translation type="unfinished">Киритилган "%1" манзили тўғри Stohn Coin манзили эмас.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -1204,8 +1204,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         </translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation type="unfinished"> Bitcoin blok zanjirining%1 nusxasini yuklab oladi va saqlaydi</translation>
+        <source>%1 will download and store a copy of the Stohn Coin block chain.</source>
+        <translation type="unfinished"> Stohn Coin blok zanjirining%1 nusxasini yuklab oladi va saqlaydi</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1293,7 +1293,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Шакл</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Stohn Coin network, as detailed below.</source>
         <translation type="unfinished">So'nggi tranzaksiyalar hali ko'rinmasligi mumkin, shuning uchun hamyoningiz balansi noto'g'ri ko'rinishi mumkin. Sizning hamyoningiz bitkoin tarmog'i bilan sinxronlashni tugatgandan so'ng, quyida batafsil tavsiflanganidek, bu ma'lumot to'g'rilanadi.</translation>
     </message>
     <message>
@@ -1344,7 +1344,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
 <context>
     <name>OpenURIDialog</name>
     <message>
-        <source>Open bitcoin URI</source>
+        <source>Open Stohn Coin URI</source>
         <translation type="unfinished">Bitkoin URI sini ochish</translation>
     </message>
     <message>
@@ -1574,8 +1574,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Шакл</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Кўрсатилган маълумот эскирган бўлиши мумкин. Ҳамёнингиз алоқа ўрнатилгандан сўнг Bitcoin тармоқ билан автоматик тарзда синхронланади, аммо жараён ҳалигача тугалланмади.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Stohn Coin network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">Кўрсатилган маълумот эскирган бўлиши мумкин. Ҳамёнингиз алоқа ўрнатилгандан сўнг Stohn Coin тармоқ билан автоматик тарзда синхронланади, аммо жараён ҳалигача тугалланмади.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -2108,8 +2108,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         </translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation type="unfinished">Диққат: Нотўғр Bitcoin манзили</translation>
+        <source>Warning: Invalid Stohn Coin address</source>
+        <translation type="unfinished">Диққат: Нотўғр Stohn Coin манзили</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>

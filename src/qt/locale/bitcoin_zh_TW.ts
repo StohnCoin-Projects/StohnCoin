@@ -54,11 +54,11 @@
         <translation type="unfinished">選擇 (&amp;h)</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Stohn Coin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished">這些是你要發送過去的 比特幣地址。在發送幣之前，務必要檢查金額和接收地址是否正確。</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Stohn Coin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">這些是您的比特幣接收地址。使用“接收”標籤中的“產生新的接收地址”按鈕產生新的地址。只能使用“傳統”類型的地址進行簽名。</translation>
     </message>
@@ -160,7 +160,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">警告: 如果把錢包加密後又忘記密碼，你就會從此&lt;b&gt;失去其中所有的 Bitcoin 了&lt;/b&gt;！</translation>
+        <translation type="unfinished">警告: 如果把錢包加密後又忘記密碼，你就會從此&lt;b&gt;失去其中所有的 Stohn Coin 了&lt;/b&gt;！</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -179,7 +179,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">輸入錢包的密碼短語和新密碼短語。</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Remember that encrypting your wallet cannot fully protect your Stohn Coins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished">請記得, 即使將錢包加密, 也不能完全防止因惡意軟體入侵, 而導致位元幣被偷.</translation>
     </message>
     <message>
@@ -298,7 +298,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">金額</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a Stohn Coin address (e.g. %1)</source>
         <translation type="unfinished">輸入 比特幣地址 (比如說 %1)</translation>
     </message>
     <message>
@@ -466,7 +466,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">代理伺服器&lt;b&gt;已經啟用&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a Stohn Coin address</source>
         <translation type="unfinished">發送幣給一個比特幣地址</translation>
     </message>
     <message>
@@ -510,7 +510,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">簽名 &amp;信息…</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your Stohn Coin addresses to prove you own them</source>
         <translation type="unfinished">用比特幣地址簽名訊息來證明位址是你的</translation>
     </message>
     <message>
@@ -519,7 +519,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
 訊息...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Stohn Coin addresses</source>
         <translation type="unfinished">驗證訊息是用來確定訊息是用指定的比特幣地址簽名的</translation>
     </message>
     <message>
@@ -580,7 +580,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation type="unfinished">要求付款(產生 QR Code 和 bitcoin 付款協議的資源識別碼: URI)</translation>
+        <translation type="unfinished">要求付款(產生 QR Code 和 Stohn Coin 付款協議的資源識別碼: URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -633,7 +633,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">最新狀態</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
+        <source>Load Partially Signed Stohn Coin Transaction</source>
         <translation type="unfinished">載入部分簽名的比特幣交易</translation>
     </message>
     <message>
@@ -641,7 +641,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">從剪貼簿載入PSBT</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction from clipboard</source>
+        <source>Load Partially Signed Stohn Coin Transaction from clipboard</source>
         <translation type="unfinished">從剪貼簿載入部分簽名的比特幣交易</translation>
     </message>
     <message>
@@ -699,7 +699,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">迁移一个钱包</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible Stohn Coin command-line options</source>
         <translation type="unfinished">顯示 %1 的說明訊息，來取得可用命令列選項的列表</translation>
     </message>
     <message>
@@ -763,7 +763,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">&amp;顯示</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Stohn Coin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform>已處理%n個區塊的交易歷史。</numerusform>
@@ -1257,7 +1257,7 @@ The migration process will create a backup of the wallet before migrating. This 
         <translation type="unfinished">編輯發送地址</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid Stohn Coin address.</source>
         <translation type="unfinished">輸入的地址 %1 並不是有效的比特幣地址。</translation>
     </message>
     <message>
@@ -1336,8 +1336,8 @@ The migration process will create a backup of the wallet before migrating. This 
         </translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation type="unfinished">%1 會下載 Bitcoin 區塊鏈並且儲存一份副本。</translation>
+        <source>%1 will download and store a copy of the Stohn Coin block chain.</source>
+        <translation type="unfinished">%1 會下載 Stohn Coin 區塊鏈並且儲存一份副本。</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1421,12 +1421,12 @@ The migration process will create a backup of the wallet before migrating. This 
         <translation type="unfinished">表單</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation type="unfinished">最近的交易可能還看不到，因此錢包餘額可能不正確。在錢包軟體完成跟 bitcoin 網路的同步後，這裡的資訊就會正確。詳情請見下面。</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Stohn Coin network, as detailed below.</source>
+        <translation type="unfinished">最近的交易可能還看不到，因此錢包餘額可能不正確。在錢包軟體完成跟 Stohn Coin 網路的同步後，這裡的資訊就會正確。詳情請見下面。</translation>
     </message>
     <message>
         <source>Attempting to spend stohn coins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation type="unfinished">使用還沒顯示出來的交易所影響到的 bitcoin 可能會不被網路所接受。</translation>
+        <translation type="unfinished">使用還沒顯示出來的交易所影響到的 Stohn Coin 可能會不被網路所接受。</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1476,7 +1476,7 @@ The migration process will create a backup of the wallet before migrating. This 
 <context>
     <name>OpenURIDialog</name>
     <message>
-        <source>Open bitcoin URI</source>
+        <source>Open Stohn Coin URI</source>
         <translation type="unfinished">打開比特幣URI</translation>
     </message>
     <message>
@@ -1636,8 +1636,8 @@ The migration process will create a backup of the wallet before migrating. This 
         <translation type="unfinished">外部签名器脚本路径(&amp;E)</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">自動在路由器上開放 Bitcoin 的客戶端通訊埠。只有在你的路由器支援且開啓「通用即插即用」協定(UPnP)時才有作用。</translation>
+        <source>Automatically open the Stohn Coin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">自動在路由器上開放 Stohn Coin 的客戶端通訊埠。只有在你的路由器支援且開啓「通用即插即用」協定(UPnP)時才有作用。</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1652,8 +1652,8 @@ The migration process will create a backup of the wallet before migrating. This 
         <translation type="unfinished">接受外來連線(&amp;G)</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation type="unfinished">透過 SOCKS5 代理伺服器來連線到 Bitcoin 網路。</translation>
+        <source>Connect to the Stohn Coin network through a SOCKS5 proxy.</source>
+        <translation type="unfinished">透過 SOCKS5 代理伺服器來連線到 Stohn Coin 網路。</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1724,7 +1724,7 @@ The migration process will create a backup of the wallet before migrating. This 
         <translation type="unfinished">是否要顯示錢幣控制功能。</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
+        <source>Connect to the Stohn Coin network through a separate SOCKS5 proxy for Tor onion services.</source>
         <translation type="unfinished">通過用於Tor洋蔥服務個別的SOCKS5代理連接到比特幣網路。</translation>
     </message>
     <message>
@@ -1824,8 +1824,8 @@ The migration process will create a backup of the wallet before migrating. This 
         <translation type="unfinished">表單</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">顯示的資訊可能是過期的。跟 Bitcoin 網路的連線建立後，你的錢包會自動和網路同步，但是這個步驟還沒完成。</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Stohn Coin network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">顯示的資訊可能是過期的。跟 Stohn Coin 網路的連線建立後，你的錢包會自動和網路同步，但是這個步驟還沒完成。</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -2012,7 +2012,7 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation type="unfinished">沒辦法啟動 bitcoin 協議的「按就付」處理器</translation>
+        <translation type="unfinished">沒辦法啟動 Stohn Coin 協議的「按就付」處理器</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -2031,7 +2031,7 @@ If you are receiving this error you should request the merchant provide a BIP21 
 如果您看到了这个错误，您应该要求商家提供兼容BIP21的URI。</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Stohn Coin address or malformed URI parameters.</source>
         <translation type="unfinished">沒辦法解析 URI ！可能是因為無效比特幣地址，或是 URI 參數格式錯誤。</translation>
     </message>
     <message>
@@ -2598,8 +2598,8 @@ For more information on using this console, type %6.
         <translation type="unfinished">訊息(&amp;M):</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation type="unfinished">附加在付款要求中的訊息，可以不填，打開要求內容時會顯示。注意: 這個訊息不會隨著付款送到 Bitcoin 網路上。</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Stohn Coin network.</source>
+        <translation type="unfinished">附加在付款要求中的訊息，可以不填，打開要求內容時會顯示。注意: 這個訊息不會隨著付款送到 Stohn Coin 網路上。</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2875,7 +2875,7 @@ For more information on using this console, type %6.
         <translation type="unfinished">隱藏交易手續費設定</translation>
     </message>
     <message>
-        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for Stohn Coin transactions than the network can process.</source>
         <translation type="unfinished">当交易量小于可用区块空间时，矿工和中继节点可能会执行最低手续费率限制。按照这个最低费率来支付手续费也是可以的，但请注意，一旦交易需求超出比特币网络能处理的限度，你的交易可能永远也无法确认。</translation>
     </message>
     <message>
@@ -2991,7 +2991,7 @@ For more information on using this console, type %6.
         <translation type="unfinished">要创建这笔交易吗？</translation>
     </message>
     <message>
-        <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Bitcoin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Stohn Coin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can send their transaction or create a PSBT. This string is displayed when both private keys and PSBT controls are enabled.</extracomment>
         <translation type="unfinished">请务必仔细检查您的交易。你可以创建并发送这笔交易；也可以创建一个“部分签名比特币交易(PSBT)”，它可以被保存下来或被复制出去，然后就可以对它进行签名，比如用离线%1钱包，或是用兼容PSBT的硬件钱包。</translation>
     </message>
@@ -3069,7 +3069,7 @@ For more information on using this console, type %6.
         </translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid Stohn Coin address</source>
         <translation type="unfinished">警告: 比特幣地址無效</translation>
     </message>
     <message>
@@ -3108,7 +3108,7 @@ For more information on using this console, type %6.
         <translation type="unfinished">選擇先前使用過的地址</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The Stohn Coin address to send the payment to</source>
         <translation type="unfinished">將支付發送到的比特幣地址給</translation>
     </message>
     <message>
@@ -3124,7 +3124,7 @@ For more information on using this console, type %6.
         <translation type="unfinished">以所選單位發送的金額</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less Stohn Coins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation type="unfinished">手續費會從要付款出去的金額中扣掉。因此收款人會收到比輸入的金額還要少的 bitcoin。如果有多個收款人的話，手續費會平均分配來扣除。</translation>
     </message>
     <message>
@@ -3144,8 +3144,8 @@ For more information on using this console, type %6.
         <translation type="unfinished">請輸入這個地址的標籤，來把它加進去已使用過地址清單。</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation type="unfinished">附加在 Bitcoin 付款協議的資源識別碼(URI)中的訊息，會和交易內容一起存起來，給你自己做參考。注意: 這個訊息不會送到 Bitcoin 網路上。</translation>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Stohn Coin network.</source>
+        <translation type="unfinished">附加在 Stohn Coin 付款協議的資源識別碼(URI)中的訊息，會和交易內容一起存起來，給你自己做參考。注意: 這個訊息不會送到 Stohn Coin 網路上。</translation>
     </message>
 </context>
 <context>
@@ -3170,11 +3170,11 @@ For more information on using this console, type %6.
         <translation type="unfinished">簽署訊息(&amp;S)</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive Stohn Coins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation type="unfinished">您可以使用您的地址簽名訊息/協議，以證明您可以接收發送給他們的比特幣。但是請小心，不要簽名語意含糊不清，或隨機產生的內容，因為釣魚式詐騙可能會用騙你簽名的手法來冒充是你。只有簽名您同意的詳細內容。</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
+        <source>The Stohn Coin address to sign the message with</source>
         <translation type="unfinished">用來簽名訊息的 比特幣地址</translation>
     </message>
     <message>
@@ -3198,7 +3198,7 @@ For more information on using this console, type %6.
         <translation type="unfinished">複製目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this Stohn Coin address</source>
         <translation type="unfinished">簽名這個訊息來證明這個比特幣地址是你的</translation>
     </message>
     <message>
@@ -3222,7 +3222,7 @@ For more information on using this console, type %6.
         <translation type="unfinished">請在下面輸入收款人的地址，訊息(請確定完整複製了所包含的換行、空格、tabs...等)，以及簽名，來驗證這個訊息。請小心，除了訊息內容以外，不要對簽名本身過度解讀，以避免被用「中間人攻擊法」詐騙。請注意，通過驗證的簽名只能證明簽名人確實可以從該地址收款，不能證明任何交易中的付款人身份！</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
+        <source>The Stohn Coin address the message was signed with</source>
         <translation type="unfinished">簽名這個訊息的 比特幣地址</translation>
     </message>
     <message>
@@ -3234,7 +3234,7 @@ For more information on using this console, type %6.
         <translation type="unfinished">簽名訊息時給出的簽名</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Stohn Coin address</source>
         <translation type="unfinished">驗證這個訊息來確定是用指定的比特幣地址簽名的</translation>
     </message>
     <message>
