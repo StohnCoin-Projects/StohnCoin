@@ -116,7 +116,7 @@ public:
         consensus.newAmount = 3982239 * COIN;
 
         /** Max Reorganization Depth Start **/
-        consensus.nMaxReorgDepthActivationBlock = 190000; // Activate at block 190,000
+        consensus.nMaxReorgDepthActivationBlock = 187000; // Activate at block 190,000
         consensus.nMaxReorganizationDepth = 20; // Example value, adjust as necessary
         consensus.nMinReorganizationPeers = 3; // Minimum number of peers
         /** Max Reorganization Depth End **/
@@ -164,6 +164,7 @@ public:
                 {  103000, uint256S("44b0e4e6f96d562ceafa47eb1dca766b056a163f08b7d68349bbe33763a1d13e")},
                 {  104950, uint256S("2dbd943d957e26770bc824187ee6bbb3b47273f064063883e895f9a551dbf25a")},
                 {  180000, uint256S("1a5c53b59ef92f5ceca81467e8b4da7613b5c56a05e079ea714c87cf4ab13f96")},
+                {  185000, uint256S("94b261ebd60ca8b6120a33fc3cc6921e45a8cf70b15df3342f1929fe5b09ac12")},
             }
         };
 

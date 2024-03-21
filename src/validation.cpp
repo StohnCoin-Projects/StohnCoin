@@ -2890,32 +2890,30 @@ public:
  *
  * The block is added to connectTrace if connection succeeds.
  */
-bool Chainstate::ConnectTip(BlockValidationState& state, CBlockIndex* pindexNew, const std::shared_ptr<const CBlock>& pblock, ConnectTrace& connectTrace, DisconnectedBlockTransactions& disconnectpool)
-{
-    AssertLockHeld(cs_main);
-    if (m_mempool) AssertLockHeld(m_mempool->cs);
+ bool Chainstate::ConnectTip(BlockValidationState& state, CBlockIndex* pindexNew, const std::shared_ptr<const CBlock>& pblock, ConnectTrace& connectTrace, DisconnectedBlockTransactions& disconnectpool)
+ {
+     AssertLockHeld(cs_main);
+     if (m_mempool) AssertLockHeld(m_mempool->cs);
 
-    assert(pindexNew->pprev == m_chain.Tip());
+     assert(pindexNew->pprev == m_chain.Tip());
 
-    /** Max Reorganization Depth Start **/
-    const int currentHeight = m_chain.Height();
-    const int proposedHeight = pindexNew->nHeight;
+     const Consensus::Params& consensusParams = Params().GetConsensus(); // Correctly access consensus parameters
 
-    if (currentHeight >= Params().MaxReorgDepthActivationBlock()) {
-        const int nMaxReorgDepth = Params().MaxReorganizationDepth();
-        const int reorgDepth = currentHeight - proposedHeight + 1; // +1 to include the new block in the depth
+     /** Max Reorganization Depth Start **/
+     const int currentHeight = m_chain.Height();
+     const int proposedHeight = pindexNew->nHeight;
 
-        if (reorgDepth > nMaxReorgDepth) {
-            /* MinReorgPeers needs fixed **/
-            /* const int nMinReorgPeers = Params().MinReorganizationPeers();
-            if (connman.GetNodeCount(ConnectionDirection::Both) <= static_cast<size_t>(nMinReorgPeers)) { */
-                  LogPrintf("ConnectTip: Reorganization depth of %d exceeds the limit of %d and has insufficient peer endorsements.\n", reorgDepth, nMaxReorgDepth);
-                  state.Invalid(BlockValidationResult::BLOCK_INVALID_HEADER, "reorg-depth-exceeded", strprintf("Reorg depth %d exceeds max of %d", reorgDepth, nMaxReorgDepth));
-                  return false;
-            /*  } */
-        }
-    }
-    /** Max Reorganization Depth End **/
+     if (currentHeight >= consensusParams.nMaxReorgDepthActivationBlock) {
+         const int nMaxReorgDepth = consensusParams.nMaxReorganizationDepth;
+         const int reorgDepth = currentHeight - proposedHeight + 1; // +1 to include the new block in the depth
+
+         if (reorgDepth > nMaxReorgDepth) {
+             LogPrintf("ConnectTip: Reorganization depth of %d exceeds the limit of %d.\n", reorgDepth, nMaxReorgDepth);
+             state.Invalid(BlockValidationResult::BLOCK_INVALID_HEADER, "reorg-depth-exceeded", strprintf("Reorg depth %d exceeds max of %d", reorgDepth, nMaxReorgDepth));
+             return false;
+         }
+     }
+     /** Max Reorganization Depth End **/
 
     // Read block from disk.
     const auto time_1{SteadyClock::now()};
