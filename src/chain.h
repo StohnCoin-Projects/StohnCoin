@@ -39,14 +39,14 @@
      }
 
      // Updated to dynamically get the TIMESTAMP_WINDOW based on block height
-    static int64_t GetTimestampWindow(int currentHeight) {
-        if (currentHeight >= ACTIVATION_BLOCK_HEIGHT)
-            return NEW_MAX_FUTURE_BLOCK_TIME;
+     static int64_t GetTimestampWindow(int currentHeight) {
+        if (currentHeight >= ACTIVATION_BLOCK_HEIGHT) {
+          return NEW_MAX_FUTURE_BLOCK_TIME;
         } else {
             return OLD_MAX_FUTURE_BLOCK_TIME;
         }
     }
- };
+};
 
  /**
  Is now dynamic

@@ -234,7 +234,7 @@ BOOST_FIXTURE_TEST_CASE(importmulti_rescan, TestChain100Setup)
         CKey futureKey;
         futureKey.MakeNewKey(true);
         key.pushKV("scriptPubKey", HexStr(GetScriptForRawPubKey(futureKey.GetPubKey())));
-        key.pushKV("timestamp", newTip->GetBlockTimeMax() + ChainParams::GetTimestampWindow() + 1);
+        key.pushKV("timestamp", newTip->GetBlockTimeMax() + ChainParams::GetTimestampWindow(newTip->nHeight) + 1);
         key.pushKV("internal", UniValue(true));
         keys.push_back(key);
         JSONRPCRequest request;
@@ -243,6 +243,9 @@ BOOST_FIXTURE_TEST_CASE(importmulti_rescan, TestChain100Setup)
         request.params.push_back(keys);
 
         UniValue response = importmulti().HandleRequest(request);
+
+        int64_t timestampWindow = ChainParams::GetTimestampWindow(newTip->nHeight);
+
         BOOST_CHECK_EQUAL(response.write(),
             strprintf("[{\"success\":false,\"error\":{\"code\":-1,\"message\":\"Rescan failed for key with creation "
                       "timestamp %d. There was an error reading a block from time %d, which is after or within %d "
@@ -251,7 +254,7 @@ BOOST_FIXTURE_TEST_CASE(importmulti_rescan, TestChain100Setup)
                       "by pruning or data corruption (see stohncoind log for details) and could be dealt with by "
                       "downloading and rescanning the relevant blocks (see -reindex option and rescanblockchain "
                       "RPC).\"}},{\"success\":true}]",
-                              0, oldTip->GetBlockTimeMax(), ChainParams::GetTimestampWindow()));
+                              0, oldTip->GetBlockTimeMax(), timestampWindow));
         RemoveWallet(context, wallet, /* load_on_start= */ std::nullopt);
     }
 }
@@ -269,9 +272,11 @@ BOOST_FIXTURE_TEST_CASE(importwallet_rescan, TestChain100Setup)
     m_coinbase_txns.emplace_back(CreateAndProcessBlock({}, GetScriptForRawPubKey(coinbaseKey.GetPubKey())).vtx[0]);
     m_coinbase_txns.emplace_back(CreateAndProcessBlock({}, GetScriptForRawPubKey(coinbaseKey.GetPubKey())).vtx[0]);
 
+    const int currentHeight = WITH_LOCK(Assert(m_node.chainman)->GetMutex(), return m_node.chainman->ActiveChain().Tip()->nHeight);
+
     // Set key birthday to block time increased by the timestamp window, so
     // rescan will start at the block time.
-    const int64_t KEY_TIME = BLOCK_TIME + ChainParams::GetTimestampWindow();
+    const int64_t KEY_TIME = BLOCK_TIME + ChainParams::GetTimestampWindow(currentHeight);
     SetMockTime(KEY_TIME);
     m_coinbase_txns.emplace_back(CreateAndProcessBlock({}, GetScriptForRawPubKey(coinbaseKey.GetPubKey())).vtx[0]);
 

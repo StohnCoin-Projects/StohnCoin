@@ -100,9 +100,9 @@ static void EnsureBlockDataFromTime(const CWallet& wallet, int64_t timestamp)
     if (!chain.havePruned()) {
         return;
     }
-
+    int currentHeight = wallet.GetLastBlockHeight();
     int height{0};
-    const bool found{chain.findFirstBlockWithTimeAndHeight(timestamp - ChainParams::GetTimestampWindow(), 0, FoundBlock().height(height))};
+    const bool found{chain.findFirstBlockWithTimeAndHeight(timestamp - ChainParams::GetTimestampWindow(currentHeight), 0, FoundBlock().height(height))};
 
     uint256 tip_hash{WITH_LOCK(wallet.cs_wallet, return wallet.GetLastBlockHash())};
     if (found && !chain.hasBlocks(tip_hash, height)) {
@@ -1415,6 +1415,9 @@ RPCHelpMan importmulti()
             response.clear();
             response.setArray();
             size_t i = 0;
+
+            int currentHeight = pwallet->GetLastBlockHeight(); // Use the last block height known to the wallet.
+
             for (const UniValue& request : requests.getValues()) {
                 // If key creation date is within the successfully scanned
                 // range, or if the import result already has an error set, let
@@ -1436,7 +1439,7 @@ RPCHelpMan importmulti()
                                       "caused by pruning or data corruption (see stohncoind log for details) and could "
                                       "be dealt with by downloading and rescanning the relevant blocks (see -reindex "
                                       "option and rescanblockchain RPC).",
-                                GetImportTimestamp(request, now), scannedTime - ChainParams::GetTimestampWindow() - 1, ChainParams::GetTimestampWindow())));
+                                GetImportTimestamp(request, now), scannedTime - ChainParams::GetTimestampWindow(currentHeight) - 1, ChainParams::GetTimestampWindow(currentHeight))));
                     response.push_back(std::move(result));
                 }
                 ++i;
@@ -1714,6 +1717,8 @@ RPCHelpMan importdescriptors()
             for (unsigned int i = 0; i < requests.size(); ++i) {
                 const UniValue& request = requests.getValues().at(i);
 
+                int currentHeight = pwallet->GetLastBlockHeight();
+
                 // If the descriptor timestamp is within the successfully scanned
                 // range, or if the import result already has an error set, let
                 // the result stand unmodified. Otherwise replace the result
@@ -1734,7 +1739,7 @@ RPCHelpMan importdescriptors()
                                       "caused by pruning or data corruption (see stohncoind log for details) and could "
                                       "be dealt with by downloading and rescanning the relevant blocks (see -reindex "
                                       "option and rescanblockchain RPC).",
-                                GetImportTimestamp(request, now), scanned_time - ChainParams::GetTimestampWindow() - 1, ChainParams::GetTimestampWindow())));
+                                GetImportTimestamp(request, now), scanned_time - ChainParams::GetTimestampWindow(currentHeight) - 1, ChainParams::GetTimestampWindow(currentHeight))));
                     response.push_back(std::move(result));
                 }
             }
