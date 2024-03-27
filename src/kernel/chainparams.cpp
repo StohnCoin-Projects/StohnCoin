@@ -116,7 +116,7 @@ public:
         consensus.newAmount = 3982239 * COIN;
 
         /** Max Reorganization Depth Start **/
-        consensus.nMaxReorgDepthActivationBlock = 188000; // Activate at block 190,000
+        consensus.nMaxReorgDepthActivationBlock = 188500; // Activate at block 190,000
         consensus.nMaxReorganizationDepth = 20; // Example value, adjust as necessary
         consensus.nMinReorganizationPeers = 3; // Minimum number of peers
         /** Max Reorganization Depth End **/

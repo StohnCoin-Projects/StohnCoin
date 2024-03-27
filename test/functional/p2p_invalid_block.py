@@ -17,7 +17,7 @@ import time
 
 # HARDFORK Update
 def get_max_future_block_time(height):
-    ACTIVATION_BLOCK_HEIGHT = 188000
+    ACTIVATION_BLOCK_HEIGHT = 188500
     OLD_MAX_FUTURE_BLOCK_TIME = 2 * 60 * 60  # 2 hours
     NEW_MAX_FUTURE_BLOCK_TIME = 10 * 60      # 10 minutes
 
