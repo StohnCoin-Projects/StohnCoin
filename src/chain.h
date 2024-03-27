@@ -24,7 +24,7 @@
  // Max Reorginazation update
  static constexpr int64_t OLD_MAX_FUTURE_BLOCK_TIME = 2 * 60 * 60; // 2 hours
  static constexpr int64_t NEW_MAX_FUTURE_BLOCK_TIME = 10 * 60; // 10 minutes
- static constexpr int ACTIVATION_BLOCK_HEIGHT = 187000; // Activation block height
+ static constexpr int ACTIVATION_BLOCK_HEIGHT = 188000; // Activation block height
 
  class ChainParams {
  public:
