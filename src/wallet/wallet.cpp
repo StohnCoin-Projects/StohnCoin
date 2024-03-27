@@ -1792,15 +1792,7 @@ int64_t CWallet::RescanFromTime(int64_t startTime, const WalletRescanReserver& r
     // highest blockchain timestamp, in which case there is nothing that needs
     // to be scanned.
     // Get the current blockchain height
-    auto currentHeightOpt = chain().getHeight();
-    int currentHeight = 0; // Default value or error handling
-    if (currentHeightOpt) {
-        currentHeight = *currentHeightOpt;
-    } else {
-        // Handle error or default case where height is not available
-        // For example, log an error or throw an exception
-        WalletLogPrintf("Failed to retrieve blockchain height for timestamp window calculation. Defaulting to 0.\n");
-    }
+    int currentHeight = GetLastBlockHeight();
 
     int start_height = 0;
     uint256 start_block;
