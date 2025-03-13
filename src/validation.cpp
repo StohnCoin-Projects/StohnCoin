@@ -3235,6 +3235,13 @@ bool Chainstate::CheckReorgDepth(
         pindexFork->nHeight,
         pindexNew->nHeight);
 
+    // CRITICAL FIX: Check if this is a direct extension of our current chain
+    // If the proposed block's parent is our current tip, it's extending our chain - not a reorg!
+    if (pindexNew->pprev == pindexActiveTip) {
+        LogPrintf("CheckReorgDepth: New block directly extends our current chain, no reorg needed\n");
+        return true;
+    }
+
     LogPrintf("CheckReorgDepth: Calculated rollbackDepth (actual reorg) = %d, Max allowed: %d\n",
               rollbackDepth, 
               m_chainman.GetConsensus().nMaxReorganizationDepth);
