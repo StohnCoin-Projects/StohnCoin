@@ -1,8 +1,15 @@
 # Dependencies
 
-These are the dependencies used by Bitcoin Core.
+These dependency tables are inherited from Bitcoin Core and describe the build
+baseline used by this Stohn Coin Core tree. The linked `depends/packages/*.mk`
+recipes identify pinned versions. System-package builds can use different versions;
+these tables do not establish the contents or security status of a deployed binary.
+
 You can find installation instructions in the `build-*.md` file for your platform.
-"Runtime" and "Version Used" are both in reference to the release binaries.
+"Runtime" describes the upstream packaging model; verify actual Stohn linkage and
+record dependency versions when reproducing a build. Current platform support and
+dependency updates have not been validated by the documentation-only handover.
+See the [build status notes](maintenance-notes.md#build-and-test-status).
 
 | Dependency | Minimum required |
 | --- | --- |

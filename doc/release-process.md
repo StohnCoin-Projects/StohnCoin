@@ -1,6 +1,22 @@
 Release Process
 ====================
 
+## Status of these instructions
+
+This is an inherited Bitcoin Core release procedure with partial Stohn adaptation.
+It is retained as a historical reference, not a validated SOH release checklist.
+Start with the [Stohn maintainership and release guide](maintainer-transition.md#procedure-for-a-future-release).
+Do not follow the instructions below unchanged or use Bitcoin project services
+as Stohn release infrastructure. The inherited commands below have not been
+executed or revalidated by the documentation handover.
+
+Documentation-only edits require no software release, node upgrade, hard fork,
+or soft fork. They do not authorize the source, seed, chain-statistic,
+assume-valid, minimum-work, signing, or publication changes described below.
+Preserve existing releases, tags, signatures, and history. Any future software
+release needs its own scope and compatibility evidence; inherited periodic
+chain-parameter update suggestions are not routine SOH documentation maintenance.
+
 ## Branch updates
 
 ### Before every release candidate

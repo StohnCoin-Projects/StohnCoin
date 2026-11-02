@@ -1,20 +1,23 @@
-# Seeds
+# Stohn peer seed reference
 
-Utility to generate the seeds.txt list that is compiled into the client
-(see [src/chainparamsseeds.h](/src/chainparamsseeds.h) and other utilities in [contrib/seeds](/contrib/seeds)).
+The compiled peer addresses are in
+[src/chainparamsseeds.h](../../src/chainparamsseeds.h). The assessed mainnet source
+has nine fixed IPv4 entries and no configured DNS-seed hostnames; testnet has no
+active configured seed list. See [maintenance notes](../../doc/maintenance-notes.md#network-and-synchronization)
+for the dated connectivity observations and their limitations.
 
-Be sure to update `PATTERN_AGENT` in `makeseeds.py` to include the current version,
-and remove old versions as necessary (at a minimum when GetDesirableServiceFlags
-changes its default return value, as those are the services which seeds are added
-to addrman with).
+This directory contains inherited list-generation tools, not a DNS-seeder daemon.
+The former instructions fetched Bitcoin's seed list from `bitcoin.sipa.be`.
+That is upstream Bitcoin data, not a source of SOH peers. Do not regenerate Stohn's
+compiled seeds from it. The current `makeseeds.py` filters also contain Bitcoin
+agent/version and height assumptions that need separate review before SOH use.
 
-The seeds compiled into the release are created from sipa's DNS seed and AS map
-data. Run the following commands from the `/contrib/seeds` directory:
+Preserve the checked-in seed lists and generated header during documentation
+maintenance. A future discovery update requires independently verified SOH peers
+and review of network identity, service flags, availability, and operator diversity.
+Editing this README does not update seeds or deploy a service. Operating a new DNS
+seeder alone would not make existing binaries query it automatically.
 
-```
-curl https://bitcoin.sipa.be/seeds.txt.gz | gzip -dc > seeds_main.txt
-curl https://bitcoin.sipa.be/asmap-filled.dat > asmap-filled.dat
-python3 makeseeds.py -a asmap-filled.dat -s seeds_main.txt > nodes_main.txt
-cat nodes_main_manual.txt >> nodes_main.txt
-python3 generate-seeds.py . > ../../src/chainparamsseeds.h
-```
+Use the [SOH discovery and seeder guide](../../doc/dns-seeder.md) for the operating
+and ownership checklist. It records the absence of a validated SOH seeder build;
+any software adaptation, source change, or deployment is separate work.

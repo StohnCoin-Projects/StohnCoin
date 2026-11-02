@@ -1,35 +1,61 @@
-Stohn Coin Core integration/staging tree
-=====================================
+Stohn Coin Core
+===============
 
-https://stohncoin.org
+Stohn Coin Core connects to the Stohn Coin (SOH) peer-to-peer network to download
+and validate blocks and transactions. The source also includes an optional wallet
+and graphical interface.
 
-What is Stohn Coin Core?
----------------------
+- Project website: https://stohncoin.org/
+- Source and contributions: https://github.com/StohnCoin-Projects/StohnCoin
+- [Documentation and build instructions](doc/README.md)
+- [Maintenance notes and known limitations](doc/maintenance-notes.md)
+- [Documentation handover plan](doc/documentation-plan.md)
+- [Security policy](SECURITY.md)
 
-Stohn Coin Core connects to the Stohn Coin peer-to-peer network to download and fully
-validate blocks and transactions. It also includes a wallet and graphical user
-interface, which can be optionally built.
+For a community handover, start with [node operation](doc/node-operation.md) and
+[maintainer succession](doc/maintainer-transition.md). Technical references cover
+[existing consensus](doc/consensus-reference.md),
+[wallet compatibility](doc/wallet-compatibility.md), and the
+[compatibility testing plan](doc/compatibility-testing.md).
 
-Block Confirmation Recommendation
---------------------------------
-Developers should use at least 15 block confirmations to ensure the security and stability of transactions within the Stohn Coin network.
+Compatibility and preservation
+------------------------------
 
-License
--------
+This project derives from Bitcoin Core and contains Stohn-specific consensus and
+wallet behavior. A newer Bitcoin Core release is not a substitute for Stohn Core.
+Preserve existing blockchain history, wallet backups, release artifacts, and Git
+history when maintaining the project.
 
-Stohn Coin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
-information or see https://opensource.org/licenses/MIT.
+The documentation handover work does not change executable code or network
+rules. Documentation-only changes require no hard fork, soft fork, node upgrade,
+or wallet migration. See [contributing](CONTRIBUTING.md) for the scope of this work.
 
-Ports
-=====================================
+Block confirmation recommendation
+---------------------------------
 
-Stohn Core by default uses port `37218` for peer-to-peer communication that
-is needed to synchronize the "mainnet" blockchain and stay informed of new
-transactions and blocks. Additionally, a JSONRPC port can be opened, which
-defaults to port `32717` for mainnet nodes. It is strongly recommended to not
-expose RPC ports to the public internet.
+The existing project recommendation is to wait for at least 15 block
+confirmations. This is a risk guideline, not a guarantee of finality or protection
+against an attack. Wallet developers should review the existing reorganization
+behavior described in the [maintenance notes](doc/maintenance-notes.md).
 
-| Function | mainnet | testnet |
-| :------- | ------: | ------: |
-| RPC     |   32717 |   47217 |
-| P2P     |   37218 |   47218 |
+Network ports
+-------------
+
+These are the defaults in the audited source; command-line or configuration
+settings can override them. Keep RPC access private.
+
+| Function | Mainnet | Testnet | Regtest |
+| :------- | ------: | ------: | ------: |
+| RPC | 32717 | 47217 | 18443 |
+| P2P | 37218 | 47218 | 19444 |
+
+The configuration file is `stohn.conf`. See the [configuration reference](doc/stohn-conf.md)
+for data-directory locations and network sections.
+
+License and attribution
+-----------------------
+
+Stohn Coin Core is distributed under the [MIT license](COPYING). Preserve Bitcoin
+Core attribution and the notices included with individual third-party components;
+some components have their own license terms. Bitcoin references that describe
+upstream history, standards, libraries, or protocol behavior are intentional.

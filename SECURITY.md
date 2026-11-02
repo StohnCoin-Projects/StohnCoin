@@ -1,20 +1,33 @@
-# Security Policy
+# Security policy
 
-## Supported Versions
+## Support status
 
-See our website for versions of Bitcoin Core that are currently supported with
-security updates: https://bitcoincore.org/en/lifecycle/#schedule
+Stohn Coin Core is maintained separately from Bitcoin Core. Bitcoin Core's support
+schedule does not establish security support for SOH, and the presence of a version
+or release tag does not establish that upstream fixes have been backported.
 
-## Reporting a Vulnerability
+This repository does not currently document a verified Stohn-specific security
+support schedule or a dedicated private reporting address and encryption key.
+Future maintainers should publish these details when they can support them.
+See the [maintenance notes](doc/maintenance-notes.md) for findings from the initial
+source assessment. Documentation updates do not fix the recorded software issues.
 
-To report security issues send an email to security@bitcoincore.org (not for support).
+## Reporting a vulnerability
 
-The following keys may be used to communicate sensitive information to developers:
+Check the repository's [Security page](https://github.com/StohnCoin-Projects/StohnCoin/security)
+for an available private reporting option. If private reporting is unavailable,
+open a [GitHub issue](https://github.com/StohnCoin-Projects/StohnCoin/issues)
+requesting a private contact, without publishing vulnerability details, exploit
+instructions, private keys, credentials, or wallet files.
 
-| Name | Fingerprint |
-|------|-------------|
-| Pieter Wuille | 133E AC17 9436 F14A 5CF1  B794 860F EB80 4E66 9320 |
-| Michael Ford | E777 299F C265 DD04 7930  70EB 944D 35F9 AC3D B76A |
-| Andrew Chow | 1528 1230 0785 C964 44D3  334D 1756 5732 E08E 5E41 |
+Bitcoin Core security contacts and signing keys are not Stohn Coin support
+contacts. For an issue independently affecting upstream Bitcoin Core, follow
+[upstream's security policy](https://github.com/bitcoin/bitcoin/blob/master/SECURITY.md)
+as well; do not assume that reporting upstream also notifies SOH maintainers.
 
-You can import a key by running the following command with that individual’s fingerprint: `gpg --keyserver hkps://keys.openpgp.org --recv-keys "<fingerprint>"` Ensure that you put quotes around fingerprints containing spaces.
+## Information to prepare privately
+
+Record the affected Stohn version, binary checksum and source commit if known,
+operating system, relevant build options, and reproduction steps using synthetic
+data. Sanitize logs before sharing. Maintain security fixes as separate reviewed
+changes with compatibility evidence; do not mix them into documentation cleanup.

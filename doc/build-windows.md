@@ -1,9 +1,14 @@
 WINDOWS BUILD NOTES
 ====================
 
-Below are some notes on how to build Bitcoin Core for Windows.
+Below are inherited notes adapted for building Stohn Coin Core for Windows.
 
-The options known to work for building Bitcoin Core on Windows are:
+These recipes have not been revalidated by the documentation handover. Read the
+[build status and preservation notes](maintenance-notes.md#build-and-test-status).
+The native MSVC generator has a known source-group naming mismatch; the
+[MSVC guide](../build_msvc/README.md) documents that limitation.
+
+The available build approaches are:
 
 * On Linux, using the [Mingw-w64](https://www.mingw-w64.org/) cross compiler tool chain.
 * On Windows, using [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/about) and Mingw-w64.
@@ -42,8 +47,9 @@ If you want to build the windows installer with `make deploy` you need [NSIS](ht
 
 Acquire the source in the usual way:
 
-    git clone https://github.com/bitcoin/bitcoin.git
-    cd bitcoin
+    git clone https://github.com/StohnCoin-Projects/StohnCoin.git
+    cd StohnCoin
+    git rev-parse HEAD
 
 ## Building for 64-bit Windows
 
@@ -62,8 +68,8 @@ sudo apt install g++-mingw-w64-x86-64
 
 Once the toolchain is installed the build steps are common:
 
-Note that for WSL the Bitcoin Core source path MUST be somewhere in the default mount file system, for
-example /usr/src/bitcoin, AND not under /mnt/d/. If this is not the case the dependency autoconf scripts will fail.
+Note that for WSL the Stohn Coin Core source path MUST be somewhere in the default mount file system, for
+example ~/StohnCoin, AND not under /mnt/d/. If this is not the case the dependency autoconf scripts will fail.
 This means you cannot use a directory that is located directly on the host Windows file system to perform the build.
 
 Additional WSL Note: WSL support for [launching Win32 applications](https://learn.microsoft.com/en-us/archive/blogs/wsl/windows-and-ubuntu-interoperability#launching-win32-applications-from-within-wsl)
@@ -93,9 +99,10 @@ Installation
 After building using the Windows subsystem it can be useful to copy the compiled
 executables to a directory on the Windows drive in the same directory structure
 as they appear in the release `.zip` archive. This can be done in the following
-way. This will install to `c:\workspace\bitcoin`, for example:
+way. This will stage files under `c:\workspace\StohnCoin`, for example; choose a
+new directory rather than overwriting an existing installation:
 
-    make install DESTDIR=/mnt/c/workspace/bitcoin
+    make install DESTDIR=/mnt/c/workspace/StohnCoin
 
 You can also create an installer using:
 

@@ -1,4 +1,15 @@
-This directory contains integration tests that test bitcoind and its
+## Stohn test status
+
+These instructions and many helpers are inherited from Bitcoin Core. Read the
+[known SOH test limitations](../doc/maintenance-notes.md#build-and-test-status)
+before using the suite as compatibility evidence: reward, maturity, difficulty,
+and PoW assumptions have not all been adapted. The documentation handover does
+not repair tests or run nodes. Use isolated test data, never production wallets.
+
+The inherited `bitcoind`/`bitcoin-qt` terminology and identifiers below refer to
+the upstream framework; Stohn executables are `stohncoind` and `stohncoin-qt`.
+
+This directory contains integration tests that test the node and its
 utilities in their entirety. It does not contain unit tests, which
 can be found in [/src/test](/src/test), [/src/wallet/test](/src/wallet/test),
 etc.

@@ -1,9 +1,30 @@
-StohnCoin
-=============
+Stohn Coin Core documentation
+============================
+
+Start with the [maintenance notes](maintenance-notes.md),
+[installation entry point](../INSTALL.md), and
+[documentation handover plan](documentation-plan.md). These distinguish verified
+source settings from inherited recipes and work that still needs validation.
+
+Handover guides
+--------------
+
+- [Full-node operation, backups, and hibernation](node-operation.md)
+- [Peer discovery and DNS-seeder handover](dns-seeder.md)
+- [Existing consensus and network reference](consensus-reference.md)
+- [Wallet recovery and native mobile integration](wallet-compatibility.md)
+- [Community maintainership and future releases](maintainer-transition.md)
+- [Compatibility testing plan (not executed)](compatibility-testing.md)
+
+These guides describe existing behavior and future procedures. They do not deploy
+services, change software, or require a blockchain fork.
 
 Setup
 ---------------------
-StohnCoin is the original StohnCoin client and it builds the backbone of the network. It downloads and, by default, stores the entire history of StohnCoin transactions, which requires a few hundred gigabytes of disk space. Depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
+Stohn Coin Core validates the SOH blockchain and, unless pruning is enabled,
+stores its history. Measure the selected node's block, chainstate, index, and
+wallet storage rather than using inherited Bitcoin disk-space estimates.
+Synchronization time depends on available peers, hardware, and chain data.
 
 To download StohnCoin, visit [stohncoin.org](https://stohncoin.org/).
 
@@ -24,7 +45,9 @@ Unpack the files into a directory, and then run stohncoin-qt.exe.
 
 ### macOS
 
-Drag StohnCoin to your applications folder, and then run StohnCoin.
+The current build names the bundle `StohnCoin-Qt.app`. For an identified release,
+place its application bundle in your Applications folder and open it. Confirm
+the release's actual filename and preserve an existing installation before replacement.
 
 Building
 ---------------------
@@ -41,25 +64,28 @@ The following are developer notes on how to build StohnCoin on your native platf
 
 Development
 ---------------------
-The Stohn Coin repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+See [CONTRIBUTING.md](../CONTRIBUTING.md) for Stohn-specific contributions and
+[test limitations](maintenance-notes.md#build-and-test-status) before relying on
+the inherited test suite. Many detailed documents retain upstream Bitcoin
+terminology or examples; they are not all validated SOH operating procedures.
 
 - [Developer Notes](developer-notes.md)
 - [Productivity Notes](productivity.md)
-- [Release Process](release-process.md)
-- [Source Code Documentation (External Link)](https://doxygen.bitcoincore.org/)
+- [Release Process (inherited reference; see status note)](release-process.md)
+- [Bitcoin Core Upstream Source Documentation (not SOH-specific)](https://doxygen.bitcoincore.org/)
 - [Translation Process](translation_process.md)
 - [Translation Strings Policy](translation_strings_policy.md)
 - [JSON-RPC Interface](JSON-RPC-interface.md)
 - [Unauthenticated REST Interface](REST-interface.md)
 - [Shared Libraries](shared-libraries.md)
 - [BIPS](bips.md)
-- [Dnsseed Policy](dnsseed-policy.md)
+- [SOH DNS-seed Operator Expectations](dnsseed-policy.md)
 - [Benchmarking](benchmarking.md)
 - [Internal Design Docs](design/)
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)
-- [stohn.conf Configuration File](bitcoin-conf.md)
+- [stohn.conf Configuration File](stohn-conf.md)
 - [CJDNS Support](cjdns.md)
 - [Files](files.md)
 - [Fuzz-testing](fuzzing.md)

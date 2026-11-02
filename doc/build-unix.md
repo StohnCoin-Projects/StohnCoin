@@ -2,6 +2,11 @@ UNIX BUILD NOTES
 ====================
 Some notes on how to build Stohn Coin Core in Unix.
 
+These inherited recipes have not been revalidated on current distributions by
+the documentation handover. Read the [build status and preservation notes](maintenance-notes.md#build-and-test-status)
+first. Record the source commit with `git rev-parse HEAD` and build in an isolated
+checkout before considering any installation on a production node.
+
 (For BSD specific instructions, see `build-*bsd.md` in this directory.)
 
 To Build
@@ -55,9 +60,12 @@ SQLite is required for the descriptor wallet:
     sudo apt install libsqlite3-dev
 
 Berkeley DB is only required for the legacy wallet. Ubuntu and Debian have their own `libdb-dev` and `libdb++-dev` packages,
-but these will install Berkeley DB 5.3 or later. This will break binary wallet compatibility with the distributed
-executables, which are based on BerkeleyDB 4.8. If you do not care about wallet compatibility, pass
-`--with-incompatible-bdb` to configure. Otherwise, you can build Berkeley DB [yourself](#berkeley-db).
+but these may provide Berkeley DB 5.3 or later rather than the 4.8 used for legacy
+wallet compatibility. Automatic detection can omit legacy wallet support when
+4.8 is unavailable rather than fail the build. Check the configure summary.
+For compatibility and recovery,
+build Berkeley DB [yourself](#berkeley-db). The `--with-incompatible-bdb` option
+exists for other development uses; do not use it for a preservation build.
 
 To build Stohn Coin Core without wallet, see [*Disable-wallet mode*](#disable-wallet-mode)
 
@@ -111,10 +119,11 @@ SQLite is required for the descriptor wallet:
 
     sudo dnf install sqlite-devel
 
-Berkeley DB is only required for the legacy wallet. Fedora releases have only `libdb-devel` and `libdb-cxx-devel` packages, but these will install
-Berkeley DB 5.3 or later. This will break binary wallet compatibility with the distributed executables, which
-are based on Berkeley DB 4.8. If you do not care about wallet compatibility,
-pass `--with-incompatible-bdb` to configure. Otherwise, you can build Berkeley DB [yourself](#berkeley-db).
+Berkeley DB is only required for the legacy wallet. Fedora's `libdb-devel` and
+`libdb-cxx-devel` packages may provide Berkeley DB 5.3 or later rather than 4.8.
+Automatic detection can omit legacy wallet support instead of failing; check the
+configure summary before using a build for recovery. For compatibility, build Berkeley DB
+[yourself](#berkeley-db). Do not use `--with-incompatible-bdb` for a preservation build.
 
 To build Stohn Coin Core without wallet, see [*Disable-wallet mode*](#disable-wallet-mode)
 

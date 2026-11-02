@@ -1,6 +1,8 @@
 # macOS Build Guide
 
-**Updated for MacOS [11.2](https://www.apple.com/macos/big-sur/)**
+This recipe was originally written for macOS 11.2. Current macOS, Xcode, and
+Homebrew combinations have not been revalidated by the documentation handover.
+See the [build status and preservation notes](maintenance-notes.md#build-and-test-status).
 
 This guide describes how to build stohncoind, command-line utilities, and GUI on macOS
 
@@ -59,6 +61,8 @@ All build scripts and commands will run from this directory.
 
 ``` bash
 git clone https://github.com/StohnCoin-Projects/StohnCoin.git
+cd StohnCoin
+git rev-parse HEAD
 ```
 
 ### 5. Install Optional Dependencies
@@ -82,6 +86,11 @@ Skip if you don't intend to use legacy wallets.
 ``` bash
 brew install berkeley-db@4
 ```
+
+If this formula is unavailable, consult the [dependency build system](../depends/README.md)
+for a Berkeley DB 4.8 build. Do not substitute an incompatible BDB version for a
+legacy-wallet recovery build. Use wallet copies when testing.
+
 ---
 
 #### GUI Dependencies
@@ -172,24 +181,27 @@ It is required that you have `python` installed.
 
 There are many ways to configure Stohn Coin Core, here are a few common examples:
 
-##### Wallet (BDB + SQlite) Support, No GUI:
+##### Wallet-capable Build, No GUI:
 
-If `berkeley-db@4` is installed, then legacy wallet support will be built.
-If `berkeley-db@4` is not installed, then this will throw an error.
-If `sqlite` is installed, then descriptor wallet support will also be built.
-Additionally, this explicitly disables the GUI.
+Legacy wallet support needs compatible Berkeley DB headers and libraries;
+descriptor wallet support needs SQLite. Automatic detection can omit a missing
+backend, or disable the wallet entirely, without failing configuration. Review
+the final configure summary (`with wallet`, `with bdb`, and `with sqlite`) before
+using the build for recovery. This example explicitly disables the GUI.
 
 ``` bash
 ./autogen.sh
 ./configure --with-gui=no
 ```
 
-##### Wallet (only SQlite) and GUI Support:
+##### Descriptor Wallet and GUI Support:
 
 This explicitly enables the GUI and disables legacy wallet support.
 If `qt` is not installed, this will throw an error.
 If `sqlite` is installed then descriptor wallet functionality will be built.
 If `sqlite` is not installed, then wallet functionality will be disabled.
+Confirm the configure summary shows the required wallet support; a successful
+build without it cannot recover an existing wallet.
 
 ``` bash
 ./autogen.sh
@@ -200,7 +212,7 @@ If `sqlite` is not installed, then wallet functionality will be disabled.
 
 ``` bash
 ./autogen.sh
-./configure --without-wallet --with-gui=no
+./configure --disable-wallet --with-gui=no
 ```
 
 ##### Further Configuration
@@ -209,7 +221,7 @@ You may want to dig deeper into the configuration options to achieve your desire
 Examine the output of the following command for a full list of configuration options:
 
 ``` bash
-./configure -help
+./configure --help
 ```
 
 ### 2. Compile
@@ -219,7 +231,7 @@ Run the following in your terminal to compile Stohn Coin Core:
 
 ``` bash
 make        # use "-j N" here for N parallel jobs
-make check  # Run tests if Python 3 is available
+make check  # Run the configured checks; see the known SOH test limitations above
 ```
 
 ### 3. Deploy (optional)
